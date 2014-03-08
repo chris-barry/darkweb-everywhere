@@ -6,7 +6,7 @@ To use these, you must use the [tor browser bundle][1] or have i2p installed.
 
 If you have any to add I would appreciate contributions!
 
-## Instillation
+## Installation
 
 To install, put the rulesets you want in `~/tor-browser_en-US/Data/Browser/profile.default/HTTPSEverywhereUserRules/`.
 
