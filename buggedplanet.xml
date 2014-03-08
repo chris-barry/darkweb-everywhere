@@ -1,0 +1,7 @@
+<ruleset name="Buggedplanet Onion">
+	<target host="buggedplanet.info" />
+	<target host="http://6sgjmi53igmg7fm7.onion" />
+	<rule from="^http(s)?://(www\.)?buggedplanet\.info/"
+	to="http://6sgjmi53igmg7fm7.onion"/>
+</ruleset>
+

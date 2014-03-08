@@ -1,0 +1,6 @@
+<ruleset name="Bitmesage.ch Onion">
+	<target host="bitmessage.ch" />
+	<target host="http://bitmailendavkbec.onion/" />
+	<rule from="^http(s)?://(www\.)?bitmessage\.ch/"
+	to="http://bitmailendavkbec.onion/"/>
+</ruleset>

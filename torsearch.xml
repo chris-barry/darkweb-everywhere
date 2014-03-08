@@ -1,0 +1,6 @@
+<ruleset name="Torsearch Onion">
+	<target host="torsearch.es" />
+	<target host="http://kbhpodhnfxl3clb4.onion/" />
+	<rule from="^http(s)?://(www\.)?torsearch\.es/"
+	to="http://kbhpodhnfxl3clb4.onion/"/>
+</ruleset>

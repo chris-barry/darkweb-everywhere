@@ -1,0 +1,6 @@
+<ruleset name="Bittit Onion">
+	<target host="bittit.info" />
+	<target host="http://ejz7kqoryhqwosbk.onion/" />
+	<rule from="^http(s)?://(www\.)?bittit\.info/"
+	to="http://ejz7kqoryhqwosbk.onion/"/>
+</ruleset>

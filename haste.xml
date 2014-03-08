@@ -1,0 +1,6 @@
+<ruleset name="Haste Onion">
+	<target host="haste.ch" />
+	<target host="http://swufsoyrbq7anis6.onion/" />
+	<rule from="^http(s)?://(www\.)?haste\.ch/"
+	to="http://swufsoyrbq7anis6.onion/"/>
+</ruleset>
