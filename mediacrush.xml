@@ -1,0 +1,6 @@
+<ruleset name="MediaCrush Onion">
+	<target host="mediacru.sh" />
+	<target host="http://mediacrs5ujufxog.onion/" />
+	<rule from="^http(s)?://(www\.)?mediacru\.sh/"
+	to="http://mediacrs5ujufxog.onion/"/>
+</ruleset>
