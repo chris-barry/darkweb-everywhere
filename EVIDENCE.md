@@ -3,22 +3,38 @@ The purpose of this document is to attempt to provide proof that each hidden ser
 Ideally, each domain should have multiple sources confirming that each hidden service is legitimate.
 
 **Bitmessage**
-* https://bitmessage.ch/faq.html
+* Documented here: https://bitmessage.ch/faq.html
 
 **Bittit**
-* https://bittit.info/docs.php?doc=help
+* Documented here: https://bittit.info/docs.php?doc=help
 
 **Bugged Planet**
-* 
+* Documented here: 
 
 **DuckDuckGo**
 * Documented here: http://www.gabrielweinberg.com/blog/2010/08/duckduckgo-now-operates-a-tor-exit-enclave.html
 * Mentioned again here: https://duck.co/forum/thread/1762/is-the-duckduckgo-hidden-service-legitimate
 
 **Haste**
-* https://haste.ch
+* Documented here: https://haste.ch - linked right on main page of site
 
+**img.bi**
+* Documented here: https://img.bi - linked right on main page of site
+
+**Infotomb**
+* Documented here: https://infotomb.com/ - linked right on main page of site
+
+**MediaCrush**
+* Documented here: https://mediacru.sh - linked right on main page of site
 
 **The Pirate Bay**
-* http://proxybay.info/alternate-methods.html#TOR
+* Documented here: http://proxybay.info/alternate-methods.html#TOR
 
+**Torsearch**
+* Documented here: https://torsearch.es - linked right on main page of site
+
+**VFEmail**
+* Documented here: https://vfemail.net/faq.php - click on "Can you confirm your TOR address?"
+
+**Zerobin**
+* Documented here: https://zerobin.net - linked right on main page of site
