@@ -41,6 +41,9 @@ Everyone is encouraged to add more evidence!
 * **Torsearch**
 	* Documented here: <https://torsearch.es> - linked right on main page of site
 
+* **Torservers.net**
+	* Documented here: <https://www.torservers.net/wiki/>
+
 * **VFEmail**
 	* Documented here: <https://vfemail.net/faq.php> - click on "Can you confirm your TOR address?"
 
