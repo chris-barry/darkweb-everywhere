@@ -29,6 +29,7 @@ Ideally, each domain should have multiple sources confirming that each hidden se
 
 **The Pirate Bay**
 * Documented here: http://proxybay.info/alternate-methods.html#TOR
+* Also on Wikipedia: https://en.wikipedia.org/wiki/The_Pirate_Bay
 
 **Torsearch**
 * Documented here: https://torsearch.es - linked right on main page of site
