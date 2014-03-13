@@ -1,4 +1,4 @@
-<ruleset name="Buggedplanet Onion">
+<ruleset name="Buggedplanet Onion" default_off="Was not able to load as of 2014-03-12. And no proof.">
 	<target host="buggedplanet.info" />
 	<target host="http://6sgjmi53igmg7fm7.onion" />
 	<rule from="^http(s)?://(www\.)?buggedplanet\.info/"

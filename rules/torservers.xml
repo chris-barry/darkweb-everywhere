@@ -1,0 +1,6 @@
+<ruleset name="Torserver Onion" default_off="Was not able to load as of 2014-03-12.">
+	<target host="torservers.net" />
+	<target host="http://hbpvnydyyjbmhx6b.onion/" />
+	<rule from="^http(s)?://(www\.)?torservers\.net/"
+	to="http://hbpvnydyyjbmhx6b.onion/"/>
+</ruleset>
