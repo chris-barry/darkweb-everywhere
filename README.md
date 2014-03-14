@@ -16,7 +16,7 @@ Just run, `./install.sh`.
 ## Contributing
 
 HTTPSEverywhere has a good [guide][2] to make rules.
-The only difference is, make sure the name is prepended with the word, "Onion".
+The only difference is, make sure the name is appended with "Onion".
 
 ## Disclaimer
 
