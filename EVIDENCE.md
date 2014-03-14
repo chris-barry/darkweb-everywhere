@@ -9,6 +9,9 @@ Everyone is encouraged to add more evidence!
 
 ## The Links
 
+* **Autistici**
+	* Documented here: TODO.
+
 * **Bitmessage**
 	* Documented here: <https://bitmessage.ch/faq.html>
 
@@ -16,6 +19,9 @@ Everyone is encouraged to add more evidence!
 	* Documented here: <https://bittit.info/docs.php?doc=help>
 
 * **Bugged Planet**
+	* Documented here: TODO.
+
+* **Darktor**
 	* Documented here: TODO.
 
 * **DuckDuckGo**
@@ -31,8 +37,14 @@ Everyone is encouraged to add more evidence!
 * **Infotomb**
 	* Documented here: <https://infotomb.com> - linked right on main page of site
 
+* **Inventati**
+	* Documented here: TODO.
+
 * **MediaCrush**
 	* Documented here: <https://mediacru.sh> - linked right on main page of site
+
+* **PadRiseUp**
+	* Documented here: TODO.
 
 * **The Pirate Bay**
 	* Documented here: <http://proxybay.info/alternate-methods.html#TOR>
