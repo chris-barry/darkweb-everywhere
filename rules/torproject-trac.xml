@@ -1,0 +1,7 @@
+<ruleset name="TorProject Trac Onion" default_off="Was not able to load as of 2014-03-14.">
+	<target host="trac.torproject.org" />
+	<target host="http://vwp5zrdfwmw4avcq.onion/" />
+	<rule from="^http(s)?://trac\.?torproject\.org/"
+	to="http://vwp5zrdfwmw4avcq.onion/"/>
+</ruleset>
+

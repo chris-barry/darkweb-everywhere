@@ -50,6 +50,9 @@ Everyone is encouraged to add more evidence!
 	* Documented here: <http://proxybay.info/alternate-methods.html#TOR>
 	* Also on Wikipedia: <https://en.wikipedia.org/wiki/The_Pirate_Bay>
 
+* **Torproject**
+	* Documented here: <https://trac.torproject.org/projects/tor>
+
 * **Torsearch**
 	* Documented here: <https://torsearch.es> - linked right on main page of site
 

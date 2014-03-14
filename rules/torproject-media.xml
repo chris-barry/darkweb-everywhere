@@ -1,0 +1,6 @@
+<ruleset name="TorProject Media Onion">
+	<target host="media.torproject.org" />
+	<target host="http://p3igkncehackjtib.onion/" />
+	<rule from="^http(s)?://media\.?torproject\.org/"
+	to="http://p3igkncehackjtib.onion/"/>
+</ruleset>

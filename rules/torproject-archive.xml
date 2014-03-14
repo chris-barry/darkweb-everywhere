@@ -1,0 +1,6 @@
+<ruleset name="TorProject Archive Onion">
+	<target host="archive.torproject.org" />
+	<target host="http://j6im4v42ur6dpic3.onion/" />
+	<rule from="^http(s)?://archive\.?torproject\.org/"
+	to="http://j6im4v42ur6dpic3.onion/"/>
+</ruleset>
