@@ -1,0 +1,6 @@
+<ruleset name="Telecomix Blue Cabinet Wiki Onion">
+    <target host="http://bluecabinet.info/" />
+    <target host="https://twulujga5k2t3i6c.onion" />
+    <rule from="^http(s)?://(www\.)?bluecabinet\.info/"
+    to="https://twulujga5k2t3i6c.onion"/>
+</ruleset>
