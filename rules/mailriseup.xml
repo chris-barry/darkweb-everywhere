@@ -1,6 +1,6 @@
 <ruleset name="Riseup Main Site Onion">
-    <target host="riseup.net" />
+    <target host="mail.riseup.net" />
     <target host="http://xyvp43vrggckj427.onion/" />
-    <rule from="^http(s)?://(www\.)?riseup\.net/"
+    <rule from="^http(s)?://(www\.)?mail.riseup\.net/"
     to="http://xyvp43vrggckj427.onion"/>
 </ruleset>
