@@ -31,6 +31,9 @@ Everyone is encouraged to add more evidence!
 	* Documented here: <http://www.gabrielweinberg.com/blog/2010/08/duckduckgo-now-operates-a-tor-exit-enclave.html>
 	* Mentioned again here: <https://duck.co/forum/thread/1762/is-the-duckduckgo-hidden-service-legitimate>
 
+* **Freedom of the Press Foundation**
+	* First mentioned: <https://twitter.com/runasand/status/444944448343265280>
+
 * **Haste**
 	* Documented here: <https://haste.ch> - linked right on main page of site
 
