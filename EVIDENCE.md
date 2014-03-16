@@ -32,7 +32,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: TODO.
 
 * **Cat out of the Bag**
-	* Documented here: http://www.catoutofthebag.info/
+	* Documented here: <http://www.catoutofthebag.info/>
 
 * **Darktor**
 	* Documented here: <http://darktor.com/>.
@@ -80,6 +80,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **The Pirate Bay**
 	* Documented here: <http://proxybay.info/alternate-methods.html#TOR>
 	* Also on Wikipedia: <https://en.wikipedia.org/wiki/The_Pirate_Bay>
+
+* **tor2web**
+	* Documented: <https://tor2web.org>
 
 * **Torproject**
 	* Documented here: <https://trac.torproject.org/projects/tor>

@@ -1,0 +1,5 @@
+<ruleset name="Tor2web Onion">
+	<target host="*.tor2web.org" />
+	<rule from="^http(s)://([^@:/][^/:@])\.(tor2web\.org)/"
+	to="http://$1.onion"/>
+</ruleset>
