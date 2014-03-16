@@ -16,12 +16,13 @@ Just run, `./install.sh`.
 ## Contributing
 
 HTTPSEverywhere has a good [guide][2] to make rules.
-The only difference is, make sure the name is appended with "Onion".
+The only difference is, make sure the name is appended with "Onion". We also ask that upon making rules, you add a line to EVIDENCE.md with the site's name, and any documentation that proves that the hidden service is legitimate. Otherwise, please mark the rule with a default setting of off. 
 
 ## Disclaimer
 
-I do not vouch or endorse any of these sites.
-I just supply these so everyone has more privacy.
+I do not vouch for, endorse, or disapprove of any of these sites, I just supply these so everyone has more privacy. 
+
+
 
 [0]: https://www.eff.org/https-everywhere "HTTPS Everywhere"
 [1]: https://www.torproject.org/projects/torbrowser.html.en "The Tor Browser Bundle"

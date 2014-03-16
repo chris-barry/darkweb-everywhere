@@ -8,12 +8,16 @@ Everyone is encouraged to add more evidence!
 * Ideally, each domain should have multiple sources confirming that each hidden service is legitimate.
 
 ## The Links
+Links marked with "TODO" are links that have not been proven as the hidden version of a clearnet site. 
 
 * **Aaron Swartz's Blog**
 	* Documented here: TODO
 
 * **Autistici**
 	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>.
+
+* **Behind Bloodshot Eyes**
+	* Documented here: TODO
 
 * **Bitmessage**
 	* Documented here: <https://bitmessage.ch/faq.html>
@@ -40,6 +44,9 @@ Everyone is encouraged to add more evidence!
 * **Freedom of the Press Foundation**
 	* First mentioned: <https://twitter.com/runasand/status/444944448343265280>
 
+* **Fucked.fr**
+	* Documented here: TODO
+
 * **Haste**
 	* Documented here: <https://haste.ch> - linked right on main page of site
 
@@ -52,8 +59,20 @@ Everyone is encouraged to add more evidence!
 * **Inventati**
 	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>.
 
+* **Kognitionskyrkan**
+	* Documented here: TODO
+
+* **Mail2Tor**
+	* Documented here: TODO
+
 * **MediaCrush**
 	* Documented here: <https://mediacru.sh> - linked right on main page of site
+
+* **Moral.nu**
+	* Documented here: TODO
+
+* **Parazite**
+	* Documented here: TODO
 
 * **RiseUp**
 	* Documented here: <https://www.riseup.net/en/tor#riseups-tor-hidden-services> -- All hidden services they offer are listed here. For the sake of trying to keep this page as streamlined as possible, we ask you refer here for all of RiseUp's services.
@@ -71,8 +90,14 @@ Everyone is encouraged to add more evidence!
 * **Torservers.net**
 	* Documented here: <https://www.torservers.net/wiki/>
 
+* **URSSMail**
+	* Documented here: TODO
+
 * **VFEmail**
 	* Documented here: <https://vfemail.net/faq.php> - click on "Can you confirm your TOR address?"
+
+* **Yay Ponies**
+	* Documented here: <http://derpy.fr/yp.html>
 
 * **Zerobin**
 	* Documented here: <https://zerobin.net> - linked right on main page of site

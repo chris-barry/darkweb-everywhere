@@ -1,0 +1,6 @@
+<ruleset name="ThePirateBay Onion" default_off="No proof." >
+	<target host="bbsey.es" />
+	<target host="http://bbseyes36k6cowi6.onion/" />
+	<rule from="^http(s)?://(www\.)?bbsey\.es/"
+	to="http://bbseyes36k6cowi6.onion/"/>
+</ruleset>
