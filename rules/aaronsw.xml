@@ -1,0 +1,6 @@
+<ruleset name="Aaron Swartz's Blog Onion">
+    <target host="aaronsw.com" />
+    <target host="http://p7qawv4j3musbeyi.onion/" />
+    <rule from="^http(s)?://(www\.)?aaronsw\.com/"
+    to="http://p7qawv4j3musbeyi.onion/"/>
+</ruleset>
