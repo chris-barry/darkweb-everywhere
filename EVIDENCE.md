@@ -9,6 +9,9 @@ Everyone is encouraged to add more evidence!
 
 ## The Links
 
+* **Aaron Swartz's Blog**
+	* Documented here: TODO
+
 * **Autistici**
 	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>.
 
@@ -23,6 +26,9 @@ Everyone is encouraged to add more evidence!
 
 * **Bugged Planet**
 	* Documented here: TODO.
+
+* **Cat out of the Bag**
+	* Documented here: http://www.catoutofthebag.info/
 
 * **Darktor**
 	* Documented here: <http://darktor.com/>.
