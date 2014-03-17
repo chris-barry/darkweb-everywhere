@@ -1,5 +1,6 @@
-<ruleset name="TorProject Onion" default_off="Having some problems redirecting correctly.">
+<ruleset name="TorProject Onion">
 	<target host="torproject.org" />
+	<target host="www.torproject.org" />
 	<target host="http://idnxcnkne4qt76tg.onion" />
 	<rule from="^http(s)?://(www\.)?torproject\.org/"
 	to="http://idnxcnkne4qt76tg.onion/"/>
