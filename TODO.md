@@ -7,6 +7,8 @@ Just a simple TODO list of possible ideas, bugfixes, etc.
 * Windows installer?
 * More evidence.
 * Check rules that are `default_off`.
+* Improve `install.sh`.
+* More i2p addresses.
 
 ## Bugs
 * None so far!
