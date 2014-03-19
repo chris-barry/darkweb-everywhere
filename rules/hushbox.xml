@@ -1,0 +1,7 @@
+<ruleset name="Hushbox Onion" default_off="Cannot access as of 2014-03-19. No proof." >
+	<target host="hushbox.org" />
+	<target host="www.hushbox.org" />
+	<target host="http://ih4pgsz3aepacbwl.onion/" />
+	<rule from="^http(s)?://(www\.)?bitcoincigs\.com/"
+	to="http://ih4pgsz3aepacbwl.onion/"/>
+</ruleset>
