@@ -19,6 +19,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Behind Bloodshot Eyes**
 	* Documented here: TODO
 
+* **BitcoinCigs**
+	* Documented here: TODO
+
 * **Bitmessage**
 	* Documented here: <https://bitmessage.ch/faq.html>
 
@@ -49,6 +52,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Haste**
 	* Documented here: <https://haste.ch> - linked right on main page of site
+
+* **Hushbox**
+	* Documented here: TODO - as of 2014-03-19, site is down on both clearnet and hidden service
 
 * **img.bi**
 	* Documented here: <https://img.bi> - linked right on main page of site
