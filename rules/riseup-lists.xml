@@ -1,6 +1,5 @@
 <ruleset name="Riseup Lists Onion">
-    <target host="lists.riseup.net" />
-    <target host="http://jrel5ubuxzxnlmqf.onion/www/" />
-    <rule from="^http(s)?://lists\.riseup\.net/"
-    to="http://jrel5ubuxzxnlmqf.onion/"/>
+	<target host="lists.riseup.net" />
+	<target host="jrel5ubuxzxnlmqf.onion" />
+	<rule from="^https?://lists\.riseup\.net/" to="http://jrel5ubuxzxnlmqf.onion/" />
 </ruleset>

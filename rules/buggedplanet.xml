@@ -1,8 +1,7 @@
 <ruleset name="Buggedplanet Onion" default_off="Was not able to load as of 2014-03-12. And no proof.">
 	<target host="buggedplanet.info" />
 	<target host="www.buggedplanet.info" />
-	<target host="http://6sgjmi53igmg7fm7.onion" />
-	<rule from="^http(s)?://(www\.)?buggedplanet\.info/"
-	to="http://6sgjmi53igmg7fm7.onion"/>
+	<target host="6sgjmi53igmg7fm7.onion" />
+	<rule from="^https?://(www\.)?buggedplanet\.info/" to="http://6sgjmi53igmg7fm7.onion/" />
 </ruleset>
 

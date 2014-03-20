@@ -1,7 +1,6 @@
 <ruleset name="Moral.nu Onion" default_off="No proof.">
 	<target host="moral.nu" />
 	<target host="www.moral.nu" />
-	<target host="http://fcnwebggxt2d3h64.onion/" />
-	<rule from="^http(s)?://(www\.)?moral\.nu/"
-	to="http://fcnwebggxt2d3h64.onion/"/>
+	<target host="fcnwebggxt2d3h64.onion" />
+	<rule from="^https?://(www\.)?moral\.nu/" to="http://fcnwebggxt2d3h64.onion/" />
 </ruleset>

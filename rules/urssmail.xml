@@ -1,8 +1,7 @@
 <ruleset name="URSSMail Onion" default_off="Was not able to load clearnet as of 2014-03-16. No proof.">
 	<target host="urssmail.org" />
 	<target host="www.urssmail.org" />
-	<target host="http://f3ljvgyyujmnfhvi.onion/" />
-	<rule from="^http(s)?://(www\.)?urssmail\.org/"
-	to="http://f3ljvgyyujmnfhvi.onion/"/>
+	<target host="f3ljvgyyujmnfhvi.onion" />
+	<rule from="^https?://(www\.)?urssmail\.org/" to="http://f3ljvgyyujmnfhvi.onion/" />
 </ruleset>
 
