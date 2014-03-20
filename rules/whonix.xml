@@ -1,7 +1,7 @@
 <ruleset name="Whonix Onion">
 	<target host="whonix.org" />
 	<target host="www.whonix.org" />
-	<target host="http://kkkkkkkkkk63ava6.onion" />
+	<target host="http://kkkkkkkkkk63ava6.onion/" />
 	<rule from="^http(s)?://(www\.)?whonix\.org/"
-	to="http://kkkkkkkkkk63ava6.onion"/>
+	to="http://kkkkkkkkkk63ava6.onion/"/>
 </ruleset>

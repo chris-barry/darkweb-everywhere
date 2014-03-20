@@ -1,7 +1,7 @@
 <ruleset name="ThePirateBay Onion">
 	<target host="thepiratebay.se" />
 	<target host="www.thepiratebay.se" />
-	<target host="http://uj3wazyk5u4hnvtk.onion/" />
+	<target host="http://jntlesnev5o7zysa.onion/" />
 	<rule from="^http(s)?://(www\.)?thepiratebay\.se/"
-	to="http://uj3wazyk5u4hnvtk.onion/"/>
+	to="http://jntlesnev5o7zysa.onion/"/>
 </ruleset>
