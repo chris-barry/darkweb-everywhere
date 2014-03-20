@@ -1,5 +1,4 @@
 <ruleset name="Riseup Mail Onion">
 	<target host="mail.riseup.net" />
-	<target host="xyvp43vrggckj427.onion" />
 	<rule from="^https?://mail\.riseup\.net/" to="http://xyvp43vrggckj427.onion/" />
 </ruleset>

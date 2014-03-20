@@ -1,6 +1,5 @@
 <ruleset name="Aaron Swartz's Blog Onion" default_off="No proof.">
 	<target host="aaronsw.com" />
 	<target host="www.aaronsw.com" />
-	<target host="p7qawv4j3musbeyi.onion" />
 	<rule from="^https?://(www\.)?aaronsw\.com/" to="http://p7qawv4j3musbeyi.onion/" />
 </ruleset>

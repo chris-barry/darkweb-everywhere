@@ -5,6 +5,5 @@
 	<target host="www.ddg.gg" />
 	<target host="dgg.gg" />
 	<target host="www.dgg.gg" />
-	<target host="3g2upl4pq6kufc4m.onion" />
 	<rule from="^https?://(www\.)?(duckduckgo\.com|(ddg|dgg)\.gg)/" to="http://3g2upl4pq6kufc4m.onion/" />
 </ruleset>

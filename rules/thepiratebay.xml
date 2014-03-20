@@ -1,7 +1,6 @@
 <ruleset name="ThePirateBay Onion">
 	<target host="thepiratebay.*" />
 	<target host="www.thepiratebay.*" />
-	<target host="jntlesnev5o7zysa.onion" />
 	<target host="uberproxy.net" />
 	<target host="www.uberproxy.net" />
 	<target host="tpb.al" />

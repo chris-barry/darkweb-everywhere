@@ -1,6 +1,5 @@
 <ruleset name="Img.bi Onion">
 	<target host="img.bi" />
 	<target host="www.img.bi" />
-	<target host="imgbifwwqoixh7te.onion" />
 	<rule from="^https?://(www\.)?img\.bi/" to="http://imgbifwwqoixh7te.onion/" />
 </ruleset>

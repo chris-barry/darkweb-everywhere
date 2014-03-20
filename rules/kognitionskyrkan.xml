@@ -1,7 +1,6 @@
 <ruleset name="Kognitionskyrkan Onion" default_off="Was not able to load clearnet as of 2014-03-16. No proof.">
 	<target host="kognitionskyrkan.nu" />
 	<target host="www.kognitionskyrkan.nu" />
-	<target host="wd43uqrbjwe6hpre.onion" />
 	<rule from="^https?://(www\.)?kognitionskyrkan\.nu/" to="http://wd43uqrbjwe6hpre.onion/" />
 </ruleset>
 
