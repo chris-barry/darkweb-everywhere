@@ -1,4 +1,4 @@
 <ruleset name="Tor2web Onion">
 	<target host="*.tor2web.org" />
-	<target host="*.onion" />
-	<rule from="^https?://([a-z2-7]{16})\.(tor2web\.org)/" to="http:
+	<rule from="^https?://([a-z2-7]{16})\.(tor2web\.org)/" to="http://$1.onion/" />
+</ruleset>
