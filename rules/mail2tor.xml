@@ -1,8 +1,6 @@
 <ruleset name="Mail2Tor Onion" default_off="Was not able to load as of 2014-03-16. No proof.">
 	<target host="mail2tor.com" />
 	<target host="www.mail2tor.com" />
-	<target host="http://mail2tor2zyjdctd.onion/" />
-	<rule from="^http(s)?://(www\.)?mail2tor\.com/"
-	to="http://mail2tor2zyjdctd.onion/"/>
+	<rule from="^https?://(www\.)?mail2tor\.com/" to="http://mail2tor2zyjdctd.onion/" />
 </ruleset>
 

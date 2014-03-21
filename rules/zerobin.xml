@@ -1,7 +1,5 @@
 <ruleset name="Zerobin Onion">
 	<target host="zerobin.net" />
 	<target host="www.zerobin.net" />
-	<target host="http://zerobinqmdqd236y.onion" />
-	<rule from="^http(s)?://(www\.)?zerobin\.net/"
-	to="http://zerobinqmdqd236y.onion"/>
+	<rule from="^https?://(www\.)?zerobin\.net/" to="http://zerobinqmdqd236y.onion/" />
 </ruleset>

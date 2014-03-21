@@ -1,7 +1,5 @@
 <ruleset name="Fucked.fr Onion" default_off="No proof." >
 	<target host="fucked.fr" />
 	<target host="www.fucked.fr" />
-	<target host="http://vcuz6ox55bgyl2qt.onion/" />
-	<rule from="^http(s)?://(www\.)?fucked\.fr/"
-	to="http://vcuz6ox55bgyl2qt.onion/"/>
+	<rule from="^https?://(www\.)?fucked\.fr/" to="http://vcuz6ox55bgyl2qt.onion/" />
 </ruleset>

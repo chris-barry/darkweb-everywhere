@@ -1,6 +1,4 @@
 <ruleset name="Riseup We Onion">
-    <target host="we.riseup.net" />
-    <target host="http://ad332dtuffx66l2q.onion/" />
-    <rule from="^http(s)?://we\.riseup\.net/"
-    to="http://ad332dtuffx66l2q.onion/"/>
+	<target host="we.riseup.net" />
+	<rule from="^https?://we\.riseup\.net/" to="http://ad332dtuffx66l2q.onion/" />
 </ruleset>

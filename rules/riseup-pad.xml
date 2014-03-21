@@ -1,6 +1,4 @@
 <ruleset name="Riseup Pad Onion">
-    <target host="pad.riseup.net" />
-    <target host="https://ttbmov2dezfs2fln.onion/" />
-    <rule from="^http(s)?://pad\.riseup\.net/"
-    to="https://ttbmov2dezfs2fln.onion/"/>
+	<target host="pad.riseup.net" />
+	<rule from="^https?://pad\.riseup\.net/" to="https://ttbmov2dezfs2fln.onion/" />
 </ruleset>

@@ -85,7 +85,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **The Pirate Bay**
 	* Documented here: <http://proxybay.info/alternate-methods.html#TOR>
-	* Also on Wikipedia: <https://en.wikipedia.org/wiki/The_Pirate_Bay>
+	* Also on Twitter: <https://twitter.com/tpbdotorg/status/203221129513545729>
 
 * **tor2web**
 	* Documented: <https://tor2web.org>
