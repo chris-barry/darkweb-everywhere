@@ -4,6 +4,7 @@ This will ensure that when you connect to a website which also hosts a hidden se
 For example:
 * <https://duckduckgo.com> will be redirect to <http://3g2upl4pq6kufc4m.onion>.
 * <https://3g2upl4pq6kufc4m.tor2web.org> will redirect to <http://3g2upl4pq6kufc4m.onion>.
+
 To make the re-directions, I utilize [HTTPS Everywhere][0].
 For them to really work, you should be using the [tor browser bundle][1].
 
