@@ -10,6 +10,12 @@ Everyone is encouraged to add more evidence!
 ## The Links
 Links marked with "TODO" are links that have not been proven as the hidden version of a clearnet site. 
 
+* **Anarplex**
+	* Documented here: <http://anarplex.net/> - linked right on main page of site
+
+* **BTDigg**
+	* Documented here: <http://btdigg.org> - linked right on main page of site
+
 * **Haste**
 	* Documented here: <https://haste.ch> - linked right on main page of site
 
