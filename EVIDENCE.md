@@ -37,6 +37,10 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Bugged Planet**
 	* Documented here: TODO.
 
+* **Cryptocat**
+	* Documented here: TODO.
+	* Mentioned inside the cryptocat app. Click on Custom Server -> Cryptocat (Tor Hidden Service)
+
 * **Cat out of the Bag**
 	* Documented here: <http://www.catoutofthebag.info/>
 
