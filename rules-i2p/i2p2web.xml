@@ -1,13 +1,8 @@
 <ruleset name="I2p2web Eepsite">
+	<!-- Some of these hosts have not been up for a while, but I am including them for legacy reasons. -->
 	<target host="*.i2p.to" />
 	<target host="*.i2p.in" />
 	<target host="*.i2p.us" />
-	<rule from="^https?://([a-z2-7]{16})\.(i2p\.(to|in|us))/" to="http://$1.i2p/" />
-</ruleset>
-
-<ruleset name="I2p2web Onion">
-	<target host="*.i2p.to" />
-	<target host="*.i2p.in" />
-	<target host="*.i2p.us" />
-	<rule from="^https?://([a-z2-7]{16})\.b32.(i2p\.(to|in|us))/" to="http://$1.b32.i2p/" />
+	<rule from="^https?://(\w+)\.b32.(i2p\.(to|in|us))/" to="http://$1.b32.i2p/" />
+	<rule from="^https?://(\w+)\.(i2p\.(to|in|us))/" to="http://$1.i2p/" />
 </ruleset>
