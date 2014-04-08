@@ -1,4 +1,4 @@
 <ruleset name="Riseup Pad Onion">
 	<target host="pad.riseup.net" />
-	<rule from="^https?://pad\.riseup\.net/" to="https://ttbmov2dezfs2fln.onion/" />
+	<rule from="^https?://pad\.riseup\.net/" to="https://5jp7xtmox6jyoqd5.onion/" />
 </ruleset>
