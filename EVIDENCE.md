@@ -52,8 +52,8 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Mentioned again here: <https://duck.co/forum/thread/1762/is-the-duckduckgo-hidden-service-legitimate>
 
 * **Freedom of the Press Foundation**
-	* First mentioned: <https://twitter.com/runasand/status/444944448343265280>
-	* Update as on 2014-04-08: <https://twitter.com/ageis/status/453558785551110144>
+	* ~~First mentioned: <https://twitter.com/runasand/status/444944448343265280>~~
+	* Update as of 2014-04-08: <https://twitter.com/ageis/status/453558785551110144>
 
 * **Fucked.fr**
 	* Documented here: TODO
