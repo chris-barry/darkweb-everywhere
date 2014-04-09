@@ -13,6 +13,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Aaron Swartz's Blog**
 	* Documented here: TODO
 
+* **Altera Praxis**
+	* Documented here: TODO
+
 * **Anarplex**
 	* Documented here: <http://anarplex.net/> - linked right on main page of site
 
@@ -34,6 +37,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Bluecabinet**
 	* Documented here: <https://twulujga5k2t3i6c.onion/wiki/Main_Page> -- clearnet site was taken offline on 2014-01-29 "Due to continued problems with SPAM and NOT enough dedicated volunteers to remove it daily, the bluecabinet.info address is closed." The rule should still switch over if you connect to the old clearnet address, and if they decide to bring the clearnet site back up. 
 
+* **Braithwaite Corp**
+	* Documented here: TODO.
+
 * **Bugged Planet**
 	* Documented here: TODO.
 
@@ -46,6 +52,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Darktor**
 	* Documented here: <http://darktor.com/>.
+
+* **DeepBlog Surface**
+	* Documented here: <https://deepblogsurface.wordpress.com/2013/06/06/primeiro-post/>
 
 * **DuckDuckGo**
 	* Documented here: <http://www.gabrielweinberg.com/blog/2010/08/duckduckgo-now-operates-a-tor-exit-enclave.html>
@@ -79,6 +88,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Mail2Tor**
 	* Documented here: TODO
 
+* **Maxima Culpa**
+	* Documented here: TODO
+
 * **MediaCrush**
 	* Documented here: <https://mediacru.sh> - linked right on main page of site
 
@@ -90,6 +102,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Parazite**
 	* Documented here: TODO
+
 * **Remood**
 	* Documented here: <https://remood.org> -- link at bottom of page
 

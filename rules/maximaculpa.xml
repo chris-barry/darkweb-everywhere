@@ -1,0 +1,5 @@
+<ruleset name="Maxima Culpa Onion" default_off="No proof." >
+	<target host="maximaculpa.me" />
+	<target host="www.maximaculpa.me" />
+	<rule from="^https?://(www\.)?braithwaitecorp\.com/" to="http://mgu2mglfj7za6s.onion/" />
+</ruleset>
