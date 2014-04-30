@@ -17,7 +17,7 @@ By having the hidden service loaded instead of the clearnet URL, you make your e
 ## How Can I Trust You?
 
 The proof is in `EVIDENCE.md`.
-You also have the code, and it's change history readily available.
+You also have the code, and its change history readily available.
 That file contains where I found the official hidden service of the respective sites.
 If you see any discrepancies make it known.
 
