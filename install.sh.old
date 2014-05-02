@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp rules/*.xml /opt/tor-browser_en-US/Data/Browser/profile.default/HTTPSEverywhereUserRules/
+echo "Installation completed."
