@@ -73,6 +73,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Hushbox**
 	* Documented here: TODO - as of 2014-03-19, site is down on both clearnet and hidden service
 
+* **Independent Media Center Keyserver**
+	* Documented here: https://en.wikipedia.org/wiki/List_of_Tor_hidden_services - This is the only documentation I was able to find after several searches, so I'm leaving the default as off for now. (2014-05-02)
+
 * **img.bi**
 	* Documented here: <https://img.bi> - linked right on main page of site
 
