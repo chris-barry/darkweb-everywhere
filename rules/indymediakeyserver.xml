@@ -1,5 +1,4 @@
-<ruleset name="Indymedia Key Server Onion">
+<ruleset name="Indymedia Key Server Onion" default off="No proof">
 	<target host="keys.indymedia.org" />
-	<target host="www.keys.indymedia.org" />
 	<rule from="^https?://keys\.indymedia\.org/" to="http://qtt2yl5jocgrk7nu.onion/" />
 </ruleset>
