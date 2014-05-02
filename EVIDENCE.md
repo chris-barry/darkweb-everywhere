@@ -60,6 +60,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <http://www.gabrielweinberg.com/blog/2010/08/duckduckgo-now-operates-a-tor-exit-enclave.html>
 	* Mentioned again here: <https://duck.co/forum/thread/1762/is-the-duckduckgo-hidden-service-legitimate>
 
+* **Encyclopedia Dramatica**
+	* Documented here: https://encyclopediadramatica.es/ED:TOR - down as of 2014-05-02
+
 * **Freedom of the Press Foundation**
 	* ~~First mentioned: <https://twitter.com/runasand/status/444944448343265280>~~
 	* Update as of 2014-04-08: <https://twitter.com/ageis/status/453558785551110144>
