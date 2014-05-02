@@ -61,7 +61,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Mentioned again here: <https://duck.co/forum/thread/1762/is-the-duckduckgo-hidden-service-legitimate>
 
 * **Encyclopedia Dramatica**
-	* Documented here: https://encyclopediadramatica.es/ED:TOR - down as of 2014-05-02
+	* Documented here: <https://encyclopediadramatica.es/ED:TOR> - down as of 2014-05-02
 
 * **Freedom of the Press Foundation**
 	* ~~First mentioned: <https://twitter.com/runasand/status/444944448343265280>~~
@@ -77,7 +77,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: TODO - as of 2014-03-19, site is down on both clearnet and hidden service
 
 * **Independent Media Center Keyserver**
-	* Documented here: https://en.wikipedia.org/wiki/List_of_Tor_hidden_services - This is the only documentation I was able to find after several searches, so I'm leaving the default as off for now. (2014-05-02)
+	* Documented here: <https://en.wikipedia.org/wiki/List_of_Tor_hidden_services> - This is the only documentation I was able to find after several searches, so I'm leaving the default as off for now. (2014-05-02)
 
 * **img.bi**
 	* Documented here: <https://img.bi> - linked right on main page of site
@@ -92,7 +92,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: TODO
 
 * **Mail2Tor**
-	* Documented here: TODO
+	* Documented here: <http://mail2tor.com/> - linked right on main page of site
 
 * **Maxima Culpa**
 	* Documented here: TODO
