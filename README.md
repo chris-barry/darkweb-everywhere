@@ -23,10 +23,12 @@ If you see any discrepancies make it known.
 
 ## Installation
 
-To install, put the rulesets you want in `~/tor-browser_en-US/Data/Browser/profile.default/HTTPSEverywhereUserRules/`.
+For the rulesets to work, they are placed in `~/tor-browser_en-US/Data/Browser/profile.default/HTTPSEverywhereUserRules/`.
 
 There's a basic script for \*nix users to install.
-Run, `./install.sh`.
+Just run, `./install.sh`.
+
+For the time being, users running Tor Browser Bundle natively on Windows will have to copy and paste all the `.xml` files into the directory listed above. We hope to fix this by adding a Windows installer at some point.
 
 ## Contributing
 
