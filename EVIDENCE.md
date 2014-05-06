@@ -127,6 +127,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Torproject**
 	* Documented here: <https://trac.torproject.org/projects/tor>
+	* Update as of 2014-05-05: It seems that the Tor Project has taken down their hidden services. <https://trac.torproject.org/projects/tor/ticket/11567>
 
 * **Torsearch**
 	* Documented here: <https://torsearch.es> - linked right on main page of site
