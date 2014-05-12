@@ -143,7 +143,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://vfemail.net/faq.php> - click on "Can you confirm your TOR address?"
 
 * **Whonix**
-	* Documented here: <http://kkkkkkkkkk63ava6.onion> - also linked to at the footer on every page
+	* Documented here: <https://www.whonix.org/> - also linked to at the footer on every page
 
 * **Yay Ponies**
 	* Documented here: <http://derpy.fr/yp.html>
