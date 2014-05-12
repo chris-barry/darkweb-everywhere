@@ -36,7 +36,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://bittit.info/docs.php?doc=help>
 
 * **Bluecabinet**
-	* Documented here: <https://twulujga5k2t3i6c.onion/wiki/Main_Page> -- clearnet site was taken offline on 2014-01-29 "Due to continued problems with SPAM and NOT enough dedicated volunteers to remove it daily, the bluecabinet.info address is closed." The rule should still switch over if you connect to the old clearnet address, and if they decide to bring the clearnet site back up. 
+	* Documented here: <https://bluecabinet.info/wiki/Main_Page#Connecting_to_this_wiki>
 
 * **Braithwaite Corp**
 	* Documented here: TODO.
