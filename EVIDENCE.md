@@ -41,7 +41,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: TODO.
 
 * **Bugged Planet**
-	* Documented here: TODO.
+	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About>.
 
 * **Cryptocat**
 	* Documented here: TODO.
