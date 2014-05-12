@@ -45,7 +45,8 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About>.
 
 * **Cryptocat**
-	* Documented here: TODO.
+	* Documented here: <https://twitter.com/cryptocatapp/status/402885544247840769>.
+		* Mentioned again here: <https://twitter.com/cryptocatapp/status/455761778161770496>
 	* Mentioned inside the cryptocat app. Click on Custom Server -> Cryptocat (Tor Hidden Service)
 
 * **Cat out of the Bag**
