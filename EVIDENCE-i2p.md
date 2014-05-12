@@ -14,6 +14,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Anarplex**
 	* Documented here: <http://anarplex.net/> - linked right on main page of site
 
+* **Anoncoin**
+	* Documented here: <https://anoncoin.net/index.php/get-in-touch>
+
 * **BTDigg**
 	* Documented here: <http://btdigg.org> - linked right on main page of site
 
