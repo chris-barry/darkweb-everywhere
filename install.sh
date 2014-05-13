@@ -5,16 +5,18 @@
 TORBROWSER="tor-browser_en-US/Data/Browser/profile.default/HTTPSEverywhereUserRules/"
 RED='\e[0;31m'
 GREEN='\e[0;32m'
-NC='\e[0m' # No color
+NC='\e[0m' # No color - include this otherwise your terminal output gets messed up.
 
 read -p "Is 'tor-browser_en-US/' located in your home directory? Y/n " ANSWER
 while true
 do
 	case $ANSWER in
-		[yY]* ) cp rules/*.xml $HOME/$TORBROWSER # could also be ~/
+		[yY]* ) mkdir -p $HOME/$TORBROWSER # makes $TORBROWSER directory if none exists.
+			cp rules/*.xml $HOME/$TORBROWSER # could also be ~/
 			echo -e "${GREEN}Installation complete!${NC}"
 			break;;
 		[nN]* ) read -p "What directory is 'tor-browser_en-US/' located in? Please provide absolute path. Example: type /opt for /opt/tor-browser_en-US " DIRECTORY
+			mkdir -p $DIRECTORY/$TORBROWSER
 			cp rules/*.xml $DIRECTORY/$TORBROWSER
 			echo -e "${GREEN}Installation complete!${NC}"
 			break;;
