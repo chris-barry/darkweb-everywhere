@@ -29,6 +29,10 @@ For the rulesets to work, they are placed in `~/tor-browser_en-US/Data/Browser/p
 There's a basic script for \*nix users to install.
 Just run, `./install.sh`.
 
+Tails users! 
+You have a script just for you, due to the different location of the HTTPS Everywhere Rules
+Open up a terminal and run `./darkweb-everywhere/tails.sh`.
+
 For the time being, users running Tor Browser Bundle natively on Windows will have to copy and paste all the `.xml` files into the directory listed above. 
 We hope to fix this by adding a Windows installer at some point.
 
