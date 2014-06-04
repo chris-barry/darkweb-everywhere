@@ -39,7 +39,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://bluecabinet.info/wiki/Main_Page#Connecting_to_this_wiki>
 
 * **Braithwaite Corp**
-	* Documented here: TODO.
+	* Documented here: <https://braithwaitecorp.com> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="k5ju4uizh5v326jr.onion">`.
 
 * **Bugged Planet**
 	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About>.
@@ -104,6 +104,12 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Moral.nu**
 	* Documented here: TODO
+
+* **Mylesb.ca**
+	* Documented here: <https://mylesb.ca> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="27rbn47kt7aurbyo.onion">`
+
+* **Myles Braithwaite**
+	* Documented here: <https://mylesbraithwaite.com> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="gvvsa367g2zkzjj3.onion">`
 
 * **One Time Dead Drop**
 	* Documented here: <https://dead-drop.me> - linked right on main page of site

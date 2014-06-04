@@ -1,4 +1,4 @@
-<ruleset name="Braith Waite Onion" default_off="No proof." >
+<ruleset name="Braithwaite Corp Onion" >
 	<target host="braithwaitecorp.com" />
 	<target host="www.braithwaitecorp.com" />
 	<rule from="^https?://(www\.)?braithwaitecorp\.com/" to="http://k5ju4uizh5v326jr.onion/" />

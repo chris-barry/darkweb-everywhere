@@ -1,0 +1,5 @@
+<ruleset name="Myles Braithwaite Onion" >
+	<target host="mylesbraithwaite.com" />
+	<target host="www.mylesbraithwaite.com" />
+	<rule from="^https?://(www\.)?mylesbraithwaite\.com/" to="http://gvvsa367g2zkzjj3.onion/" />
+</ruleset>
