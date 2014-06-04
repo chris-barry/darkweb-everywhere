@@ -17,6 +17,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Anoncoin**
 	* Documented here: <https://anoncoin.net/index.php/get-in-touch>
 
+* **Bluecabinet**
+	* Documented here: TODO
+
 * **BTDigg**
 	* Documented here: <http://btdigg.org> - linked right on main page of site
 
