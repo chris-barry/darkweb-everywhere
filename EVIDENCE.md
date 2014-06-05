@@ -115,7 +115,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://dead-drop.me> - linked right on main page of site
 
 * **Parazite**
-	* Documented here: TODO
+	* Documented here: <https://parazite.pp.fi> - links at bottom of page
 
 * **Remood**
 	* Documented here: <https://remood.org> -- link at bottom of page

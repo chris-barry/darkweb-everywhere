@@ -1,4 +1,4 @@
-<ruleset name="Parazite Onion" default_off="No proof.">  
+<ruleset name="Parazite Onion" >  
 	<target host="parazite.pp.fi" />
 	<target host="www.parazite.pp.fi" />
 	<rule from="^https?://(www\.)?parazite\.pp.fi/" to="http://kpynyvym6xqi7wz2.onion/" />

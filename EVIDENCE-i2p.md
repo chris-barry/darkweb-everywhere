@@ -29,5 +29,8 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **img.bi**
 	* Documented here: <https://img.bi> - linked right on main page of site
 
+* **Parazite**
+	* Documented here: <https://parazite.pp.fi> - link at bottom of page
+
 * **Zerobin**
 	* Documented here: TODO
