@@ -12,12 +12,12 @@ while true
 do
 	case $ANSWER in
 		[yY]* ) mkdir -p $HOME/$TORBROWSER # makes $TORBROWSER directory if none exists.
-			cp rules/*.xml $HOME/$TORBROWSER # could also be ~/
+			cp ../rules/*.xml $HOME/$TORBROWSER # could also be ~/
 			echo -e "${GREEN}Installation complete!${NC}"
 			break;;
 		[nN]* ) read -p "What directory is 'tor-browser_en-US/' located in? Please provide absolute path. Example: type /opt for /opt/tor-browser_en-US " DIRECTORY
 			mkdir -p $DIRECTORY/$TORBROWSER
-			cp rules/*.xml $DIRECTORY/$TORBROWSER
+			cp ../rules/*.xml $DIRECTORY/$TORBROWSER
 			echo -e "${GREEN}Installation complete!${NC}"
 			break;;
 		* )	echo -e "${RED}Error: please enter Y or N${NC}"
