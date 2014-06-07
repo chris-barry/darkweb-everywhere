@@ -74,6 +74,9 @@ Many other methods can be accepted, assuming they are reasonable to the maintain
 If there is no definitive proof, the rule should be set to default to off with the tag `default_off="No proof."`.
 If possible, please give a brief reason as to why the rule is disabled.
 
+If the rule cannot be verified, please place the `.xml` file in the `unverified-rules` folder.
+The reason for this is to actively discourage users from using those rulesets.
+
 ## Disclaimer
 
 I do not vouch for, endorse, or disapprove of any of these sites, I just supply these so everyone has more privacy. 
