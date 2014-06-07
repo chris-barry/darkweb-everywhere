@@ -42,17 +42,37 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Contributing
 
-If you know of any sites which offer a normal domain, and a hidden service please add them, or put in a ticket.
+Before you begin, make sure you check out [HTTPSEverywhere's exellent guide][3] on how to write rulesets.
 
-HTTPSEverywhere has a good [guide][3] on how to make your own rules.
-The only difference is, make sure the name is appended with `Onion`.
+1. Find a site with a dual setup.
+2. Find evidence that the hidden service is hosted, or endorsed by the correct people.
+3. Add your evidence to `doc/EVIDENCE.md` or `doc/EVIDENCE-i2p.md`.
+4. Write your ruleset, and place it in `rules/` or `rules-i2p/`.
+5. Test twice.
+6. Commit and push.
 
-Upon making rules, add a line to `doc/EVIDENCE.md` with the site's name, and any documentation that proves that the hidden service is legitimate.
+### For Rulesets
 
-Otherwise, please mark the rule with a default setting of off, and give a brief reason as to why. 
-Example: `<ruleset name="Example Onion" default_off="No proof.">`
+Make sure to append the name with "Onion" or "i2p", depending on which network the site is hosted on.
 
-For i2p rules, the same rules apply, but append the rules with `Eepsite` and place the evidence in `doc/EVIDENCE-i2p.md`
+For example:
+* `<ruleset name="Example Onion/>"`
+* `<ruleset name="Example Eepsite/>"`
+
+### For Evidence
+
+In order to make sure all of the clearnet to hidden mappings are correct, proper evidence is required.
+Proper evidence can consist of:
+
+* A link on the clearnet site.
+* A tag in the HTML similar to `<link rel="x-tor-hidden-service" href="sweetsite.onion">`.
+* A signed email from the owner of the site saying it is real.
+* A link on Twitter by the verified site owner saying so.
+
+The above is not exhaustive or absolute.
+Many other methods can be accepted, assuming they are reasonable to the maintainers.
+If there is no definitive proof, the rule should be set to default to off with the tag `default_off="No proof."`.
+If possible, please give a brief reason as to why the rule is disabled.
 
 ## Disclaimer
 
