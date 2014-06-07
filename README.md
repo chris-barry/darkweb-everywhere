@@ -54,6 +54,9 @@ Example: `<ruleset name="Example Onion" default_off="No proof.">`
 
 For i2p rules, the same rules apply, but append the rules with `Eepsite` and place the evidence in `doc/EVIDENCE-i2p.md`
 
+If the rule cannot be verified, please place the `.xml` file in the `unverified-rules` folder.
+The reason for this is to actively discourage users from using those rulesets.
+
 ## Disclaimer
 
 I do not vouch for, endorse, or disapprove of any of these sites, I just supply these so everyone has more privacy. 
