@@ -18,7 +18,8 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://anoncoin.net/index.php/get-in-touch>
 
 * **Bluecabinet**
-	* Documented here: TODO
+	* Documented here: <https://twitter.com/TelecomixBSRE/status/404341879627468801>
+	* Again here: <https://twitter.com/TelecomixBSRE/status/409540600174624769>
 
 * **BTDigg**
 	* Documented here: <http://btdigg.org> - linked right on main page of site
