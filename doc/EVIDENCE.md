@@ -142,6 +142,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Sarava**
 	* Documented here: <https://www.sarava.org/en> -- located on side bar. As of 2014-04-29, clicking on "Tor hidden service" will bring you to another page with the old .onion address.
 
+* **Scott Arciszewski's Blog**
+	* Documented Here: <https://scott.arciszewski.me/blog/2014/03/tor-hidden-service>
+
 * **Searx**
 	*Documented here: TODO
 

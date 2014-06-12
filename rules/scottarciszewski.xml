@@ -1,0 +1,5 @@
+<ruleset name="Scott Arciszewski's Blog Onion" >
+	<target host="scott.arciszewski.me" />
+	<target host="www.scott.arciszewski.me" />
+	<rule from="^https?://(www\.)?scott.arciszewski\.me/" to="http://kobrabd77ppgjd2r.onion/" />
+</ruleset>
