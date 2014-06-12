@@ -136,6 +136,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **RiseUp**
 	* Documented here: <https://www.riseup.net/en/tor#riseups-tor-hidden-services> -- All hidden services they offer are listed here. For the sake of trying to keep this page as streamlined as possible, we ask you refer here for all of RiseUp's services.
 
+* **Rueckgr Tor Status**
+	* Documented here: <https://torstatus.rueckgr.at/> - link on main page
+
 * **Sarava**
 	* Documented here: <https://www.sarava.org/en> -- located on side bar. As of 2014-04-29, clicking on "Tor hidden service" will bring you to another page with the old .onion address.
 
