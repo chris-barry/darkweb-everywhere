@@ -1,4 +1,4 @@
-<ruleset name="Anoncoin">
+<ruleset name="Anoncoin Eepsite">
 	<target host="anoncoin.net" />
 	<target host="www.anoncoin.net" />
 	<rule from="^https?://(www\.)?anoncoin\.net/" to="http://anoncoin.i2p/" />

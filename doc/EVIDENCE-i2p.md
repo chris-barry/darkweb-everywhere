@@ -24,6 +24,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **BTDigg**
 	* Documented here: <http://btdigg.org> - linked right on main page of site
 
+* **CoSign Coin**
+	* Documented here: <http://cosign.co.in/faq/#I2P>
+
 * **Haste**
 	* Documented here: <https://haste.ch> - linked right on main page of site
 

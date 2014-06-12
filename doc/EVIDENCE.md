@@ -44,6 +44,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Bugged Planet**
 	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About>.
 
+* **CoSign Coin**
+	* Documented here: <http://cosign.co.in/faq/#TOR>
+
 * **Cryptocat**
 	* Documented here: <https://twitter.com/cryptocatapp/status/402885544247840769>.
 		* Mentioned again here: <https://twitter.com/cryptocatapp/status/455761778161770496>
