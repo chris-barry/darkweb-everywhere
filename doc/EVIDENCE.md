@@ -129,6 +129,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Sarava**
 	* Documented here: <https://www.sarava.org/en> -- located on side bar. As of 2014-04-29, clicking on "Tor hidden service" will bring you to another page with the old .onion address.
 
+* **Telecomix**
+	* Documented here: <http://telecomix.org> - linked right on main page of site
+
 * **The Pirate Bay**
 	* Documented here: <http://proxybay.info/alternate-methods.html#TOR>
 	* Also on Twitter: <https://twitter.com/tpbdotorg/status/203221129513545729>
