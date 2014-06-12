@@ -14,6 +14,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Aaron Swartz's Blog**
 	* Documented here: TODO
 
+* **Ahmia**
+	* Documented here: <https://ahmia.fi/search/> - link on main page of site
+
 * **Altera Praxis**
 	* Documented here: TODO
 
