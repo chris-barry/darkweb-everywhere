@@ -132,6 +132,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Telecomix**
 	* Documented here: <http://telecomix.org> - linked right on main page of site
 
+* **Telecomix Syria**
+	* Documented here: <http://syria.telecomix.org> - linked right on main page of site
+
 * **The Pirate Bay**
 	* Documented here: <http://proxybay.info/alternate-methods.html#TOR>
 	* Also on Twitter: <https://twitter.com/tpbdotorg/status/203221129513545729>
