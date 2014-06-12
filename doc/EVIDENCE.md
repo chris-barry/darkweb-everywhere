@@ -35,6 +35,10 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Bittit**
 	* Documented here: <https://bittit.info/docs.php?doc=help>
 
+* **Bitpad**
+	* Documented here: <https://bitpad.co.nz/> - link at bottom of page
+	* Also here: <https://twitter.com/BitPadNZ/status/474454339117805569>
+
 * **Bluecabinet**
 	* Documented here: <https://bluecabinet.info/wiki/Main_Page#Connecting_to_this_wiki>
 

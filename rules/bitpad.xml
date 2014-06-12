@@ -1,0 +1,5 @@
+<ruleset name="Bitpad Onion">
+	<target host="bitpad.co.nz" />
+	<target host="www.bitpad.co.nz" />
+	<rule from="^https?://(www\.)?bitpad.co\.nz/" to="http://bitpadovlvshmpvk.onion/" />
+</ruleset>
