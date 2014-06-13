@@ -33,7 +33,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: TODO
 
 * **BitcoinCigs**
-	* Documented here: TODO
+	* Documented here: <https://bitcointalk.org/index.php?topic=193243.0> 
 
 * **Bitmessage**
 	* Documented here: <https://bitmessage.ch/faq.html>
@@ -104,7 +104,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>.
 
 * **Kognitionskyrkan**
-	* Documented here: TODO
+	* Documented here:<http://kognitionskyrkan.nu/1.0/> 
 
 * **Mail2Tor**
 	* Documented here: <http://mail2tor.com/> - linked right on main page of site

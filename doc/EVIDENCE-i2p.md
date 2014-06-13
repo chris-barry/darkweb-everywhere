@@ -18,7 +18,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://anoncoin.net/index.php/get-in-touch>
 
 * **Bitmessage**
-	* Documented here: <http://bitmailendavkbec.onion/faq.html> - link at bottom of page
+	* Documented here: <http://bitmessage.ch/faq.html> - link at bottom of page
 
 * **Bluecabinet**
 	* Documented here: <https://twitter.com/TelecomixBSRE/status/404341879627468801>

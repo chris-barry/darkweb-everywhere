@@ -1,4 +1,4 @@
-<ruleset name="BitcoinCigs Onion" default_off="No proof." >
+<ruleset name="BitcoinCigs Onion" >
 	<target host="bitcoincigs.com" />
 	<target host="www.bitcoincigs.com" />
 	<rule from="^https?://(www\.)?bitcoincigs\.com/" to="http://buycigs6r6ataxkh.onion/" />
