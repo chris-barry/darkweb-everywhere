@@ -1,0 +1,5 @@
+<ruleset name="WTF Is My IP? Onion" default_off="No proof.">
+	<target host="wtfismyip.com" />
+	<target host="www.wtfismyip.com" />
+	<rule from="^https?://(www\.)?wtfismyip\.com/" to="http://tmkloc6vhxos3nde.onion/" />
+</ruleset>
