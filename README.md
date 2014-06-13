@@ -42,7 +42,7 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Contributing
 
-Before you begin, make sure you check out [HTTPSEverywhere's exellent guide][3] on how to write rulesets.
+Before you begin, make sure you check out [HTTPSEverywhere's excellent guide][3] on how to write rulesets.
 
 1. Find a site with a dual setup.
 2. Find evidence that the hidden service is hosted, or endorsed by the correct people.
@@ -53,7 +53,7 @@ Before you begin, make sure you check out [HTTPSEverywhere's exellent guide][3] 
 
 ### For Rulesets
 
-Make sure to append the name with "Onion" or "i2p", depending on which network the site is hosted on.
+Make sure to append the name with "Onion" or "Eepsite", depending on which network the site is hosted on.
 
 For example:
 * `<ruleset name="Example Onion/>"`
