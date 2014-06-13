@@ -30,7 +30,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>.
 
 * **Behind Bloodshot Eyes**
-	* Documented here: TODO
+	* Documented here: <https://twitter.com/bbseyes/status/422416817659707392>
 
 * **BitcoinCigs**
 	* Documented here: <https://bitcointalk.org/index.php?topic=193243.0> 
