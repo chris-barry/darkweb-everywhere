@@ -1,4 +1,4 @@
-<ruleset name="Maxima Culpa Onion" default_off="No proof." >
+<ruleset name="Maxima Culpa Onion"  >
 	<target host="maximaculpa.me" />
 	<target host="www.maximaculpa.me" />
 	<rule from="^https?://(www\.)?maximaculpa\.me/" to="http://mgu2mglfj7za6s.onion/" />

@@ -1,4 +1,4 @@
-<ruleset name="Bbsey.es Onion" default_off="No proof." >
+<ruleset name="Bbsey.es Onion" >
 	<target host="bbsey.es" />
 	<target host="www.bbsey.es" />
 	<rule from="^https?://(www\.)?bbsey\.es/" to="http://bbseyes36k6cowi6.onion/" />
