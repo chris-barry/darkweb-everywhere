@@ -27,7 +27,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://anoncoin.net/index.php/get-in-touch>
 
 * **Autistici**
-	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>.
+	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>
 
 * **Behind Bloodshot Eyes**
 	* Documented here: <https://twitter.com/bbseyes/status/422416817659707392>
@@ -38,12 +38,12 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Bitmessage**
 	* Documented here: <https://bitmessage.ch/faq.html>
 
-* **Bittit**
-	* Documented here: <https://bittit.info/docs.php?doc=help>
-
 * **Bitpad**
 	* Documented here: <https://bitpad.co.nz/> - link at bottom of page
 	* Also here: <https://twitter.com/BitPadNZ/status/474454339117805569>
+
+* **Bittit**
+	* Documented here: <https://bittit.info/docs.php?doc=help>
 
 * **Bluecabinet**
 	* Documented here: <https://bluecabinet.info/wiki/Main_Page#Connecting_to_this_wiki>
@@ -52,21 +52,21 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://braithwaitecorp.com> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="k5ju4uizh5v326jr.onion">`.
 
 * **Bugged Planet**
-	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About>.
+	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About>
+
+* **Cat out of the Bag**
+	* Documented here: <http://www.catoutofthebag.info/>
 
 * **CoSign Coin**
 	* Documented here: <http://cosign.co.in/faq/#TOR>
 
 * **Cryptocat**
-	* Documented here: <https://twitter.com/cryptocatapp/status/402885544247840769>.
+	* Documented here: <https://twitter.com/cryptocatapp/status/402885544247840769>
 		* Mentioned again here: <https://twitter.com/cryptocatapp/status/455761778161770496>
 	* Mentioned inside the cryptocat app. Click on Custom Server -> Cryptocat (Tor Hidden Service)
 
-* **Cat out of the Bag**
-	* Documented here: <http://www.catoutofthebag.info/>
-
 * **Darktor**
-	* Documented here: <http://darktor.com/>.
+	* Documented here: <http://darktor.com/>
 
 * **DeepBlog Surface**
 	* Documented here: <https://deepblogsurface.wordpress.com/2013/06/06/primeiro-post/>
@@ -82,14 +82,8 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* ~~First mentioned: <https://twitter.com/runasand/status/444944448343265280>~~
 	* Update as of 2014-04-08: <https://twitter.com/ageis/status/453558785551110144>
 
-* **Fucked.fr**
-	* Documented here: TODO
-
 * **Haste**
 	* Documented here: <https://haste.ch> - linked right on main page of site
-
-* **Hushbox**
-	* Documented here: TODO - as of 2014-03-19, site is down on both clearnet and hidden service
 
 * **Independent Media Center Keyserver**
 	* Documented here: <https://en.wikipedia.org/wiki/List_of_Tor_hidden_services> - This is the only documentation I was able to find after several searches, so I'm leaving the default as off for now. (2014-05-02)
@@ -104,7 +98,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>.
 
 * **Kognitionskyrkan**
-	* Documented here:<http://kognitionskyrkan.nu/1.0/> 
+	* Documented here: <http://kognitionskyrkan.nu/1.0/> 
 
 * **Mail2Tor**
 	* Documented here: <http://mail2tor.com/> - linked right on main page of site
@@ -114,9 +108,6 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **MediaCrush**
 	* Documented here: <https://mediacru.sh> - linked right on main page of site
-
-* **Moral.nu**
-	* Documented here: TODO
 
 * **Mylesb.ca**
 	* Documented here: <https://mylesb.ca> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="27rbn47kt7aurbyo.onion">`
@@ -148,9 +139,6 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Scott Arciszewski's Blog**
 	* Documented Here: <https://scott.arciszewski.me/blog/2014/03/tor-hidden-service>
 
-* **Searx**
-	*Documented here: TODO
-
 * **Telecomix**
 	* Documented here: <http://telecomix.org> - linked right on main page of site
 
@@ -164,24 +152,20 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **tor2web**
 	* Documented: <https://tor2web.org>
 
-* **Torproject**
-	* Documented here: <https://trac.torproject.org/projects/tor>
-	* Update as of 2014-05-05: It seems that the Tor Project has taken down their hidden services. <https://trac.torproject.org/projects/tor/ticket/11567>
-
 * **Torsearch**
 	* Documented here: <https://torsearch.es> - linked right on main page of site
 
 * **Torservers.net**
 	* Documented here: <https://www.torservers.net/wiki/>
 
-* **URSSMail**
-	* Documented here: TODO
-
 * **VFEmail**
 	* Documented here: <https://vfemail.net/faq.php> - click on "Can you confirm your TOR address?"
 
 * **Whonix**
 	* Documented here: <https://www.whonix.org/> - also linked to at the footer on every page
+
+* **WTF Is My IP?**
+	* Documented here: TODO
 
 * **Yay Ponies**
 	* Documented here: <http://derpy.fr/yp.html>

@@ -4,8 +4,8 @@ Darkweb-Everywhere is a collection of rulesets for [HTTPS Everywhere][0] which w
 For these rulesets to really work, you should be using the [Tor Browser Bundle][1].
 
 An example of this would be:
-* <https://duckduckgo.com> will be redirect to <http://3g2upl4pq6kufc4m.onion>.
-* <https://3g2upl4pq6kufc4m.tor2web.org> will redirect to <http://3g2upl4pq6kufc4m.onion>.
+* <https://duckduckgo.com> will be redirected to <http://3g2upl4pq6kufc4m.onion>.
+* <https://3g2upl4pq6kufc4m.tor2web.org> will be redirected to <http://3g2upl4pq6kufc4m.onion>.
 
 ## Why is this needed?
 
@@ -15,7 +15,7 @@ By having the hidden service loaded instead of the clearnet URL, you make your e
 
 ## How Can I Trust You?
 
-In the file, `doc/EVIDENCE.md` is a source of where each site is documented to be fonud.
+In the file, `doc/EVIDENCE.md` is a source of where each site is documented to be found.
 If there is no source for the site, the rule will default to off until proper documentation is found.
 The code and commit history are also freely available for anyone to audit.
 
@@ -71,10 +71,8 @@ Proper evidence can consist of:
 
 The above is not exhaustive or absolute.
 Many other methods can be accepted, assuming they are reasonable to the maintainers.
-If there is no definitive proof, the rule should be set to default to off with the tag `default_off="No proof."`.
-If possible, please give a brief reason as to why the rule is disabled.
 
-If the rule cannot be verified, please place the `.xml` file in the `unverified-rules` folder.
+If there is no definitive proof, please place the `.xml` file in the `unverified-rules` folder.
 The reason for this is to actively discourage users from using those rulesets.
 
 ## Disclaimer
