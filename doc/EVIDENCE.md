@@ -180,6 +180,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **VFEmail**
 	* Documented here: <https://vfemail.net/faq.php> - click on "Can you confirm your TOR address?"
 
+* **WTF Is My IP?**
+	* Documented here: <https://www.zerobin.net/?30c3045ba3d19424#8/RkcsUkZrd+ShJCA4injD6LXZEFGT+d8GmkfXT7sDg=> - email from site owner. 
+
 * **Whonix**
 	* Documented here: <https://www.whonix.org/> - also linked to at the footer on every page
 

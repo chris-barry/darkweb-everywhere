@@ -1,4 +1,4 @@
-<ruleset name="WTF Is My IP? Onion" default_off="No proof.">
+<ruleset name="WTF Is My IP? Onion" default_off="Legitimate, but a joke. Hidden Service less functional than main site.">
 	<target host="wtfismyip.com" />
 	<target host="www.wtfismyip.com" />
 	<rule from="^https?://(www\.)?wtfismyip\.com/" to="http://tmkloc6vhxos3nde.onion/" />
