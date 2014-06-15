@@ -133,6 +133,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Project PM**
 	* Documented here: <http://echelon2.org/wiki/Main_Page> - linked right on main page of site
 
+* **QuackQuackGo Searx**
+	*Documented here: <https://quackquackgo.nl> - linked right on main page of site
+
 * **Remood**
 	* Documented here: <https://remood.org> -- link at bottom of page
 
@@ -147,9 +150,6 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Scott Arciszewski's Blog**
 	* Documented Here: <https://scott.arciszewski.me/blog/2014/03/tor-hidden-service>
-
-* **Searx**
-	*Documented here: TODO
 
 * **Telecomix**
 	* Documented here: <http://telecomix.org> - linked right on main page of site

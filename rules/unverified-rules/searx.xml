@@ -1,5 +1,0 @@
-<ruleset name="Searx Onion" default_off="No proof.">
-	<target host="searx.0x2a.tk" />
-	<target host="www.searx.0x2a.tk" />
-	<rule from="^https?://(www\.)?searx.0x2a\.tk/" to="http://qppbs5ezaw2lecuk.onion/" />
-</ruleset>
