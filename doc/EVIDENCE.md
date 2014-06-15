@@ -54,6 +54,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Bugged Planet**
 	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About>.
 
+* **Colin Mahns' Personal Site**
+	* Documented here: <https://goatman93.no-ip.org>
+
 * **CoSign Coin**
 	* Documented here: <http://cosign.co.in/faq/#TOR>
 
