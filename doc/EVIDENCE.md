@@ -88,6 +88,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Fucked.fr**
 	* Documented here: TODO
 
+* **Gliders Wirley Searx**
+	* Documented here: <https://gliderswirley.org> - linked right on main page of site
+
 * **Haste**
 	* Documented here: <https://haste.ch> - linked right on main page of site
 
