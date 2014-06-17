@@ -1,4 +1,4 @@
-<ruleset name="Telecomix Syria Onion" default_off="Down as of 2014-06-12" >
+<ruleset name="Telecomix Syria Onion" default_off="Down as of 2014-06-12">
 	<target host="syria.telecomix.org" />
 	<target host="www.syria.telecomix.org" />
 	<rule from="^https?://(www\.)?syria\.telecomix\.org/" to="http://utbj7hsnkei5oc5o.onion/" />
