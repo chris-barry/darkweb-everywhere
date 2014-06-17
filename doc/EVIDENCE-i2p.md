@@ -38,3 +38,6 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Parazite**
 	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - link at bottom of page
+
+* **Sigterm**
+	* Documented here: <https://sigterm.no> ([A](https://archive.today/N83uK))
