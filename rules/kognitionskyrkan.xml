@@ -3,4 +3,3 @@
 	<target host="www.kognitionskyrkan.nu" />
 	<rule from="^https?://(www\.)?kognitionskyrkan\.nu/" to="http://wd43uqrbjwe6hpre.onion/" />
 </ruleset>
-

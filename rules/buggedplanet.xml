@@ -3,4 +3,3 @@
 	<target host="www.buggedplanet.info" />
 	<rule from="^https?://(www\.)?buggedplanet\.info/" to="http://6sgjmi53igmg7fm7.onion/" />
 </ruleset>
-

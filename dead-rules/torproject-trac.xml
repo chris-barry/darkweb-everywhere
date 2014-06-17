@@ -2,4 +2,3 @@
 	<target host="trac.torproject.org" />
 	<rule from="^https?://trac\.torproject\.org/" to="http://vwp5zrdfwmw4avcq.onion/" />
 </ruleset>
-

@@ -3,4 +3,3 @@
 	<target host="www.haste.ch" />
 	<rule from="^https?://(www\.)?haste\.ch/" to="http://lvrsv3e2kdzncgsnqaxengoiyxc3xilxweqr4zvlxcigq6ecgkna.b32.i2p/" />
 </ruleset>
-
