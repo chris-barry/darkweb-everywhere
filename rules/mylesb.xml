@@ -1,4 +1,4 @@
-<ruleset name="Myles B Onion" >
+<ruleset name="Myles B Onion">
 	<target host="mylesb.ca" />
 	<target host="www.mylesb.ca" />
 	<rule from="^https?://(www\.)?mylesb\.ca/" to="http://27rbn47kt7aurbyo.onion/" />

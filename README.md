@@ -4,18 +4,18 @@ Darkweb-Everywhere is a collection of rulesets for [HTTPS Everywhere][0] which w
 For these rulesets to really work, you should be using the [Tor Browser Bundle][1].
 
 An example of this would be:
-* <https://duckduckgo.com> will be redirect to <http://3g2upl4pq6kufc4m.onion>.
-* <https://3g2upl4pq6kufc4m.tor2web.org> will redirect to <http://3g2upl4pq6kufc4m.onion>.
+* <https://duckduckgo.com> will be redirected to <http://3g2upl4pq6kufc4m.onion>.
+* <https://3g2upl4pq6kufc4m.tor2web.org> will be redirected to <http://3g2upl4pq6kufc4m.onion>.
 
 ## Why is this needed?
 
 Due to the way Tor works, when you connect to sites which are not hidden services you must connect through an exit node.
-This exit node is able to see which sites are connecting to.
+This exit node is able to see which sites are being connected to.
 By having the hidden service loaded instead of the clearnet URL, you make your entire connection without leaving the Tor network.
 
-## How Can I Trust You?
+## How can I trust you?
 
-In the file, `doc/EVIDENCE.md` is a source of where each site is documented to be fonud.
+In the file, `doc/EVIDENCE.md` is a source of where each site is documented to be found.
 If there is no source for the site, the rule will default to off until proper documentation is found.
 The code and commit history are also freely available for anyone to audit.
 
