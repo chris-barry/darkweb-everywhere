@@ -1,4 +1,4 @@
-<ruleset name="Haste Onion" default_off="Site down as of 2014-06-04" >
+<ruleset name="Haste Onion">
 	<target host="haste.ch" />
 	<target host="www.haste.ch" />
 	<rule from="^https?://(www\.)?haste\.ch/" to="http://swufsoyrbq7anis6.onion/" />

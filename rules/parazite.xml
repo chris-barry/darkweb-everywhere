@@ -1,5 +1,5 @@
-<ruleset name="Parazite Onion" >  
+<ruleset name="Parazite Onion">  
 	<target host="parazite.pp.fi" />
 	<target host="www.parazite.pp.fi" />
-	<rule from="^https?://(www\.)?parazite\.pp.fi/" to="http://kpynyvym6xqi7wz2.onion/" />
+	<rule from="^https?://(www\.)?parazite\.pp\.fi/" to="http://kpynyvym6xqi7wz2.onion/" />
 </ruleset>

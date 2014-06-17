@@ -12,32 +12,32 @@ Everyone is encouraged to add more evidence!
 Links marked with "TODO" are links that have not been proven as the hidden version of a clearnet site. 
 
 * **Anarplex**
-	* Documented here: <http://anarplex.net/> - linked right on main page of site
+	* Documented here: <http://anarplex.net/> ([A](https://archive.today/8isNe)) - linked on the main page
 
 * **Anoncoin**
-	* Documented here: <https://anoncoin.net/index.php/get-in-touch>
+	* Documented here: <https://anoncoin.net/index.php/get-in-touch> ([A](https://archive.today/HjKiP))
 
 * **Bitmessage**
-	* Documented here: <http://bitmessage.ch/faq.html> - link at bottom of page
+	* Documented here: <http://bitmessage.ch/faq.html> ([A](https://archive.today/9aSxc)) - link at bottom of page
 
 * **Bluecabinet**
-	* Documented here: <https://twitter.com/TelecomixBSRE/status/404341879627468801>
-	* Again here: <https://twitter.com/TelecomixBSRE/status/409540600174624769>
+	* Documented here: <https://twitter.com/TelecomixBSRE/status/404341879627468801> ([A](https://archive.today/XNYcf))
+	* Again here: <https://twitter.com/TelecomixBSRE/status/409540600174624769> ([A](https://archive.today/YQDcW))
 
 * **BTDigg**
-	* Documented here: <http://btdigg.org> - linked right on main page of site
+	* Documented here: <http://btdigg.org> ([A](https://archive.today/yaDMT)) - linked on the main page
 
 * **CoSign Coin**
-	* Documented here: <http://cosign.co.in/faq/#I2P>
+	* Documented here: <http://cosign.co.in/faq/#I2P> ([A](https://archive.today/gjglk))
 
 * **Haste**
-	* Documented here: <https://haste.ch> - linked right on main page of site
+	* Documented here: <https://haste.ch> ([A](https://web.archive.org/web/20130627044558/https://haste.ch)) - linked on the main page
 
 * **img.bi**
-	* Documented here: <https://img.bi> - linked right on main page of site
+	* Documented here: <https://img.bi> ([A](https://archive.today/Bwo1T)) - linked on the main page
 
 * **Parazite**
-	* Documented here: <https://parazite.pp.fi> - link at bottom of page
+	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - link at bottom of page
 
-* **Zerobin**
-	* Documented here: TODO
+* **Sigterm**
+	* Documented here: <https://sigterm.no> ([A](https://archive.today/N83uK))

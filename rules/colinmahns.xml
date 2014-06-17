@@ -1,7 +1,5 @@
 <ruleset name="Colin Mahns Onion">
 	<target host="goatman93.duckdns.org" />
-	<target host="www.goatman93.duckdns.org" />
 	<target host="goatman93.no-ip.org" />
-	<target host="www.goatman93.no-ip.org" />
-	<rule from="^https?://(www\.)?(goatman93.duckdns|goatman93.no-ip)\.org/" to="http://3ok5b6w76gwh4mzq.onion/" />
+	<rule from="^https?://goatman93\.(duckdns|no-ip)\.org/" to="http://3ok5b6w76gwh4mzq.onion/" />
 </ruleset>

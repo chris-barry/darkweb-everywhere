@@ -3,4 +3,3 @@
 	<target host="www.urssmail.org" />
 	<rule from="^https?://(www\.)?urssmail\.org/" to="http://f3ljvgyyujmnfhvi.onion/" />
 </ruleset>
-

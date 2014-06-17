@@ -3,4 +3,3 @@
 	<target host="www.btdigg.org" />
 	<rule from="^https?://(www\.)?btdigg\.org/" to="http://btdigg.i2p/" />
 </ruleset>
-

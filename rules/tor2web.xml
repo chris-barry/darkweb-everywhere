@@ -6,8 +6,9 @@
 	<target host="*.onion.lu" />
 	<target host="*.onion.sh" />
 	<target host="*.onion.is" />
+	<target host="*.onion.lt" />
 	<target host="*.onion.cab" />
 	<target host="*.t2w.pw" />
 	<target host="*.darktor.com" />
-	<rule from="^https?://([a-z2-7]{16})\.(tor2web\.org|tor2web\.fi|tor2web\.blutmagie\.de|onion\.to|onion\.lu|onion\.sh|onion\.is|onion\.cab|t2w\.pw|darktor\.com)/" to="http://$1.onion/" />
+	<rule from="^https?://([a-z2-7]{16})\.(tor2web\.org|tor2web\.fi|tor2web\.blutmagie\.de|onion\.to|onion\.lu|onion\.sh|onion\.is|onion\.lt|onion\.cab|t2w\.pw|darktor\.com)/" to="http://$1.onion/" />
 </ruleset>

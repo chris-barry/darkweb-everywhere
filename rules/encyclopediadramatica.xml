@@ -3,4 +3,3 @@
 	<target host="www.encyclopediadramatica.es" />
 	<rule from="^https?://(www\.)?encyclopediadramatica\.es/" to="http://edramalpl7oq5npk.onion/" />
 </ruleset>
-
