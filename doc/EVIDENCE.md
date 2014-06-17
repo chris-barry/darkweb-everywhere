@@ -122,7 +122,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://mylesbraithwaite.com> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="gvvsa367g2zkzjj3.onion">`
 
 * **One Time Dead Drop**
-	* Documented here: <https://dead-drop.me> ([A](https://archive.today/7fseG)) - linked on the main page
+	* Documented here: <http://dead-drop.me> ([A](https://archive.today/6gHrR)) - linked on the main page
 
 * **Parazite**
 	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - links at bottom of page
