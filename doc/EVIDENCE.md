@@ -89,7 +89,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://searx.gliderswirley.org> ([A](https://archive.today/hR45r))
 
 * **Haste**
-	* Documented here: <https://haste.ch> (Down as of 2014-06-17) - linked on the main page
+	* Documented here: <https://haste.ch> ([A](https://web.archive.org/web/20130627044558/https://haste.ch)) - linked on the main page
 
 * **Independent Media Center Keyserver**
 	* Documented here: <https://en.wikipedia.org/wiki/List_of_Tor_hidden_services> - This is the only documentation I was able to find after several searches, so I'm leaving the default as off for now. (2014-05-02)
@@ -122,7 +122,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://mylesbraithwaite.com> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="gvvsa367g2zkzjj3.onion">`
 
 * **One Time Dead Drop**
-	* Documented here: <https://dead-drop.me> (Down as of 2014-06-17) - linked on the main page
+	* Documented here: <https://dead-drop.me> ([A](https://archive.today/7fseG)) - linked on the main page
 
 * **Parazite**
 	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - links at bottom of page
@@ -134,7 +134,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	*Documented here: <https://quackquackgo.nl> ([A](https://archive.today/YBq4M)) - linked on the main page
 
 * **Remood**
-	* Documented here: <https://remood.org> (Down as of 2014-06-17) -- link at bottom of page
+	* Documented here: <http://remood.org> ([A](https://archive.today/KI4dQ)) -- link at bottom of page
 
 * **RiseUp**
 	* Documented here: <https://www.riseup.net/en/tor#riseups-tor-hidden-services> ([A](https://archive.today/rmKwd)) -- All hidden services they offer are listed here. For the sake of trying to keep this page as streamlined as possible, we ask you refer here for all of RiseUp's services.

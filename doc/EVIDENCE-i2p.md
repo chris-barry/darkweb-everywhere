@@ -31,7 +31,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <http://cosign.co.in/faq/#I2P> ([A](https://archive.today/gjglk))
 
 * **Haste**
-	* Documented here: <https://haste.ch> (Down as of 2014-06-17) - linked on the main page
+	* Documented here: <https://haste.ch> ([A](https://web.archive.org/web/20130627044558/https://haste.ch)) - linked on the main page
 
 * **img.bi**
 	* Documented here: <https://img.bi> ([A](https://archive.today/Bwo1T)) - linked on the main page
