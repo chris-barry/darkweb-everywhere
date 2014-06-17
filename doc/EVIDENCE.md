@@ -131,7 +131,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <http://echelon2.org/wiki/Main_Page> ([A](https://archive.today/XyL35)) - linked on the main page
 
 * **QuackQuackGo Searx**
-	*Documented here: <https://quackquackgo.nl> ([A](https://archive.today/YBq4M)) - linked on the main page
+	* Documented here: <https://quackquackgo.nl> ([A](https://archive.today/YBq4M)) - linked on the main page
 
 * **Remood**
 	* Documented here: <http://remood.org> ([A](https://archive.today/KI4dQ)) -- link at bottom of page
