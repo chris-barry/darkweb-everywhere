@@ -9,22 +9,22 @@ Everyone is encouraged to add more evidence!
 * Ideally, each domain should have multiple sources confirming that each hidden service is legitimate.
 
 ## The Links
-Links marked with "TODO" are links that have not been proven as the hidden version of a clearnet site. 
+Links marked with "TODO" are links that have not been proven as the hidden version of a clearnet site.
 
 * **Aaron Swartz's Blog**
 	* Documented here: TODO
 
 * **Ahmia**
-	* Documented here: <https://ahmia.fi/search/> - link on main page of site
+	* Documented here: <https://ahmia.fi/search/> ([A](https://archive.today/tvW1E))   - link on main page of site
 
 * **Altera Praxis**
 	* Documented here: TODO
 
 * **Anarplex**
-	* Documented here: <http://anarplex.net/> - linked right on main page of site
+	* Documented here: <http://anarplex.net/> ([]()) - linked right on main page of site
 
 * **Anoncoin**
-	* Documented here: <https://anoncoin.net/index.php/get-in-touch>
+	* Documented here: <https://anoncoin.net/index.php/get-in-touch> ([]())
 
 * **Autistici**
 	* Documented here: <http://www.autistici.org/de/stuff/man_anon/tor.html>.
