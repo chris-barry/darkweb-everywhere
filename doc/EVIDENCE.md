@@ -101,7 +101,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://infotomb.com> ([A](https://archive.today/pKoPU)) - linked on the main page
 
 * **Kognitionskyrkan**
-	* Documented here:<http://kognitionskyrkan.nu/1.0/> ([A](https://archive.today/GJH5m))
+	* Documented here: <http://kognitionskyrkan.nu/1.0/> ([A](https://archive.today/GJH5m))
 
 * **Mail2Tor**
 	* Documented here: <http://mail2tor.com/> ([A](https://archive.today/6m2uI)) - linked on the main page
