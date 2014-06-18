@@ -16,7 +16,7 @@ By having the hidden service loaded instead of the clearnet URL, you make your e
 ## How can I trust you?
 
 In the files [doc/EVIDENCE.md](doc/EVIDENCE.md) and [doc/EVIDENCE-i2p.md](doc/EVIDENCE-i2p.md) you can find the source where each address is documented.
-If there is no source for the site, the rule will default to off until proper documentation is found.
+If there is no proof for the address, the rule will stay under unverified-rules folder until proper documentation is found.
 The code and commit history are also freely available for anyone to audit.
 
 If you see any discrepancies please make it known by filing an issue.
