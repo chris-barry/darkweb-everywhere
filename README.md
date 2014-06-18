@@ -15,7 +15,7 @@ By having the hidden service loaded instead of the clearnet URL, you make your e
 
 ## How can I trust you?
 
-In the file, `doc/EVIDENCE.md` is a source of where each site is documented to be found.
+In the files [doc/EVIDENCE.md](doc/EVIDENCE.md) and [doc/EVIDENCE-i2p.md](doc/EVIDENCE-i2p.md) you can find the source where each address is documented.
 If there is no source for the site, the rule will default to off until proper documentation is found.
 The code and commit history are also freely available for anyone to audit.
 
