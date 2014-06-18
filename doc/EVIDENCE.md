@@ -106,6 +106,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Mail2Tor**
 	* Documented here: <http://mail2tor.com/> ([A](https://archive.today/6m2uI)) - linked on the main page
 
+* **Mailtor**
+	* Documented here: <https://en.wikipedia.org/wiki/Mailtor> ([A](https://archive.today/HBape))
+
 * **Maxima Culpa**
 	* Documented here: <http://maximaculpa.me/sin/365/> ([A](https://archive.today/v0mT4))
 
