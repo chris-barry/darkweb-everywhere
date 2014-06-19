@@ -1,0 +1,5 @@
+<ruleset name="OnionUp? Onion">  
+	<target host="onionup.com" />
+	<target host="www.onionup.com" />
+	<rule from="^https?://(www\.)?onionup\.com/" to="http://onionuptst6up7n2.onion/" />
+</ruleset>

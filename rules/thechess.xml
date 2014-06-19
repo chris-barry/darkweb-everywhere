@@ -1,0 +1,7 @@
+<ruleset name="TheChess Onion">
+	<target host="thechess.ru" />
+	<target host="www.thechess.ru" />
+	<target host="thechessru.tk" />
+	<target host="www.thechessru.tk" />
+	<rule from="^https?://(www\.)?(thechess\.ru|thechessru\.tk)/" to="http://theches3nacocgsc.onion/" />
+</ruleset>

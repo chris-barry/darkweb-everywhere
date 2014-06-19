@@ -1,0 +1,5 @@
+<ruleset name="Thunder's Place Onion">
+	<target host="thundersplace.org" />
+	<target host="www.thundersplace.org" />
+	<rule from="^https?://(www\.)?thundersplace\.org/" to="http://djmrwe2r45qf5bjj.onion/" />
+</ruleset>
