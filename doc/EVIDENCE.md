@@ -70,7 +70,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **brmlab**
 	* Documented here: <https://www.brmlab.cz/project/tor> ([A](https://archive.today/VMWKf))
 
-* **brmlab**
+* **btcmix**
 	* Documented here: <http://btcmix.me/> ([A](https://archive.today/UGpfv))
 
 * **Bugged Planet**
