@@ -12,13 +12,13 @@ Everyone is encouraged to add more evidence!
 Links marked with "TODO" are links that have not been proven as the hidden version of a clearnet site.
 
 * **Aaron Swartz's Blog**
-	* Documented here: TODO
+	* Documented here: Could not verify yet, but included due to low risk.
 
 * **Ahmia**
 	* Documented here: <https://ahmia.fi/search/> ([A](https://archive.today/tvW1E)) - linked on the main page
 
 * **Altera Praxis**
-	* Documented here: TODO
+	* Documented here: Could not verify yet, but included due to low risk.
 
 * **Anarplex**
 	* Documented here: <http://anarplex.net/> ([A](https://archive.today/8isNe)) - linked on the main page
@@ -47,6 +47,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Bluecabinet**
 	* Documented here: <https://bluecabinet.info/wiki/Main_Page#Connecting_to_this_wiki> ([A](https://archive.today/JniQ7))
+
+* **Bluish Coder**
+	* Documented here: <http://bluishcoder.co.nz> ([A](https://archive.today/lR9nt))
 
 * **Braithwaite Corp**
 	* Documented here: <https://braithwaitecorp.com> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="k5ju4uizh5v326jr.onion">`.
@@ -122,7 +125,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://mike.tig.as> ([A](https://archive.today/n8Li9))
 
 * **Moral.nu**
-	* Documented here: TODO
+	* Documented here: Could not verify yet, but included due to low risk.
 
 * **Mylesb.ca**
 	* Documented here: <https://mylesb.ca> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="27rbn47kt7aurbyo.onion">`
@@ -179,6 +182,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **The Pirate Bay**
 	* Documented here: <http://proxybay.info/alternate-methods.html#TOR> ([A](https://archive.today/3MYE9))
 	* Also on Twitter: <https://twitter.com/tpbdotorg/status/203221129513545729> ([A](https://archive.today/Fcjgu))
+
+* **tor2tcp**
+	* Documented here: <https://poum.niij.org> ([A](https://archive.today/bSJ8w))
 
 * **tor2web**
 	* Documented: <https://tor2web.org>

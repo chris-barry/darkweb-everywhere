@@ -1,0 +1,15 @@
+<ruleset name="i2p Eepsite">
+	<target host="i2p2.de" />
+	<target host="www.i2p2.de" />
+	<target host="trac.i2p2.de" />
+	<target host="geti2p.net" />
+	<target host="www.geti2p.net" />
+	<target host="geti2p.com" />
+	<target host="www.geti2p.com" />
+	<target host="i2pproject.net" />
+	<target host="www.i2pproject.net" />
+	<target host="i2p-projekt.de" />
+	<target host="www.i2p-projekt.de" />
+	<rule from="^https?://(www\.)?(i2p2\.de|geti2p\.net|geti2p\.com|i2pproject\.net|i2p-projekt\.de)/" to="http://i2p-projekt.i2p/" />
+	<rule from="^https?://trac\.i2p2\.de/" to="http://trac.i2p2.i2p/" />
+</ruleset>

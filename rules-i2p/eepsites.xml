@@ -1,0 +1,5 @@
+<ruleset name="eepSites Eepsite">
+	<target host="eepsites.com" />
+	<target host="www.eepsites.com" />
+	<rule from="^https?://(www\.)?eepsites\.com/" to="http://eepsites.i2p/" />
+</ruleset>
