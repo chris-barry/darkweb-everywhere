@@ -50,6 +50,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Parazite**
 	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - link at bottom of page
 
+* **Shadow Life**
+	* Documented here: <http://shadowlife.cc/2013/02/reaching-us-247/> ([A](https://archive.today/6wqCE))
+
 * **Sigterm**
 	* Documented here: <https://sigterm.no> ([A](https://archive.today/N83uK))
 
