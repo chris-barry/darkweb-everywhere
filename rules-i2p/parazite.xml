@@ -1,5 +1,9 @@
 <ruleset name="Parazite Eepsite">
 	<target host="parazite.pp.fi" />
 	<target host="www.parazite.pp.fi" />
-	<rule from="^https?://(www\.)?parazite\.pp\.fi/" to="http://loinen.i2p/" />
+	<target host="parazite.nn.fi" />
+	<target host="www.parazite.nn.fi" />
+	<target host="parazite.fi" />
+	<target host="www.parazite.fi" />
+	<rule from="^https?://(www\.)?parazite(\.pp|\.nn)?\.fi/" to="http://loinen.i2p/" />
 </ruleset>

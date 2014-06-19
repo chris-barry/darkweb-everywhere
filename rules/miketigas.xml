@@ -1,0 +1,4 @@
+<ruleset name="Mike Tigas Onion">
+	<target host="mike.tig.as" />
+	<rule from="^https?://mike\.tig\.as/" to="http://tigas3l7uusztiqu.onion/" />
+</ruleset>
