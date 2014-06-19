@@ -103,6 +103,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **Kognitionskyrkan**
 	* Documented here: <http://kognitionskyrkan.nu/1.0/> ([A](https://archive.today/GJH5m))
 
+* **Lelantos**
+	* Documented here: <https://axablends.com/merchants-accepting-bitcoin/email-security/alternatives-to-tormail/> ([A](https://archive.today/NjsVh))
+
 * **Mail2Tor**
 	* Documented here: <http://mail2tor.com/> ([A](https://archive.today/6m2uI)) - linked on the main page
 
@@ -115,6 +118,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 * **MediaCrush**
 	* Documented here: <https://mediacru.sh> ([A](https://archive.today/lg1IM)) - linked on the main page
 
+* **Mike Tigas**
+	* Documented here: <https://mike.tig.as> ([A](https://archive.today/n8Li9))
+
 * **Moral.nu**
 	* Documented here: TODO
 
@@ -126,6 +132,13 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **One Time Dead Drop**
 	* Documented here: <http://dead-drop.me> ([A](https://archive.today/6gHrR)) - linked on the main page
+
+* **OnionMail**
+	* Documented here: <https://github.com/onionmail/onionmail> ([A](https://archive.today/yCUmh))
+
+* **OnionMail.in**
+	* Documented here: <http://pastebin.com/AkpRxL3N> ([A](https://archive.today/4xCK2)) - This is a copy of hidden wiki addresses from around the time the service was launched, the same link is still in hidden wikis.
+	* And here: <http://www.wilderssecurity.com/threads/what-are-some-good-anonymous-email-services.347978/> ([A](https://archive.today/VTBA8))
 
 * **Parazite**
 	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - links at bottom of page
@@ -150,6 +163,9 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 
 * **Scott Arciszewski's Blog**
 	* Documented Here: <https://scott.arciszewski.me/blog/2014/03/tor-hidden-service> ([A](https://archive.today/AhJhn))
+
+* **SIGAINT**
+	* Documented here: <http://sigaint.org> ([A](https://archive.today/70rSq))
 
 * **Sigterm**
 	* Documented here: <https://sigterm.no> ([A](https://archive.today/N83uK))
