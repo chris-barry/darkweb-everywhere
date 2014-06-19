@@ -12,13 +12,13 @@ Everyone is encouraged to add more evidence!
 Links marked with "TODO" are links that have not been proven as the hidden version of a clearnet site.
 
 * **Aaron Swartz's Blog**
-	* Documented here: TODO
+	* Documented here: Could not verify yet, but included due to low risk.
 
 * **Ahmia**
 	* Documented here: <https://ahmia.fi/search/> ([A](https://archive.today/tvW1E)) - linked on the main page
 
 * **Altera Praxis**
-	* Documented here: TODO
+	* Documented here: Could not verify yet, but included due to low risk.
 
 * **Anarplex**
 	* Documented here: <http://anarplex.net/> ([A](https://archive.today/8isNe)) - linked on the main page
@@ -125,7 +125,7 @@ Links marked with "TODO" are links that have not been proven as the hidden versi
 	* Documented here: <https://mike.tig.as> ([A](https://archive.today/n8Li9))
 
 * **Moral.nu**
-	* Documented here: TODO
+	* Documented here: Could not verify yet, but included due to low risk.
 
 * **Mylesb.ca**
 	* Documented here: <https://mylesb.ca> -- The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="27rbn47kt7aurbyo.onion">`
