@@ -1,5 +1,4 @@
 <ruleset name="Jeremy Visser Onion">
-	<target host="infotomb.com" />
 	<target host="jeremy.visser.name" />
 	<rule from="^https?://jeremy\.visser\.name/" to="http://2zcjxgh6xq4o3uvl.onion/" />
 </ruleset>
