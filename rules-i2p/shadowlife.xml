@@ -1,0 +1,5 @@
+<ruleset name="Shadow Life Eepsite">
+	<target host="shadowlife.cc" />
+	<target host="www.shadowlife.cc" />
+	<rule from="^https?://(www\.)?shadowlife\.cc/" to="http://shadowlife.i2p/" />
+</ruleset>

@@ -1,0 +1,5 @@
+<ruleset name="Incal Onion">
+	<target host="incal.net" />
+	<target host="www.incal.net" />
+	<rule from="^https?://(www\.)?incal\.net/" to="http://ykvclvmhmguhesvi.onion/" />
+</ruleset>

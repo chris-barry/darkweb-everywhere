@@ -1,0 +1,5 @@
+<ruleset name="We Fight Censorship Onion">
+	<target host="wefightcensorship.org" />
+	<target host="www.wefightcensorship.org" />
+	<rule from="^https?://(www\.)?wefightcensorship\.org/" to="http://3kyl4i7bfdgwelmf.onion/" />
+</ruleset>

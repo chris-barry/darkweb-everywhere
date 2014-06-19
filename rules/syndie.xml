@@ -1,0 +1,7 @@
+<ruleset name="Syndie Onion">
+	<target host="syndie.de" />
+	<target host="www.syndie.de" />
+	<target host="syndie.i2p2.de" />
+	<target host="syndie.i2p-projekt.de" />
+	<rule from="^https?://(www\.)?syndie(\.i2p2|\.i2p-projekt)?\.de/" to="http://syndielzlvbxdsah.onion/" />
+</ruleset>
