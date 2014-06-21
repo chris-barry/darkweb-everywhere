@@ -1,5 +1,0 @@
-<ruleset name="Zerobin Eepsite" default_off="https://www.zerobin.net/?ddc50cfb20e1b391#XAehNxXzjyYxO2mHedOX7B64n9XliI4gk6pt8C/zUuA= - Admin says the eepsite isn't theirs.">
-	<target host="zerobin.net" />
-	<target host="www.zerobin.net" />
-	<rule from="^https?://(www\.)?zerobin\.net/" to="http://zerobin.i2p/" />
-</ruleset>
