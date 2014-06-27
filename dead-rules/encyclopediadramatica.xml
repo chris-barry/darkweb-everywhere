@@ -1,4 +1,4 @@
-<ruleset name="Encyclopedia Dramatica Onion" default_off="Was not able to load as of 2014-05-02.">
+<ruleset name="Encyclopedia Dramatica Onion" >
 	<target host="encyclopediadramatica.es" />
 	<target host="www.encyclopediadramatica.es" />
 	<rule from="^https?://(www\.)?encyclopediadramatica\.es/" to="http://edramalpl7oq5npk.onion/" />
