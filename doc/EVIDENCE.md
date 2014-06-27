@@ -241,6 +241,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Rayservers**
 	* Documented here: <http://www.rayservers.com/e-mail> ([A](https://archive.today/M4rd3))
 
+* **RazorCoin**
+	* Documented here: <https://twitter.com/TheRazorCoin/status/481558030891233282> ([A](https://archive.today/UCgwN))
+
 * **Remood**
 	* Documented here: <http://remood.org> ([A](https://archive.today/KI4dQ)) -- link at bottom of page
 
