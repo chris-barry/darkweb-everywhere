@@ -160,7 +160,8 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <http://www.incal.net/> ([A](https://archive.today/oEWMo))
 
 * **Independent Media Center Keyserver**
-	* Documented here: <https://en.wikipedia.org/wiki/List_of_Tor_hidden_services> - This is the only documentation I was able to find after several searches, so I'm leaving the default as off for now. (2014-05-02)
+	* Documented here: <https://linksunten.indymedia.org/es/system/files/data/2013/06/1814659631.pdf> ([A](https://archive.today/yZdgd))
+	* Also documented here: <https://en.wikipedia.org/wiki/List_of_Tor_hidden_services>
 
 * **img.bi**
 	* Documented here: <https://img.bi> ([A](https://archive.today/Bwo1T)) - linked on the main page
