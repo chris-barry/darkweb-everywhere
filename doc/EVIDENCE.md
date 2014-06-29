@@ -333,6 +333,10 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **WikiLeaks**
 	* Most likely an unofficial mirror.
 
+* **WildLeaks**
+	* If you load <https://secure.wildleaks.org> in the tor browser bundle, you will be automatically redirected.
+	  Even without darkweb-everywhere.
+
 * **Wow, Much Pool!**
 	* Documented here: <http://www.wowmuchpool.com/static/gettingstarted.html> ([A](https://archive.today/kabtQ))
 
