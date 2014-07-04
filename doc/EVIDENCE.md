@@ -172,6 +172,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Jeremy Visser**
 	* Documented here: <https://jeremy.visser.name/> ([A](https://archive.today/7Rrp1)) - linked on the main page
 
+* **Kavkaz Center**
+	* Documented here: TODO
+
 * **Kognitionskyrkan**
 	* Documented here: <http://kognitionskyrkan.nu/1.0/> ([A](https://archive.today/GJH5m))
 
