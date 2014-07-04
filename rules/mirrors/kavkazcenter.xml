@@ -5,5 +5,5 @@
 	<target host="kavkazcenter.com" />
 	<target host="kavkazcenter.net" />
 	<target host="kavkazcenter.info" />
-	<rule from="^https?://kavkaz(\.tv|\.org.uk|news\.com|center\.com|center.\net|center\.info/)" to="http://2r2tz6wzqh7gaji7.onion/" />
+	<rule from="^https?://kavkaz(\.tv|\.org\.uk|news\.com|center\.com|center\.net|center\.info)/" to="http://2r2tz6wzqh7gaji7.onion/" />
 </ruleset>
