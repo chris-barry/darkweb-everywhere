@@ -173,7 +173,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <https://jeremy.visser.name/> ([A](https://archive.today/7Rrp1)) - linked on the main page
 
 * **Kavkaz Center**
-	* Documented here: TODO
+	* Documented here: <http://www.kavkazcenter.com/eng/content/2012/06/20/16355.shtml> ([A](https://archive.today/3etBo))
 
 * **Kognitionskyrkan**
 	* Documented here: <http://kognitionskyrkan.nu/1.0/> ([A](https://archive.today/GJH5m))
