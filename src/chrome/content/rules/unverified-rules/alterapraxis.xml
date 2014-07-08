@@ -1,0 +1,5 @@
+<ruleset name="Altera Praxis Onion">
+	<target host="alterapraxis.com" />
+	<target host="www.alterapraxis.com" />
+	<rule from="^https?://(www\.)?alterapraxis\.com/" to="http://ncivdawfxihoh7sj.onion/" />
+</ruleset>

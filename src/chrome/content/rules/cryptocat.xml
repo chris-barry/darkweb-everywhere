@@ -1,0 +1,5 @@
+<ruleset name="Cryptocat Onion">
+	<target host="crypto.cat" />
+	<target host="www.crypto.cat" />
+	<rule from="^https?://(www\.)?crypto\.cat/" to="http://catmeow2zuqpkpyw.onion/" />
+</ruleset>

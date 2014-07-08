@@ -1,0 +1,5 @@
+<ruleset name="Anarplex Onion">
+	<target host="anarplex.net" />
+	<target host="www.anarplex.net" />
+	<rule from="^https?://(www\.)?anarplex\.net/" to="http://y5fmhyqdr6r7ddws.onion/" />
+</ruleset>
