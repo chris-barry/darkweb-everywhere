@@ -4,6 +4,10 @@ Copyright © 2010-2012 Mike Perry <mikeperry@fscked.org>
                       and many others
                       (Licensed GPL v2+)
 
+Incorporating code from Darkweb-everwhere,
+Copyright 2014-2014 Darkweb Everywhere Project https://github.com/chris-barry/darkweb-everywhere
+Licensed GPL v2+
+
 Incorporating code from NoScript,
 Copyright © 2004-2007 Giorgio Maone <g.maone@informaction.com>
 Licensed GPL v2+
