@@ -45,7 +45,6 @@
 	<target host="bay.ben-smith.org" />
 	<target host="thepiratebay.torrentnerd.com" />
 	<target host="tpb.mygw.se" />
-	<target host="tpb.mygw.se" />
 	<target host="tpb.li" />
 	<target host="www.tpb.li" />
 	<target host="tpb.evil.org.pl" />
@@ -62,8 +61,6 @@
 	<target host="www.tbp.proxybay.us" />
 	<target host="torrentfusion.com" />
 	<target host="www.torrentfusion.com" />
-	<target host="bayproxy.me" />
-	<target host="www.bayproxy.me" />
 	<target host="tpbproxy.me" />
 	<target host="www.tpbproxy.me" />
 	<target host="tpb.sytes.net" />
@@ -97,7 +94,6 @@
 	<target host="www.baymirror.com" />
 	<target host="tpb.pusic.si" />
 	<target host="www.tpb.pusic.si" />
-	<target host="tpb.marcsi.ch" />
 	<target host="tpb.kleisauke.nl" />
 	<target host="www.tpb.kleisauke.nl" />
 	<target host="tpbproxy.net" />
@@ -125,8 +121,6 @@
 	<target host="www.mypiratebay.cl" />
 	<target host="tpb.pirates.ie" />
 	<target host="tpb.5gg.biz" />
-	<target host="pirateshit.com" />
-	<target host="www.pirateshit.com" />
 	<target host="vemium.com" />
 	<target host="www.vemium.com" />
 	<target host="piraattilahti.org" />
@@ -150,7 +144,7 @@
 	<target host="tpb.tv-shuffle.ch" />
 	<target host="proxybay.net" />
 	<target host="www.proxybay.net" />
-	<target host="chuta.org/tpb" />
+	<!--<target host="chuta.org/tpb" />-->
 	<target host="campeche.zapto.org" />
 	<target host="www.campeche.zapto.org" />
 	<target host="tpb.ninja.so" />
