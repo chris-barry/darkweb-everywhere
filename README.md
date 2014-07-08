@@ -1,101 +1,87 @@
-HTTPS Everywhere
-================
+# Darkweb Rulesets
 
-Source Tree
------------
+Darkweb-Everywhere is a collection of rulesets for [HTTPS Everywhere][0] which will redirect you to the hidden service equivalent.
+For these rulesets to really work, you should be using the [Tor Browser Bundle][1].
 
-This is the source tree for HTTPS Everywhere for Firefox and Chrome.
+An example of this would be:
+* <https://duckduckgo.com> will be redirected to <http://3g2upl4pq6kufc4m.onion>.
+* <https://3g2upl4pq6kufc4m.tor2web.org> will be redirected to <http://3g2upl4pq6kufc4m.onion>.
 
-Important directories you might want to know about
+## Why is this needed?
 
-    src/                      The Firefox source
+Due to the way Tor works, when you connect to sites which are not hidden services you must connect through an exit node.
+This exit node is able to see which sites are being connected to.
+By having the hidden service loaded instead of the clearnet URL, you make your entire connection without leaving the Tor network.
 
-    chromium/                 The Chromium/Chrome source
-                              (not to be confused with Firefox browser "chrome" or UI)
+## How can I trust you?
 
-    src/components            |
-    src/chrome/content        | Firefox JavaScript and XUL code
-    src/chrome/content/code   |
+In the files [doc/EVIDENCE.md](doc/EVIDENCE.md) and [doc/EVIDENCE-i2p.md](doc/EVIDENCE-i2p.md) you can find the source where each address is documented.
+If there is no proof for the address, the rule will stay under unverified-rules folder until proper documentation is found.
+The code and commit history are also freely available for anyone to audit.
 
-    src/chrome/content/rules  The rulesets live here
+If you see any discrepancies please make it known by filing an issue.
 
+## Installation
 
-Installing Dependencies in Debian or Ubuntu
--------------------------------------------
+### Unix-like
 
-    sudo apt-get install python-lxml python-libxml2 libxml2-utils sqlite3 zip
+0. Have Tor Browser Bundle installed.
+1. Clone this repo locally using, `git clone https://github.com/chris-barry/darkweb-everywhere.git`.
+2. Run, `bin/install.sh`.
+3. Restart the Tor Browser Bundle if it was already running.
+4. Done.
 
-Installing Dependencies in Mac OS X
------------------------------------
+### Windows
 
-We recommend Mac users install dependencies using Homebrew:
-http://mxcl.github.io/homebrew/
+0. Have Tor Browser Bundle installed.
+1. Download the [zip file][2] of this project.
+2. Copy all the `.xml` files from `darkweb-everywhere/rules` to `%PATH_TO_TOR%/tor-browser_en-US/Data/Browser/profile.default/HTTPSEverywhereUserRules/`.
+	* `%PATH_TO_TOR%` is assumed to be the directory where Tor is installed.
+3. Restart the Tor Browser Bundle if it was already running.
+4. Done.
 
-Once you have Homebrew and Xcode installed, run this to install HTTPS Everywhere dependencies.
+## Contributing
 
-    brew install python libxml2 gnu-sed
+Before you begin, make sure you check out [HTTPSEverywhere's excellent guide][3] on how to write rulesets.
 
-Homebrew puts python in /usr/local/bin, but the python that comes with OS X is in /usr/bin. In order to use homebrew's version of python and pip you must change the order of your path so that /usr/local/bin comes before /usr/bin. This command will force your path to start with /usr/local/bin:
+1. Find a site with a dual setup.
+2. Find evidence that the hidden service is hosted, or endorsed by the correct people.
+3. Add your evidence to `doc/EVIDENCE.md` or `doc/EVIDENCE-i2p.md`.
+4. Write your ruleset, and place it in `rules/` or `rules-i2p/`.
+5. Test twice.
+6. Commit and push.
 
-    echo PATH=/usr/local/bin:$PATH >> ~/.profile
+### For Rulesets
 
-After running this close your terminal and then open it again. Then install lxml using pip.
+Make sure to append the name with "Onion" or "Eepsite", depending on which network the site is hosted on.
 
-    pip install lxml
+For example:
+* `<ruleset name="Example Onion/>"`
+* `<ruleset name="Example Eepsite/>"`
 
-Hacking on the Source Code
---------------------------
+### For Evidence
 
-Please work off of the "3.5" branch if you're submitting changes to the latest stable release and use "master" if you're submitting changes to the latest development release.
+In order to make sure all of the clearnet to hidden mappings are correct, proper evidence is required.
+Proper evidence can consist of:
 
-### Writing rulesets
+* A link on the clearnet site.
+* A tag in the HTML similar to `<link rel="x-tor-hidden-service" href="sweetsite.onion">`.
+* A signed email from the owner of the site saying it is real.
+* A link on Twitter by the verified site owner saying so.
 
-HTTPS Everywhere consists of a large number of rules for switching sites from HTTP to HTTPS. You can read more about how to write these rules here: https://www.eff.org/https-everywhere/rulesets
+The above is not exhaustive or absolute.
+Many other methods can be accepted, assuming they are reasonable to the maintainers.
+If there is no definitive proof, the rule should be set to default to off with the tag `default_off="No proof."`.
+If possible, please give a brief reason as to why the rule is disabled.
 
-If you want to create new rules to submit to us, we expect them to be in the src/chrome/content/rules directory. That directory also contains a useful script, make-trivial-rule, to create a simple rule for a specified domain. There is also a script called trivial-validate.py, to check all the pending rules for several common errors and oversights. For example, if you wanted to make a rule for the example.com domain, you could run
+If the rule cannot be verified, please place the `.xml` file in the `unverified-rules` folder.
+The reason for this is to actively discourage users from using those rulesets.
 
-    sh ./make-trivial-rule example.com
+## Disclaimer
 
-inside the rules directory. This would create Example.com.xml, which you could then take a look at and edit based on your knowledge of any specific URLs at example.com that do or don't work in HTTPS. You could then run
+I do not vouch for, endorse, or disapprove of any of these sites, I just supply these so everyone has more privacy. 
 
-    python ../../../../utils/trivial-validate.py
-
-to make sure that your rule is free of common mistakes.
-
-### Writing translations
-
-If you would like to help translate HTTPS Everywhere into another language, you can do that through Transifex: https://www.transifex.com/projects/p/torproject/resources/.
-
-### Bug trackers and mailing lists
-
-We currently have two bug trackers. The one on Github (https://github.com/EFForg/https-everywhere/issues) is recommended because it gets checked more frequently and has a friendlier user interface. The one on trac.torproject.org (https://trac.torproject.org/projects/tor/report/19) has a large backlog of bugs at this point, but it has the advantage of allowing you to post bugs anonymously using the "cypherpunks" or "writecode" account. (Note that you won't see replies unless you put an email address in the CC field.)
-
-We have two publicly-archived mailing lists: the https-everywhere list (https://lists.eff.org/mailman/listinfo/https-everywhere) is for discussing the project as a whole, and the https-everywhere-rulesets list (https://lists.eff.org/mailman/listinfo/https-everywhere-rules) is for discussing the rulesets and their contents, including patches and git pull requests.
-
-Build Instructions
-------------------
-
-To build the Firefox version go to the git repository root and run:
-
-    ./makexpi.sh
-
-To build the Chrome version go to the git repository root and run:
-
-    ./makecrx.sh
-
-After building the extension the xpi files (for Firefox) and crx files (for Chrome) get created in the pkg directory. You can open those files within your browser to install the browser extension.
-
-Ruleset Tests
--------------
-
-You can run ruleset tests by opening `about:config` and changing `extensions.https_everywhere.show_ruleset_tests` to true. Now when you open the HTTPS Everywhere context menu there will be a "Run HTTPS Everywhere Ruleset Tests" menu item.
-
-When you run the tests, be prepared to let your computer run them for a really long time.
-
-Precommit Testing
------------------
-
-One can run the available test suites automatically by enabling the precommit
-hook provided with:
-
-    ln -s ../../hooks/precommit .git/hooks/pre-commit
+[0]: https://www.eff.org/https-everywhere "HTTPS Everywhere"
+[1]: https://www.torproject.org/projects/torbrowser.html.en "The Tor Browser Bundle"
+[2]: https://github.com/chris-barry/darkweb-everywhere/archive/master.zip
+[3]: https://www.eff.org/https-everywhere/rulesets "HTTPS Everywhere Rulesets"
