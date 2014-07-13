@@ -1,0 +1,5 @@
+<ruleset name="Forbes Safesource Onion">
+	<target host="safesource.forbes.com" />
+	<rule from="^https?://safesource\.forbes\.com/" to="http://bczjr6ciiblco5ti.onion/" />
+</ruleset>
+
