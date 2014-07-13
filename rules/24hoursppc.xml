@@ -1,0 +1,5 @@
+<ruleset name="24hoursppc Onion">
+	<target host="24hoursppc.org" />
+	<target host="www.24hoursppc.org" />
+	<rule from="^https?://(www\.)?24hoursppc\.org/" to="http://do7dt6vuskgrz3sa.onion/" />
+</ruleset>

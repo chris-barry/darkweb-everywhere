@@ -1,0 +1,5 @@
+<ruleset name="CoSign Coin Eepsite">
+	<target host="cosign.co.in" />
+	<target host="www.cosign.co.in" />
+	<rule from="^https?://(www\.)?cosign\.co\.in/" to="http://cosigncoin.i2p/" />
+</ruleset>

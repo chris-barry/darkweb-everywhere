@@ -1,0 +1,6 @@
+<ruleset name="Anonet Onion">
+	<target host="anonet2.biz" />
+	<target host="www.anonet2.biz" />
+	<target host="irc.anonet2.biz" />
+	<rule from="^https?://(www\.|irc\.)?anonet2\.biz/" to="http://xz2rtmpjjwvdw44p.onion/" />
+</ruleset>

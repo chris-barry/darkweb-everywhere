@@ -1,0 +1,7 @@
+<ruleset name="Exposed Onion">
+	<target host="exposed.su" />
+	<target host="www.exposed.su" />
+	<target host="exposed.re" />
+	<target host="www.exposed.re" />
+	<rule from="^https?://(www\.)?exposed\.(su|re)/" to="http://exposed36mq3ns23.onion/" />
+</ruleset>

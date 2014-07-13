@@ -1,0 +1,5 @@
+<ruleset name="InfoTomb Onion">
+	<target host="infotomb.com" />
+	<target host="www.infotomb.com" />
+	<rule from="^https?://(www\.)?infotomb\.com/" to="http://infotombjhy7tcrg.onion/" />
+</ruleset>

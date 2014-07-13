@@ -1,0 +1,5 @@
+<ruleset name="Moral.nu Onion">
+	<target host="moral.nu" />
+	<target host="www.moral.nu" />
+	<rule from="^https?://(www\.)?moral\.nu/" to="http://fcnwebggxt2d3h64.onion/" />
+</ruleset>

@@ -1,0 +1,5 @@
+<ruleset name="Vanderson o Nerd Onion">
+	<target host="vandersonnerd.blogspot.com" />
+	<target host="www.vandersonnerd.blogspot.com" />
+	<rule from="^https?://(www\.)?vandersonnerd\.blogspot\.com/" to="http://kk2l4z3y3ukeryow.onion/" />
+</ruleset>

@@ -1,0 +1,6 @@
+<ruleset name="Rayservers Onion">
+	<target host="mail.rayservers.com" />
+	<target host="roundcube.rayservers.com" />
+	<target host="altmail.rayservers.com" />
+	<rule from="^https?://(mail|roundcube|altmail)\.rayservers\.com/" to="https://nmf6cg7tiyqlhsg3.onion/" />
+</ruleset>

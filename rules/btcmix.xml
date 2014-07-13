@@ -1,0 +1,5 @@
+<ruleset name="btcmix Onion">
+	<target host="btcmix.me" />
+	<target host="www.btcmix.me" />
+	<rule from="^https?://(www\.)?btcmix\.me/" to="http://m2cylfgiecnncc6f.onion/" />
+</ruleset>

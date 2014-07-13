@@ -1,0 +1,5 @@
+<ruleset name="Bluish Coder Onion">
+	<target host="bluishcoder.co.nz" />
+	<target host="www.bluishcoder.co.nz" />
+	<rule from="^https?://(www\.)?bluishcoder\.co\.nz/" to="http://mh7mkfvezts5j6yu.onion/" />
+</ruleset>

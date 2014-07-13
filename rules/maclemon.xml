@@ -1,0 +1,5 @@
+<ruleset name="MacLemon Onion">
+	<target host="maclemon.at" />
+	<target host="www.maclemon.at" />
+	<rule from="^https?://(www\.)?maclemon\.at/" to="http://fzybdgczph7xfdnr.onion/" />
+</ruleset>

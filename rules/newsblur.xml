@@ -1,0 +1,5 @@
+<ruleset name="NewsBlur Onion">
+	<target host="newsblur.com" />
+	<target host="www.newsblur.com" />
+	<rule from="^https?://(www\.)?newsblur\.com/" to="http://vysoofjtouvo2bl3.onion/" />
+</ruleset>

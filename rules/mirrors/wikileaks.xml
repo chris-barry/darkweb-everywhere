@@ -1,0 +1,7 @@
+<ruleset name="WikiLeaks Onion">
+	<target host="wikileaks.org" />
+	<target host="www.wikileaks.org" />
+	<target host="wikileaks.ch" />
+	<target host="www.wikileaks.ch" />
+	<rule from="^https?://(www\.)?wikileaks\.(org|ch)/" to="http://jwgkxry7xjeaeg5d.onion/" />
+</ruleset>

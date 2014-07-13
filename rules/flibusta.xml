@@ -1,0 +1,5 @@
+<ruleset name="Flibusta Onion">
+	<target host="flibusta.net" />
+	<target host="www.flibusta.net" />
+	<rule from="^https?://(www\.)?flibusta\.net/" to="http://flibustahezeous3.onion/" />
+</ruleset>

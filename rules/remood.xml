@@ -1,0 +1,5 @@
+<ruleset name="Remood Onion">
+	<target host="remood.org" />
+	<target host="www.remood.org" />
+	<rule from="^https?://(www\.)?remood\.org/" to="http://mqdveflunplrw4pc.onion/" />
+</ruleset>
