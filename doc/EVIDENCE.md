@@ -196,6 +196,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Maxima Culpa**
 	* Documented here: <http://maximaculpa.me/sin/365/> ([A](https://archive.today/v0mT4))
 
+* **Mayfirst Keyserver**
+	* Documented here: <https://support.mayfirst.org/ticket/5671> ([A](https://archive.today/PXj6c))
+
 * **MediaCrush**
 	* Documented here: <https://mediacru.sh> ([A](https://archive.today/lg1IM)) - linked on the main page
 

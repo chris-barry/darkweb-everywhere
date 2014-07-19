@@ -1,0 +1,4 @@
+<ruleset name="TorProject Trac Onion" default_off="Was not able to load as of 2014-03-14. Update as of 2014-05-05: https://trac.torproject.org/projects/tor/ticket/11567">
+	<target host="trac.torproject.org" />
+	<rule from="^https?://trac\.torproject\.org/" to="http://vwp5zrdfwmw4avcq.onion/" />
+</ruleset>
