@@ -31,6 +31,14 @@ If you see any discrepancies please make it known by filing an issue.
 3. Restart the Tor Browser Bundle if it was already running.
 4. Done.
 
+### Mac OS X
+
+0. Have Tor Browser Bundle installed.
+1. Clone this repo locally using, `git clone https://github.com/chris-barry/darkweb-everywhere.git`.
+2. Run, `bin/mac-install.sh`.
+3. Restart the Tor Browser Bundle if it was already running.
+4. Done.
+
 ### Windows
 
 0. Have Tor Browser Bundle installed.
