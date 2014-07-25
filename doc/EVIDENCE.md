@@ -223,6 +223,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **One Time Dead Drop**
 	* Documented here: <http://dead-drop.me> ([A](https://archive.today/6gHrR)) - linked on the main page
 
+* **OnionIndex**
+	* Documented here: <http://onionindex.com/> ([A](https://archive.today/pK4mi))
+
 * **OnionMail**
 	* Documented here: <https://github.com/onionmail/onionmail> ([A](https://archive.today/yCUmh))
 
