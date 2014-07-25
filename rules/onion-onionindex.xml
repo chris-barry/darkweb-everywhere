@@ -1,0 +1,5 @@
+<ruleset name="OnionIndex Onion">
+	<target host="onionindex.com" />
+	<target host="www.onionindex.com" />
+	<rule from="^https?://(www\.)?onionindex\.com/" to="http://onionindexcg2tsk.onion/" />
+</ruleset>
