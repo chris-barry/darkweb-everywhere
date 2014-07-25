@@ -85,6 +85,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **CB-BTC**
 	* Documented here: <http://www.newsfilesearch.com/> ([A](https://archive.today/BpJu1))
 
+* **Coinkite**
+	* Documented here: <http://blog.coinkite.com/post/92733188841/coinkite-has-an-onion-for-tor> ([A](https://archive.today/JH7m6))
+
 * **Colin Mahns' Personal Site**
 	* Documented here: <https://goatman93.no-ip.org> ([A](https://archive.today/2rV7X))
 
