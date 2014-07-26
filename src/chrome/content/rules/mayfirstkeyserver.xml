@@ -1,5 +1,0 @@
-<ruleset name="Mayfirst Keyserver Onion">
-	<target host="keys.mayfirst.org" />
-	<target host="zimmerman.mayfirst.org" />
-	<rule from="^https?://(keys|zimmerman)\.mayfirst\.org/" to="http://qdigse2yzvuglcix.onion/" />
-</ruleset>
