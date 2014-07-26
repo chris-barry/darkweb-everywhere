@@ -1,5 +1,7 @@
 <ruleset name="Flibusta Eepsite">
 	<target host="flibusta.net" />
 	<target host="www.flibusta.net" />
-	<rule from="^https?://(www\.)?flibusta\.net/" to="http://flibusta.i2p/" />
+	<target host="proxy.flibusta.net" />
+	<target host="www.proxy.flibusta.net" />
+	<rule from="^https?://(www\.|proxy\.)?flibusta\.net/" to="http://flibusta.i2p/" />
 </ruleset>

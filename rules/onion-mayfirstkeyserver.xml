@@ -2,5 +2,5 @@
 	<target host="keys.mayfirst.org" />
 	<target host="zimmerman.mayfirst.org" />
 	<target host="zimmermann.mayfirst.org" />
-	<rule from="^https?://(keys|zimmerman(n))\.mayfirst\.org/" to="http://qdigse2yzvuglcix.onion/" />
+	<rule from="^https?://(keys|zimmerma(n|nn))\.mayfirst\.org/" to="http://qdigse2yzvuglcix.onion/" />
 </ruleset>
