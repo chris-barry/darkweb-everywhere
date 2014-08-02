@@ -263,6 +263,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **RiseUp**
 	* Documented here: <https://www.riseup.net/en/tor#riseups-tor-hidden-services> ([A](https://archive.today/rmKwd)) -- All hidden services they offer are listed here. For the sake of trying to keep this page as streamlined as possible, we ask you refer here for all of RiseUp's services.
 
+* **RuggedInboc**
+	* Documented here: <https://www.ruggedinbox.com/> ([A](https://archive.today/66Pkb)) -- Link main page.
+
 * **rows.io**
 	* Documented here: <https://matt.drollette.com/> ([A](https://archive.today/2jQFQ))
 
