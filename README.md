@@ -13,6 +13,8 @@ Due to the way Tor works, when you connect to sites which are not hidden service
 This exit node is able to see which sites are being connected to.
 By having the hidden service loaded instead of the clearnet URL, you make your entire connection without leaving the Tor network.
 
+A good explanation of what Tor hidden services are and how they work can be found [here][2].
+
 ## How can I trust you?
 
 In the files [doc/EVIDENCE.md](doc/EVIDENCE.md) and [doc/EVIDENCE-i2p.md](doc/EVIDENCE-i2p.md) you can find the source where each address is documented.
@@ -42,7 +44,7 @@ If you see any discrepancies please make it known by filing an issue.
 ### Windows
 
 0. Have Tor Browser Bundle installed.
-1. Download the [zip file][2] of this project.
+1. Download the [zip file][3] of this project.
 2. Copy all the `.xml` files from `darkweb-everywhere/rules` to `%PATH_TO_TOR%/tor-browser_en-US/Data/Browser/profile.default/HTTPSEverywhereUserRules/`.
 	* `%PATH_TO_TOR%` is assumed to be the directory where Tor is installed.
 3. Restart the Tor Browser Bundle if it was already running.
@@ -50,7 +52,7 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Contributing
 
-Before you begin, make sure you check out [HTTPSEverywhere's excellent guide][3] on how to write rulesets.
+Before you begin, make sure you check out [HTTPSEverywhere's excellent guide][4] on how to write rulesets.
 
 1. Find a site with a dual setup.
 2. Find evidence that the hidden service is hosted, or endorsed by the correct people.
@@ -91,5 +93,6 @@ I do not vouch for, endorse, or disapprove of any of these sites, I just supply 
 
 [0]: https://www.eff.org/https-everywhere "HTTPS Everywhere"
 [1]: https://www.torproject.org/projects/torbrowser.html.en "The Tor Browser Bundle"
-[2]: https://github.com/chris-barry/darkweb-everywhere/archive/master.zip
-[3]: https://www.eff.org/https-everywhere/rulesets "HTTPS Everywhere Rulesets"
+[2]: https://www.youtube.com/watch?v=eAxBuckgPuU#t=17
+[3]: https://github.com/chris-barry/darkweb-everywhere/archive/master.zip
+[4]: https://www.eff.org/https-everywhere/rulesets "HTTPS Everywhere Rulesets"
