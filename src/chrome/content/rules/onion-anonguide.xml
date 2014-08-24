@@ -1,0 +1,5 @@
+<ruleset name="Anonguide Onion">
+	<target host="anonguide.cyberguerrilla.org" />
+	<target host="www.anonguide.cyberguerrilla.org" />
+	<rule from="^https?://(www\.)?anonguide\.cyberguerrilla\.org/" to="http://yuxv6qujajqvmypv.onion/" />
+</ruleset>
