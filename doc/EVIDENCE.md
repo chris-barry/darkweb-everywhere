@@ -30,6 +30,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <https://anoncoin.net/index.php/get-in-touch> ([A](https://archive.today/HjKiP))
 	* AnonLuck documented here: <http://lotto.anoncoin.net/> ([A](https://archive.today/6VsZ2))
 
+* **Anonguide**
+	* Documented here: <https://anonguide.cyberguerrilla.org/index.php?title=Main_Page> ([A](https://archive.today/ZyhWF)) - linked on the main page
+
 * **Anonet**
 	* Documented here: <http://anonet2.biz> ([A](https://archive.today/lkW0u))
 
