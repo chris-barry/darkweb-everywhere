@@ -1,0 +1,34 @@
+<!--
+	For other Gannett Company coverage, see Gannett-Company.xml.
+
+
+	Problematic domains:
+
+		- (www.)thejournalnews.com	(times out)
+		- cmsimg.thejournalnews.com	(503, akamai)
+		- (www.)lohud.com		(akamai invalid cert)
+		- (www.)thejournalnews.com	(→ www.lohud.com)
+		- cmsimg.thejournalnews.com	(→ www.lohud.com
+
+	Mixed images from:
+
+		- bcdownload.gannett.edgesuite.net
+		- www.gannett-cdn.com
+		- lohudblogs.com
+
+-->
+<ruleset name="lohud.com (partial)" platform="mixedcontent">
+
+	<target host="lohud.com" />
+	<target host="*.lohud.com" />
+	<target host="thejournalnews.com" />
+	<target host="*.thejournalnews.com" />
+
+
+	<securecookie host="^(?:www)?\.lohud\.com$" name=".+" />
+
+
+	<rule from="^http://(?:cmsimg\.|www\.)?lohud\.com/"
+		to="https://www.lohud.com/" />
+
+</ruleset>

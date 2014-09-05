@@ -1,0 +1,26 @@
+<!--
+	Other Blackbaud rulesets:
+
+		- Etapestry.com.xml
+
+
+	Nonfunctional subdomains:
+
+		- internet *
+
+	* Redirects to http; self-signed, CN: ssl.certificate
+
+-->
+<ruleset name="Blackbaud (partial)">
+
+	<target host="blackbaud.com" />
+	<target host="*.blackbaud.com" />
+
+
+	<securecookie host="^(?:.*\.)?blackbaud\.com$" name=".+" />
+
+
+	<rule from="^http://(www\.)?blackbaud\.com/"
+		to="https://$1blackbaud.com/" />
+
+</ruleset>

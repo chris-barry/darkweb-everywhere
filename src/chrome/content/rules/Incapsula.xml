@@ -1,0 +1,29 @@
+<!--
+	Nonfunctional subdomains:
+
+		- support	(zendesk)
+
+
+	Fully covered subdomains:
+
+		- content
+		- my
+		- support	(-> incapsula.zendesk.com)
+
+-->
+<ruleset name="Incapsula">
+
+	<target host="incapsula.com" />
+	<target host="*.incapsula.com" />
+
+
+	<securecookie host="^(?:my|www)?\.incapsula\.com$" name=".+" />
+
+
+	<rule from="^http://((?:content|my|www)\.)?incapsula\.com/"
+		to="https://$1incapsula.com/" />
+
+	<rule from="^http://support\.incapsula\.com/"
+		to="https://incapsula.zendesk.com/" />
+
+</ruleset>

@@ -1,0 +1,47 @@
+<!--
+	Nonfunctional subdomains:
+
+		- info *
+
+	* Redirects to app-h.marketo.com; mismatched, CN: *.marketo.com
+
+
+	Fully covered subdomains:
+
+		- (www.)
+		- docs
+		- forge
+		- forgeapi
+		- forgestaging
+		- forgestagingapi
+		- projects
+		- tickets
+
+
+	Mixed content:
+
+		- Images on docs from www *
+
+	* Secured by us
+
+-->
+<ruleset name="Puppet Labs">
+
+	<target host="puppetlabs.com" />
+	<target host="*.puppetlabs.com" />
+
+
+	<!--	Not secured by server:
+					-->
+	<!--securecookie host="^tickets\.puppetlabs\.com$" name="^(JSESSIONID|atlassian\.xsrf\.token)$" /-->
+
+	<securecookie host="^tickets\.puppetlabs\.com$" name=".+" />
+
+
+	<rule from="^http://((?:docs|forge(?:staging)?(?:api)?|projects|tickets|www)\.)?puppetlabs\.com/"
+		to="https://$1puppetlabs.com/" />
+
+	<rule from="^http://info\.puppetlabs\.com/(?=css/|images/|rs/)"
+		to="https://na-h.puppetlabs.com/" />
+
+</ruleset>

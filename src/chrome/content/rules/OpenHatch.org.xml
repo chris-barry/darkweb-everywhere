@@ -1,0 +1,42 @@
+<!--
+	For problematic rules, see OpenHatch.org-problematic.xml.
+
+
+	Nonfunctional subdomains:
+
+		- campus *
+
+	* Dropped
+
+
+	Problematic subdomains:
+
+		- forum *
+		- lists *
+
+	* Cert only matches ^openhatch.org
+
+
+	Mixed content:
+
+		- Images, on:
+
+			- ^ from i.creativecommons.org *
+			- forum from ^ *
+
+	* Secured by us
+
+-->
+<ruleset name="OpenHatch.org (partial)">
+
+	<target host="openhatch.org" />
+	<target host="*.openhatch.org" />
+
+
+	<securecookie host="^\.?openhatch\.org$" name=".+" />
+
+
+	<rule from="^http://(www\.)?openhatch\.org/"
+		to="https://$1openhatch.org/" />
+
+</ruleset>

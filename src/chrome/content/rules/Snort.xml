@@ -1,0 +1,23 @@
+<!--
+	Nonfunctional subdomains:
+
+		- blog *
+		- vrt-blog *
+
+	* blogger
+
+-->
+<ruleset name="Snort (partial)">
+
+	<target host="snort.org" />
+	<target host="*.snort.org" />
+		<!--exclusion pattern="^http://(blog|vrt-blog)\.snort\.com/" /-->
+
+
+	<securecookie host=".+\.snort\.org$" name=".+" />
+
+
+	<rule from="^http://(store\.|www\.)?snort\.org/"
+		to="https://$1snort.org/" />
+
+</ruleset>

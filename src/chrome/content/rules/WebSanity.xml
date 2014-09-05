@@ -1,0 +1,19 @@
+<!--
+	www: refused
+
+-->
+<ruleset name="WebSanity">
+
+	<target host="websanity.com" />
+	<target host="*.websanity.com" />
+
+
+	<securecookie host="^traffic\.websanity\.com$" name=".*" />
+
+
+	<!--	- www times out over https
+							-->
+	<rule from="^http://(?:(traffic\.)|www\.)?websanity\.com/"
+		to="https://$1websanity.com/" />
+
+</ruleset>

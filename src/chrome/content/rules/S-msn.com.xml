@@ -1,0 +1,137 @@
+<!--
+	For other Microsoft coverage, see Microsoft.xml.
+
+
+	CDN buckets:
+
+		- kaw.st[bc].s-msn.com.edgekey.net
+
+		- colst(b|c)01.msn.com.edgesuite.net
+
+			- col.st(b|c).s-msn.com
+
+		- estb00.msn.com.edgesuite.net
+
+			- db2.stb.s-msn.com
+
+		- sgsts.msn.com.edgesuite.net | sgst.sin.cb3.glbdns.microsoft.com
+
+			- a38.g2.akamai.net
+			- sgst[cj].msn.com
+			- sin.st[cjs].s-msn.com
+
+		- legstatics.s-msn.com.edgesuite.net
+
+			- cpc.db3.s-msn.com
+
+		- sgstb0[01]-s.msn.com.edgesuite.net | sgstb.sin.cb3.glbdns.microsoft.com
+
+			- a1574.g2.akamai.net
+			- sin.stb0[01].s-msn.com
+
+		- img1.video.s-msn.com.edgesuite.net
+
+		- img2.video.s-msn.com.edgesuite.net
+
+			- a1189.g2.akamai.net
+
+		- img.widgets.video.s-msn.com.edgesuite.net
+
+		- colstb.co1.cb3.glbdns.microsoft.com
+
+			- a1910.g2.akamai.net
+			- col.stb00.s-msn.com
+
+		- msnvidprod.vo.msecnd.net
+
+			- img1.video.s-msn.com
+
+
+	Nonfunctional subdomains:
+
+		- cpc.db3 *
+		- col.stc *
+		- hlc **
+		- hli **
+		- livc **
+		- kaw.st[bc] **
+		- sin.st[cj]		(504, akamai)
+		- img[12].video *
+
+	* 503, akamai
+	** Times out
+
+
+	Problematic subdomains:
+
+		- cpc.db3		(mismatched, CN: images.partner.windowsphone.com)
+
+		- *.st
+
+		- *.stb
+
+			- col
+			- db2
+			- kaw
+			- sin *
+
+		- *.stb\d*
+
+			- db2.stb0[01] **
+			- sin.stb00 *
+
+		- *.stc
+
+			- db2
+			- db3
+			- kaw
+
+		- *.stj
+
+			- db2.stj
+
+		- img3.catalog.video *
+		- img.widgets.video *
+
+
+	* Works, akamai
+	** CN: *.sharepointonline.com; works
+
+
+	Fully covered subdomains:
+
+		- entcss
+		- entimg
+		- media-social
+		- blu.st[bc]
+		- kaw.stb
+		- sin.stb *
+		- col.stb0[01]
+		- sin.stb0[01] *
+		- col.stc
+		- st[cj]-now
+		- wst
+
+	* → akamai
+
+-->
+<ruleset name="s-msn.com (partial)">
+
+	<target host="*.s-msn.com" />
+
+
+	<rule from="^http://(entcss|entimg|media-social|blu\.st[bc]|col\.stb0[01]|kaw\.stb|col\.stc|st[cj]-now|wst)\.s-msn\.com/"
+		to="https://$1.s-msn.com/" />
+
+	<rule from="^http://sin\.stb\.s-msn\.com/"
+		to="https://a248.e.akamai.net/f/1574/354/10m/sin.stb.s-msn.com/" />
+
+	<rule from="^http://sin\.stb0(0|1)\.s-msn\.com/"
+		to="https://a248.e.akamai.net/f/1574/5119/5m/sin.stb0$1.s-msn.com/" />
+
+	<!--	Moved to akamai and broke:
+
+	<rule from="^http://(\w+)\.st(b|c|j)?\d*\.s-msn\.com/"
+		to="https://$1.st$2.s-msn.com/" /-->
+
+</ruleset>

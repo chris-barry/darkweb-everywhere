@@ -1,0 +1,22 @@
+<!--
+	Nonfunctional subdomains:
+
+		- (www.)
+
+-->
+<ruleset name="Spiceworks (partial)">
+
+	<target host="*.spiceworks.com" />
+
+
+	<!--	Set by community, not secured by server:
+							-->
+	<securecookie host="^\.spiceworks\.com$" name="^(?:spiceworks_community|_swndat|_swnid)$" />
+
+	<securecookie host="^\w.*\.spiceworks\.com$" name=".*" />
+
+
+	<rule from="^http://(community|static)\.spiceworks\.com/"
+		to="https://$1.spiceworks.com/" />
+
+</ruleset>

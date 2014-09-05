@@ -1,0 +1,91 @@
+<!--
+	For problematic rules, see Indiana-University-self-signed.xml.
+
+
+	Nonfunctional domains:
+
+		- iubio.bio.indiana.edu ¹
+		- lkml.indiana.edu *
+
+		- iu.edu subdomains:
+
+			- cacr *
+			- info		(shows PHP installation info, valid cert)
+			- newsinfo	(shows info; mismatched, CN: info.iu.edu)
+			- (www.)uwsg *
+
+	¹ Dropped
+	* http reply
+
+
+	Partially covered domains:
+
+		- (www.)iu.edu		(some pages redirect to http, some paths 404)
+
+
+	Problematic domains:
+
+		- www.informatics.indiana.edu ¹
+		- soic.indiana.edu *
+		- osl.iu.edu *
+		- www.pti.iu.edu	(cert only matches ^pti)
+
+	¹ Works; expired 2010-09-05, self-signed, CN: INFO-SHANNON-II
+	* Cert only matches www.foo
+
+
+	Fully covered domains:
+
+		- indiana.edu subdomains:
+
+			- spout.ussg
+
+
+	Mixed content:
+
+		- favicon on (www.)soic.indiana.edu from www.indiana.edu
+
+		- Web bugs, on (www.)soic.indiana.edu, from:
+
+			- www.facebook.com *
+			- static01.linkedin.com
+			- passets-ec.pinterest.com *
+
+	* Secured by us
+
+-->
+<ruleset name="Indianna University (partial)">
+
+	<target host="*.indiana.edu" />
+	<target host="iu.edu" />
+	<target host="*.iu.edu" />
+		<!--
+			At least some pages redirect to http.
+
+			These paths 404:
+
+				- _slideshows/img/.+
+				- WRAP_SDDU/BL-PROV-COMM/IUBGATE/hotspots/_images/
+											-->
+		<exclusion pattern="^http://(?:www\.)?iu\.edu/(?!css|img|~\w+|[\w/-]+/_image)/" />
+
+
+	<securecookie host="^cas\.iu\.edu$" name=".+" />
+
+
+	<rule from="^https?://(?:www\.)?soic\.indiana\.edu/"
+		to="https://www.soic.indiana.edu/" />
+
+	<rule from="^http://spout\.ussg\.indiana\.edu/"
+		to="https://spout.ussg.indiana.edu/" />
+
+	<rule from="^http://(cas\.|kb\.|www\.)?iu\.edu/"
+		to="https://$1iu.edu/" />
+
+	<rule from="^https?://(?:www\.)?osl\.iu\.edu/"
+		to="https://www.osl.iu.edu/" />
+
+	<rule from="^https?://(?:www\.)?pti\.iu\.edu/"
+		to="https://pti.iu.edu/" />
+
+</ruleset>

@@ -1,0 +1,18 @@
+<!--
+	Nonfunctional subdomains:
+
+		- support *
+
+	* desk.com
+
+-->
+<ruleset name="WhisperSystems (partial)">
+
+	<target host="whispersystems.org" />
+	<target host="www.whispersystems.org" />
+
+
+	<rule from="^http://(www\.)?whispersystems\.org/"
+		to="https://$1whispersystems.org/" />
+
+</ruleset>

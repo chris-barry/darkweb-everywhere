@@ -1,0 +1,23 @@
+<!--
+	Other Meetup rulesets:
+
+		- Meetup_static.com.xml
+
+
+	Nonfunctional domains:
+
+		- www.meetup.com	(prints "our server wasn't
+					able to process your request")
+		- meetupblog.meetup.com	(hosted on Tumblr)
+
+-->
+<ruleset name="Meetup (partial)">
+
+	<target host="secure.meetup.com" />
+	<target host="*.meetupstatic.com" />
+
+
+	<rule from="^https?://(?:secure|static[12])\.meetup\.com/"
+		to="https://secure.meetup.com/" />
+
+</ruleset>

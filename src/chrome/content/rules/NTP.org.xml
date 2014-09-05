@@ -1,0 +1,23 @@
+<!--
+	Nonfunctional subdomains:
+
+		- (www.)	(ssl_error_rx_record_too_long)
+
+-->
+<ruleset name="NTP.org (partial)" platform="cacert">
+
+	<target host="*.ntp.org" />
+
+
+	<!--	Not secured by server:
+					-->
+	<!--securecookie host="^bugs\.ntp\.org$" name="^DEFAULTFORMAT$" /-->
+	<!--securecookie host="^support\.ntp\.org$" name="^TWIKISID$" /-->
+
+	<securecookie host="^(?:support|lists)\.ntp\.org$" name=".+" />
+
+
+	<rule from="^http://(support|lists)\.ntp\.org/"
+		to="https://$1.ntp.org/" />
+
+</ruleset>

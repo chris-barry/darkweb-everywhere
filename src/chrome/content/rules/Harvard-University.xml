@@ -1,47 +1,113 @@
 <!--
+	For problematic rules, see Harvard-University-expired.xml.
+
 
 	Nonfunctional subdomains:
 
-		absabs		(times out)
-		reference.pin	(sec_error_reused_issuer_and_serial)
-		(www.)		(times out)
+		- (www.) *
+		- absabs
+		- astroart.cfa *
+		- chandra *
+		- cleanslate		(redirects to cleanslate-stanford-edu.360designstudio.net; mismatched, CN: *.bluehost.com)
+		- news *
+		- reference.pin		(reused_issuer_and_serial)
+		- mirrors.seas ⁴
+		- people.seas *
+		- worldmap *
+
+	* Times out
+	⁴ Refused
+
+
+	Problematic subdomains:
+
+		- berkman *
+		- hsph
+		- www.cyber.law *
+		- eon.law	(shows adam.law, mismatched, CN: adam.law.harvard.edu)
+		- pin *
+		- www.pin	($ redirects to http)
+		- pngu.mgh	(expired)
+		- saas **
+		- yuba			(works; expired 2008-04-16, CN: localhost.localdomain)
+
+	* Mismatched
+	** Cert only matches www.saas
+
+
+	Partially covered subdomains:
+
+		- www.cfa *	(image_archive/ 404s)
+		- isites *
+
+	* At least some pages redirect to http
+
+
+	Fully covered subdomains:
+
+		- (www.)berkman
+		- hbdm.hbsp
+		- (www.)hsph		(^ → www)
+		- osc.hul
+		- login.icommons
+
+		- law subdomains:
+
+			- adam *
+			- blogs *
+			- (www.)cyber
+			- eon *		(→ cyber.law.harvard.edu)
+
+		- www.pin1
+		- (www.)saas		(^ → www)
+
+	* www.foo doesn't exist
+
+
+	Observed cookie domains:
+
+		- .hul.harvard.edu ¹
+		- .cyber.law.harvard.edu
+
+	¹ Not secured by us <= accounting for possible use on unsecured domains
+
+
+	Mixed content:
+
+		- Images on osc.hul from $self ¹
+
+		- Image on www.saas from seasdev.prod.acquia-sites.com *
+
+	¹ Secured by us
+	* Doesn't trip MCB
 
 -->
-<ruleset name="Harvard University (partial)" platform="mixedcontent">
+<ruleset name="Harvard University (partial)">
 
-	<target host="berkman.harvard.edu" />
-	<target host="login.icommons.harvard.edu" />
-	<target host="adam.law.harvard.edu" />
-	<target host="cyber.law.harvard.edu" />
-	<!--	* for cross-domain cookie.	-->
-	<target host="*.cyber.law.harvard.edu" />
-	<target host="www.*.harvard.edu" />
+	<target host="*.harvard.edu" />
+		<!--exclusion pattern="^http://www\.cfa\.harvard\.edu/(?!common/)" /-->
+		<exclusion pattern="^http://www\.cfa\.harvard\.edu/image_archive/" />
+		<exclusion pattern="^http://isites\.harvard\.edu/(?!favicon\.ico|[fj]s/|icb/calendar/themes/|icb/[\w-]\.css)" />
+		<!--exclusion pattern="^http://mirrors\.seas\.harvard\.edu/" /-->
 
 
-	<securecookie host="^login\.icommons\.harvard\.edu$" name=".*" />
-	<!--	Observed cookies:
-
-			- ^adam
-			- ^.cyber
+	<!--	Not secured by server:
 					-->
-	<securecookie host="^.*\.law\.harvard\.edu$" name=".*" />
-	<securecookie host="^www\.pin1\.harvard\.edu$" name=".*" />
+	<!--securecookie host="^\.hul\.harvard\.edu$" name="^SESS[\da-f]{32}$" /-->
+
+	<securecookie host="^(?:login\.icommons|.*\.law|www\.pin1|www\.seas)\.harvard\.edu$" name=".+" />
 
 
-	<!--	www doesn't work over http.	-->
-	<rule from="^http://(login\.icommons|adam\.law|www\.pin1)\.harvard\.edu/"
+	<rule from="^http://www\.pin\.harvard\.edu/(?:$|\?.*)"
+		to="https://www.pin.harvard.edu/home.shtml" />
+
+	<rule from="^http://(?:www\.)?(berkman|hsph|pin|saas)\.harvard\.edu/"
+		to="https://www.$1.harvard.edu/" />
+
+	<rule from="^http://(www\.cfa|hbdm\.hbsp|osc\.hul|login\.icommons|isites|adam\.law|blogs\.law|www\.pin1)\.harvard\.edu/"
 		to="https://$1.harvard.edu/" />
 
-	<!--	!www works over http and cert doesn't match.	-->
-	<rule from="^https?://(?:www\.)?berkman\.harvard\.edu/"
-		to="https://www.berkman.harvard.edu/" />
-
-	<!--	At least some pages redirec to http.	-->
-	<rule from="^http://isites\.harvard\.edu/(fs/|icb/calendar/themes/|icb/[\w\-]\.css|js/)"
-		to="https://isites.harvard.edu/$1" />
-
-	<!--	www works over http and cert doesn't match.	-->
-	<rule from="^https?://(?:www\.)?cyber\.law\.harvard\.edu/"
+	<rule from="^http://(?:www\.)?(?:cyber|eon)\.law\.harvard\.edu/"
 		to="https://cyber.law.harvard.edu/" />
 
 </ruleset>

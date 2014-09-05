@@ -3,6 +3,13 @@
 
 		- Nokia.xml
 
+
+	Nontunctional subdomains:
+
+		- lists *
+
+	* Dropped
+
 -->
 <ruleset name="Qt" platform="mixedcontent">
 

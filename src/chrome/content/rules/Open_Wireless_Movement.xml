@@ -1,0 +1,14 @@
+<!--
+	For other EFF coverage, see EFF.xml.
+
+-->
+<ruleset name="Open Wireless Movement">
+
+	<target host="openwireless.org" />
+	<target host="*.openwireless.org" />
+
+
+	<rule from="^http://(srv1\.|www\.)?openwireless\.org/"
+		to="https://$1openwireless.org/" />
+
+</ruleset>

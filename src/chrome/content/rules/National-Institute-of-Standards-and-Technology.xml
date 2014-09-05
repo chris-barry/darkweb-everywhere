@@ -12,6 +12,13 @@
 		- webbook
 		- www		(cert valid; shows RHEL Apache test page)
 
+
+	Mixed content:
+
+		- Images on web.nvd from nvd *
+
+	* Secured by us
+
 -->
 <ruleset name="National Institute of Standards and Technology (partial)">
 

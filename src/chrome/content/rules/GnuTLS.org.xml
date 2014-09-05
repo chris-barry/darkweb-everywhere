@@ -1,0 +1,23 @@
+<!--
+	For problematic rules, see GnuTLS.org-problematic.xml.
+
+
+	Nonfunctional subdomains:
+
+		- (www.)	(refused)
+
+
+	Problematic subdomains:
+
+		- lists		(works; mismatched, CN: trithemius.gnupg.org)
+
+-->
+<ruleset name="GnuTLS.org (partial)">
+
+	<target host="*.gnutls.org" />
+
+
+	<rule from="^http://(www\.)?mod\.gnutls\.org/"
+		to="https://$1mod.gnutls.org/" />
+
+</ruleset>

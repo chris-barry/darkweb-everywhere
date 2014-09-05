@@ -1,13 +1,54 @@
-<ruleset name="CZ.NIC" platform="mixedcontent">
-  <target host="nic.cz" />
-  <target host="www.nic.cz" />
-  <target host="labs.nic.cz" />
-  <target host="git.nic.cz" />
-  <target host="blog.nic.cz" />
+<!--
+	Other CZ.NIC rulesets:
 
-  <securecookie host="^((?:www|labs|git|blog|)\.)?nic\.cz$" name=".*" />
+		- CSIRT.CZ.xml
+		- DNSSEC-Validator.cz.xml
+		- Domenovy_prohlizec.cz.xml
+		- Knot-DNS.cz.xml
+		- MojeID.cz.xml
 
-  <rule from="^http://((?:www|labs|git|blog)\.)?nic\.cz/" to="https://$1nic.cz/"/>
+
+	Fully covered subdomains:
+
+		- (www.)
+		- blog
+		- git
+		- knihy
+		- labs
+		- gitlab.labs
+		- lists
+		- piwik
+		- podpora
+
+
+	Observed cookie domains:
+
+		- .
+		- .labs *
+		- stats ¹
+		- www ¹
+
+	¹ Not secured by server
+	* Tracking cookies only
+
+
+	Mixed content:
+
+		- Bugs on knihy from i.creativecommons.org *
+
+	* Secured by us
+
+-->
+<ruleset name="CZ.NIC">
+
+	<target host="nic.cz" />
+	<target host="*.nic.cz" />
+
+
+	<securecookie host="^((?:www|labs|git|blog)?\.)?nic\.cz$" name=".+" />
+
+
+	<rule from="^http://((?:www|labs|git|blog|knihy|gitlab\.labs|lists|piwik|podpora)\.)?nic\.cz/"
+		to="https://$1nic.cz/" />
+
 </ruleset>
-
-

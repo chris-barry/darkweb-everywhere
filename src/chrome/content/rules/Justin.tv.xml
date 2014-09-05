@@ -18,6 +18,7 @@
 		- static	(mismatched, CN: *.justin.tv)
 		- www-cdn *
 		- blog.justin.tv	(wordpress)
+                - static-cdn.jtvnw.net
 
 	* Times out
 
@@ -32,14 +33,23 @@
 
 		- justin.tv
 		- static.justin.tv
+		- (www.)twitch.tv
 
 -->
 <ruleset name="Justin.tv (partial)">
 
+	<target host="*.jtvnw.net" />
 	<target host="justin.tv" />
 	<target host="static.justin.tv" />
+	<target host="twitch.tv" />
 
-	<rule from="^http://static\.justin\.tv/"
-		to="https://static.justin.tv/" />
+        
+	<rule from="^http://(static\.)?(justin|twitch)\.tv/"
+		to="https://$1$2.tv/" />
 
+	<rule from="^http://api\.twitch\.tv/" to="https://api.twitch.tv/"/>
+	
+	<rule from="^http://chatdepot\.twitch\.tv/" to="https://chatdepot.twitch.tv/"/>
+
+  <rule from="^http://secure\.twitch\.tv/" to="https://secure.twitch.tv/" />
 </ruleset>

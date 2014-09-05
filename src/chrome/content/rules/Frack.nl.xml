@@ -1,0 +1,13 @@
+<ruleset name="Frack.nl">
+
+	<target host="frack.nl" />
+	<target host="www.frack.nl" />
+
+
+	<securecookie host="^(?:www\.)?frack\.nl$" name=".+" />
+
+
+	<rule from="^http://(www\.)?frack\.nl/"
+		to="https://$1frack.nl/" />
+
+</ruleset>

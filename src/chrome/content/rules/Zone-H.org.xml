@@ -1,0 +1,13 @@
+<ruleset name="Zone-H.org">
+
+	<target host="zone-h.org" />
+	<target host="*.zone-h.org" />
+
+
+	<securecookie host="^\.zone-h\.org$" name="^__utm\w+$" />
+
+
+	<rule from="^http://(www\.)?zone-h\.org/"
+		to="https://$1zone-h.org/" />
+
+</ruleset>

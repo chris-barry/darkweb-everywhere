@@ -1,6 +1,27 @@
-<ruleset name="Fastmail">
-  <target host="www.fastmail.fm" />
-  <target host="fastmail.fm" />
+<!--
+	Problematic subdomains:
 
-  <rule from="^http://(?:www\.)?fastmail\.fm/" to="https://fastmail.fm/"/>
+		- blog ¹
+		- status ²
+
+	¹ Wordpress
+	² Works; mismatched, CN: ext6.messagingengine.com.fastmail.fm
+
+-->
+<ruleset name="Fastmail (partial)">
+
+	<target host="fastmail.fm" />
+	<target host="*.fastmail.fm" />
+
+
+	<!--	Secured by server:
+					-->
+	<!--securecookie host="^\.(beta|qa|www)\.fastmail\.fm$" name="^_s$" /-->
+
+	<securecookie host="^\.www\.fastmail\.fm$" name=".+" />
+
+
+	<rule from="^http://((?:beta|qa|www)\.)?fastmail\.fm/"
+		to="https://$1fastmail.fm/" />
+
 </ruleset>

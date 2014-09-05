@@ -1,0 +1,10 @@
+<ruleset name="Flightaware">
+
+	<target host="flightaware.com" />
+	<target host="*.flightaware.com" />
+
+
+	<rule from="^http://((?:[A-Za-z][A-Za-z]|photos|www)\.)?flightaware\.com/"
+		to="https://$1flightaware.com/" />
+
+</ruleset>

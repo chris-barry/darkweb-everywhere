@@ -1,0 +1,78 @@
+<!--
+	For other Free Software Foundation coverage, see FSF.xml.
+
+
+	Nonfunctional subdomains:
+
+		- alpha ¹
+		- ftpmirror
+		- download.savannah ³
+		- cvs.savannah ⁴
+		- git.savannah ⁴
+		- git.sv ⁴
+
+	¹ Shows ftp
+	³ Refused
+	⁴ Reset
+
+
+	Problematic domains:
+
+		- (www.)classpath.org ¹
+		- mail.gnu.org ²
+
+	¹ Shows gnu.org; mismatched, CN: www.gnu.org
+	² Dropped
+
+
+	Fully covered domains:
+
+		- (www.)classpath.org	(→ www.gnu.org)
+
+		- gnu.org subdomains:
+
+			- (www.)
+			- elpa
+			- gcc
+			- ftp
+			- lists
+			- mail		(→ lists)
+			- savannah
+
+
+	These altnames don't exist:
+
+		- www.elpa.gnu.org
+		- www.gcc.gnu.org
+
+-->
+<ruleset name="GNU.org (partial)">
+
+	<target host="gnu.org" />
+	<target host="*.gnu.org" />
+
+
+	<!--	Secured by server:
+					-->
+	<!--securecookie host="^gcc\.gnu\.org$" name="^Bugzilla_login_request_cookie$" /-->
+	<!--
+		Not secured by server:
+					-->
+	<!--securecookie host="^gcc\.gnu\.org$" name="^DEFAULTFORMAT$" /-->
+
+	<securecookie host="^gcc\.gnu\.org$" name=".+" />
+
+
+	<rule from="^http://(?:www\.)?classpath\.org/$"
+		to="https://www.gnu.org/software/classpath/" />
+
+        <rule from="^http://(www\.)?gnu\.org/"
+		to="https://$1gnu.org/" />
+
+        <rule from="^http://(elpa|ftp|gcc|lists|savannah)\.gnu\.org/"
+		to="https://$1.gnu.org/" />
+
+	<rule from="^http://mail\.gnu\.org/"
+		to="https://lists.gnu.org/" />
+
+</ruleset>

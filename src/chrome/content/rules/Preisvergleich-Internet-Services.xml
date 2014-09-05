@@ -1,13 +1,21 @@
 <!--
 	For problematic rules, see
 
+
+	Other Preisvergleich Internet Services rulesets:
+
+		- Cenowarka.pl.xml
+		- Geizhals.at.xml
+		- Geizhals.de.xml
+		- Skinflint.xml
+
+
 	Nonfunctional:
 
 		- (www.)666k.com	(cert: www.3dw6vge6tly5rdezb4m.net; reset)
 		- (www.)bepixelung.org
 		- (www.)cenowarka.pl
 		- (www.)geizhals.de
-		- (www.)skinflint.co.uk
 
 -->
 <ruleset name="Preisvergleich Internet Services (partial)">

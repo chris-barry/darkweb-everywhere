@@ -1,0 +1,31 @@
+<!--
+	Nonfunctional subdomains:
+
+		- doc *
+
+	* Reset
+
+
+	Fully covered subdomains:
+
+		- (www.)
+		- bugs
+		- redmine
+
+-->
+<ruleset name="ruby-lang.org (partial)">
+
+	<target host="ruby-lang.org" />
+	<target host="*.ruby-lang.org"/>
+
+
+	<securecookie host="^bugs\.ruby-lang\.org$" name=".+" />
+
+
+	<rule from="^http://(www\.)?ruby-lang\.org/"
+		to="https://$1ruby-lang.org/" />
+
+	<rule from="^http://(bugs|redmine)\.ruby-lang\.org/"
+		to="https://$1.ruby-lang.org/" />
+
+</ruleset>

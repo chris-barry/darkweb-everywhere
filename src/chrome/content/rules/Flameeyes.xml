@@ -1,14 +1,22 @@
-<ruleset name="Flameeyes (partial)" platform="mixedcontent">
+<!--
+	Fully covered subdomains:
 
-	<target host="flameeyes.eu"/>
-	<target host="*.flameeyes.eu"/>
+		- (www.)
+		- assets
+		- blog
+		- earhart
 
-	<securecookie host="^blog\.flameeyes\.eu$" name=".*"/>
+-->
+<ruleset name="Flameeyes">
 
-	<rule from="^http://www\.flameeyes\.eu/img/"
-		to="https://blog.flameeyes.eu/images/theme/"/>
+	<target host="flameeyes.eu" />
+	<target host="*.flameeyes.eu" />
 
-	<rule from="^http://(blog\.)?flameeyes\.eu/"
-		to="https://$1flameeyes.eu/"/>
+
+	<securecookie host="^blog\.flameeyes\.eu$" name=".+" />
+
+
+	<rule from="^http://((?:assets|blog|earhart|www)\.)?flameeyes\.eu/"
+		to="https://$1flameeyes.eu/" />
 
 </ruleset>

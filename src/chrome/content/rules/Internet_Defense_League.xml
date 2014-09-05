@@ -1,0 +1,22 @@
+<!--
+	For other Fight for the Future coverage, see Fight-for-the-Future.xml.
+
+
+	CDN buckets:
+
+		- internetdefenseleague.s3.amazonaws.com
+
+-->
+<ruleset name="Internet Defense League">
+
+	<target host="internetdefenseleague.org" />
+	<target host="*.internetdefenseleague.org" />
+
+
+	<securecookie host="^(?:members)?\.internetdefenseleague\.org$" name=".+" />
+
+
+	<rule from="^http://(members\.|www\.)?internetdefenseleague\.org/"
+		to="https://$1internetdefenseleague.org/" />
+
+</ruleset>

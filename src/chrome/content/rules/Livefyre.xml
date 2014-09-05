@@ -1,0 +1,50 @@
+<!--
+	For problematic rules, see Livefyre-mismatches.xml.
+
+
+	CDN buckets:
+
+		- lfzor-a.akamaihd.net
+		- livefyre-avatar.s3.amazonaws.com | dpstvy7p9whsy.cloudfront.net
+		- d584h2bjreb1u.cloudfront.net 
+		- 3d88duefqgf2d7l2p18hja4194m.wpengine.netdna-cdn.com
+
+		- livefyre.wpengine.com
+
+			- web
+
+
+	Nonfunctional domains:
+
+		- web.livefyre.com *
+
+	* wpengine
+
+-->
+<ruleset name="Livefyre (partial)">
+
+	<!--	cloudfront.net
+			-->
+	<target host="*.fyre.co" />
+	<!--	No https.
+			-->
+	<target host="livefyre.com" />
+	<target host="*.livefyre.com" />
+	<target host="3d88duefqgf2d7l2p18hja4194m.wpengine.netdna-cdn.com" />
+
+
+	<securecookie host="^\.livefyre\.co$" name=".+" />
+
+
+	<rule from="^https?://avatars\.fyre\.co/"
+		to="https://dpstvy7p9whsy.cloudfront.net/" />
+
+	<!--	Data appear to be identical.
+						-->
+	<rule from="^http://(?:zor\.fyre\.co|(?:www\.|zor\.)?livefyre\.com)/"
+		to="https://d584h2bjreb1u.cloudfront.net/" />
+
+	<rule from="^http://3d88duefqgf2d7l2p18hja4194m\.wpengine\.netdna-cdn\.com/"
+		to="https://livefyre.wpengine.com/" />
+
+</ruleset>

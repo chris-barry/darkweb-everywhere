@@ -1,0 +1,10 @@
+<!--	See FAZ.xml also
+-->
+<ruleset name="FAZ (mismatches)" default_off="Certificate mismatch">
+
+	<target host="kulturkalender.faz.net"/>
+	<target host="software-portal.faz.net"/>
+
+	<rule from="^http://(kulturkalender|software-portal)\.faz\.net/" to="https://$1.faz.net/"/>
+
+</ruleset>

@@ -1,0 +1,17 @@
+<!--
+	^: Expired 2013-05-13
+
+-->
+<ruleset name="TaxPayers' Alliance">
+
+	<target host="taxpayersalliance.com" />
+	<target host="*.taxpayersalliance.com" />
+
+
+	<securecookie host="(?:www)?\.taxpayersalliance\.com$" name=".+" />
+
+
+	<rule from="^http://(?:www\.)?taxpayersalliance\.com/"
+		to="https://www.taxpayersalliance.com/" />
+
+</ruleset>

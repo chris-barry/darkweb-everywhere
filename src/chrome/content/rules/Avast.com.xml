@@ -1,6 +1,4 @@
-<!-- Av vendor. Static.avast.com lacks https.
-
-
+<!--
 	CDN buckets:
 
 		- avast.com.edgesuite.net
@@ -8,28 +6,81 @@
 			- a1639.g1.akamai.net
 			- sf0.iavs.net
 
+		- avast.co.jp.ldc.d3.sc.omtrdc.net
+
+			- an.avast.com
+
+
+	Nonfunctional subdomains:
+
+		- ^ ¹
+		- press ²
+		- www ³
+
+	¹ Redirects to http, mismatched
+	² 403, valid cert
+	³ Redirects to http, valid cert
+
 
 	Problematic domains:
 
-		- sf0.iavs.net	(works, akamai)
+		- sf0.iavs.net *
 
- -->
-<ruleset name="Avast" platform="mixedcontent">
-  <!-- Avast as started reditecting HTTPS to HTTP on its main site :(
-       https://trac.torproject.org/projects/tor/ticket/3779 -->
+	* Works, akamai
 
-	<!--
-  <target host="avast.com" />
-	<target host="www.avast.com" />
-  -->
-	<target host="forum.avast.com" />
-	<target host="support.avast.com" />
+
+	Fully covered domains:
+
+		- avast.com subdomains:
+
+			- an	(→ avast-co-jp-ldc.d3.sc.omtrdc.net)
+			- ans
+			- blog
+			- forum
+			- id
+			- my
+			- static
+			- static2
+			- support
+
+		- sf0.iavs.net	(→ akamai)
+
+
+	Mixed content:
+
+		- css, on:
+
+			- blog from fonts.googleapis.com *
+
+		- Bug on blog from survey.g.doubleclick.net ²
+
+	* Secured by us
+	² Rule disabled by default
+
+-->
+<ruleset name="Avast (partial)">
+
+	<!--	Avast has started reditecting HTTPS to HTTP on its main site :(
+
+			https://trac.torproject.org/projects/tor/ticket/3779
+
+	<target host="avast.com" /-->
+	<target host="*.avast.com" />
 	<target host="sf0.iavs.net" />
-	<!--
-  <rule from="^http://www\.avast\.com/" to="https://www.avast.com/"/>
-	<rule from="^http://avast\.com/" to="https://www.avast.com/"/>
-  -->
-	<rule from="^http://(forum|support)\.avast\.com/" to="https://$1.avast.com/"/>
+
+
+	<securecookie host="^\.avast\.com$" name="^s_vi$" />
+	<securecookie host="^(?:blog|my)\.avast\.com$" name=".+" />
+
+
+	<!--rule from="^http://(?:www\.)?avast\.com/"
+		to="https://www.avast.com/" /-->
+
+	<rule from="^http://an\.avast\.com/"
+		to="https://avast-co-jp-ldc.d3.sc.omtrdc.net/" />
+
+	<rule from="^http://(ans|blog|forum|id|my|static2?|support)\.avast\.com/"
+		to="https://$1.avast.com/" />
 
 	<rule from="^http://sf0\.iavs\.net/"
 		to="https://a248.e.akamai.net/f/1639/9783/9m/sf0.iavs.net/" />

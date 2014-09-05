@@ -1,0 +1,34 @@
+<!--
+	For rules subject to cacert certificates, see Python.org-cacert.xml.
+
+
+	Nonfunctional subdomains:
+
+		- hg *
+		- planet ²
+
+	* Refused
+	² tumblr
+
+
+	Fully covered subdomains:
+
+		- (www.)
+		- mail
+		- packages
+		- wiki
+
+-->
+<ruleset name="Python.org (partial)">
+
+	<target host="python.org" />
+	<target host="*.python.org" />
+
+
+	<securecookie host="^wiki\.python\.org$" name=".+" />
+
+
+	<rule from="^http://((?:docs|mail|packages|wiki|www)\.)?python\.org/"
+		to="https://$1python.org/" />
+
+</ruleset>

@@ -1,0 +1,17 @@
+<ruleset name="Code.org">
+
+	<target host="code.org" />
+	<target host="*.code.org" />
+
+
+	<!--	Not secured by server:
+					-->
+	<!--securecookie host="^\.code\.org$" name="^_learn_session$" /-->
+
+	<securecookie host="^\.code\.org$" name=".+" />
+
+
+	<rule from="^http://((?:forums|learn|support|www)\.)?code\.org/"
+		to="https://$1code.org/" />
+
+</ruleset>

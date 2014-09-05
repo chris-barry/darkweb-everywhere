@@ -1,58 +1,78 @@
 <!--
-	For problematic rules, see Gentoo-mismatches.xml.
-
-
 	Nonfunctional subdomains:
 
-		- anoncvs
-		- archives	(sec_error_reused_issuer_and_serial)
-		- bouncer	(times out)
-		- devmanual	(times out)
+		- anoncvs *
 		- distfiles	(support varies between mirrors resolved to)
+		- mirrorstats *
+		- sources *
+		- viewcvstest *
+
+	* Times out
+
+
+	Fully covered subdomains:
+
+		- (www.)
+		- ads
+		- archives
+		- blogs
+		- bouncer
+		- bugs
+		- \d+.bugs
+		- council
+		- council-webapp
+		- dev
+		- devmanual
 		- foundation
+		- forums
+		- forums-lb
+		- forums-web[12]
+		- games
+		- infra-status
+		- overlays
+		- git.overlays
+		- svn.overlays
 		- packages
-		- planet	(times out)
+		- piwik
+		- planet
+		- qa-reports
 		- security
-		- sources	(times out)
-		- torrent
-		- www
+		- sidebar
+		- store
+		- wiki
+
+
+	Observed cookie domains:
+
+		- blogs
+		- bugs
+		- .forums
+		- overlays
+		- wiki
+
+
+	Mixed images on planet from various domains.
 
 -->
-<ruleset name="Gentoo (partial)" platform="cacert">
+<ruleset name="Gentoo (partial) ">
 
+	<target host="gentoo.org" />
 	<target host="*.gentoo.org" />
-		<!--	git.overlays & sidebar are handled in Gentoo-mismatches.xml.	-->
-		<exclusion pattern="^http://(anoncvs|archives|blogs|bouncer|devmanual|distfiles|foundation|git\.overlays|packages|planet|security|sidebar|sources|torrent|www)\." />
-	<target host="*.bugs.gentoo.org" />
-	<!--	* for cross-domain cookie.	-->
-	<target host="*.forums.gentoo.org" />
+		<exclusion pattern="^http://(?:anoncvs|distfiles|mirrorstats|sources|viewcvstest)\." />
 
 
-	<!--	Observed cookies:
-
-			- bugs
-			- ^\.forums
-			- overlays
-					-->
-	<securecookie host="^.*\.gentoo\.org$" name=".*" />
-
-
-	<!--	This is what the server does	-->
-	<rule from="^https?://store\.gentoo\.org/"
-		to="https://www.cafepress.com/officialgentoo" />
-
-	<!--	Matched domains:
+	<!--	Observed cookie subdomains:
 
 			- blogs
 			- bugs
-			- \d+.bugs
-			- dev
-			- forums
+			- ^\.forums
 			- overlays
-			- piwik
 			- wiki
-					-->	
-	<rule from="^http://((?:\d+\.)?\w+)\.gentoo\.org/"
-		to="https://$1.gentoo.org/" />
+					-->
+	<securecookie host=".*\.gentoo\.org$" name=".+" />
+
+
+	<rule from="^http://([\w.-]+\.)?gentoo\.org/"
+		to="https://$1gentoo.org/" />
 
 </ruleset>

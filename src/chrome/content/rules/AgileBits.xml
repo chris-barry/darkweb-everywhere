@@ -1,0 +1,40 @@
+<!--
+	s3.amazonaws.com/agilewebsolutions.com/
+		- Equivalent to da9ipfiyfnxgu.cloudfront.net
+
+
+	Nonfunctional subdomains:
+
+		- cdn
+
+
+	These altnames don't exist:
+
+		- www.discussions.agilebits.com
+
+-->
+<ruleset name="AgileBits (partial)">
+
+	<target host="agilebits.com" />
+	<target host="*.agilebits.com" />
+	<target host="agilewebsolutions.com" />
+	<target host="www.agilewebsolutions.com" />
+	<target host="tooagile.wpengine.com.netdna-cdn.com" />
+
+
+	<securecookie host="^agilebits\.com$" name=".*" />
+
+
+	<!--	- Cert doesn't match websolutions
+		- *websolutions redirects to bits
+						-->
+	<rule from="^https?://(?:www\.)?agilewebsolutions\.com/"
+		to="https://agilebits.com/" />
+
+	<rule from="^http://(discussions\.|www\.)?agilebits\.com/"
+		to="https://$1agilebits.com/" />
+
+	<rule from="^https?://(?:blog\.agilebits|tooagile\.wpengine\.netdna-cdn)\.com/"
+		to="https://tooagile.wpengine.com/" />
+
+</ruleset>

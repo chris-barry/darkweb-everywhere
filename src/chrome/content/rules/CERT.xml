@@ -1,14 +1,30 @@
-<ruleset name="Cert">
-  <target host="cert.org" />
-  <target host="www.cert.org" />
+<!--
+	Fully covered subdomains:
 
-  <securecookie host="^(.+\.)?cert\.org$" name=".*"/>
+		- (www.)
+		- forms
+		- www.kb
+		- (www.)securecoding
 
-  <rule from="^http://(www\.)?cert\.org/"
-		to="https://$1cert.org/"/>
-  <!--
-  This host's HTTPS deployment seems to be broken...
-  <target host="www.kb.cert.org" />
-  <rule from="^http://www\.kb\.cert\.org/" to="https://www.kb.cert.org/"/>
-  -->
+
+	Observed cookie domains:
+
+		- securecoding *
+		- www.securecoding *
+
+	* Secured by server
+
+-->
+<ruleset name="CERT">
+
+	<target host="cert.org" />
+	<target host="*.cert.org" />
+
+
+	<securecookie host="^(?:.+\.)?cert\.org$" name=".+" />
+
+
+	<rule from="^http://((?:forms|www\.kb|(?:www\.)?securecoding|www)\.)?cert\.org/"
+		to="https://$1cert.org/" />
+
 </ruleset>

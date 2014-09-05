@@ -1,0 +1,19 @@
+<!--
+	For rules that are enabled by default, see UCSD.edu.xml.
+
+-->
+<ruleset name="UCSD.edu (self-signed)" default_off="mismatched, self-signed">
+
+	<target host="*.www-cse.ucsd.edu" />
+	<target host="iod.ucsd.edu" />
+	<target host="www.iod.ucsd.edu" />
+
+
+	<securecookie host="^\.www-cse\.ucsd\.edu$" name=".+" />
+
+
+	<!--	Cert only matches www.	-->
+	<rule from="^https?://(?:www\.)?iod\.ucsd\.edu/"
+		to="https://www.iod.ucsd.edu/" />
+
+</ruleset>

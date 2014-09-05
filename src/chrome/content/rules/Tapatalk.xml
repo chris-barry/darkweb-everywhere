@@ -1,0 +1,25 @@
+<!--
+	Fully covered subdomains:
+		- ^
+		- img
+		- support
+
+	Nonfunctional subdomains:
+
+-->
+<ruleset name="Tapatalk">
+
+	<target host="tapatalk.com" />
+	<target host="www.tapatalk.com" />
+
+
+	<securecookie host="^tapatalk\.com$" name=".*" />
+
+
+	<rule from="^https?://(?:www\.)?tapatalk\.com/"
+		to="https://tapatalk.com/" />
+
+	<rule from="^http://(img|support)\.tapatalk\.com/"
+		to="https://$1.tapatalk.com/" />
+
+</ruleset>

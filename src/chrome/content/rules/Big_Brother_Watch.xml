@@ -1,0 +1,24 @@
+<!--
+	!www cert: www.taxpayersalliance.com
+
+
+	Mixed content:
+
+		- Images from $self *
+
+	* Secured by us
+
+-->
+<ruleset name="Big Brother Watch">
+
+	<target host="bigbrotherwatch.org.uk" />
+	<target host="*.bigbrotherwatch.org.uk" />
+
+
+	<securecookie host="^(?:www)?\.bigbrotherwatch\.org\.uk$" name=".+" />
+
+
+	<rule from="^http://(?:www\.)?bigbrotherwatch\.org\.uk/"
+		to="https://www.bigbrotherwatch.org.uk/" />
+
+</ruleset>

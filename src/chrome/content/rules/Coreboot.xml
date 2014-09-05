@@ -1,0 +1,37 @@
+<!--
+	Nonfunctional subdomains:
+
+		- qa *
+		- patchwork *
+		- review *
+
+	* Shows www
+
+
+	Fully covered subdomains:
+
+		- (www.)
+		- blogs
+		- tracker
+
+
+	Mixed content:
+
+		- Images on blogs from $self *
+
+	* Secured by us
+
+-->
+<ruleset name="coreboot (partial)" platform="cacert">
+
+	<target host="coreboot.org" />
+	<target host="*.coreboot.org" />
+
+
+	<securecookie host=".*\.coreboot\.org$" name=".+" />
+
+
+	<rule from="^http://((?:blogs|tracker|www)\.)?coreboot\.org/"
+		to="https://$1coreboot.org/" />
+
+</ruleset>

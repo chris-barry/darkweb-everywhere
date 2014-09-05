@@ -1,7 +1,39 @@
-<ruleset name="Jappix">
-  <target host="jappix.com" />
-  <target host="www.jappix.com" />
+<!--
+	Other Jappix rulesets:
 
-  <rule from="^http://(?:www\.)?jappix\.com/" to="https://www.jappix.com/"/>
+		- Jappix.net.xml
+		- Jappix.org.xml
+		- Jappix.pro.xml
+
+
+	Observed subdomains:
+
+		- anonymous
+		- bind
+		- download
+		- hooks
+		- legal
+		- me
+		- mini
+		- muc
+		- projects
+		- proxy
+		- pubsub
+		- static
+		- stats
+		- stun
+		- uploads
+		- vjud
+		- websocket
+
+-->
+<ruleset name="Jappix (partial)">
+
+	<target host="jappix.com" />
+	<target host="*.jappix.com" />
+
+
+	<rule from="^http://(\w+\.)?jappix\.com/"
+		to="https://$1jappix.com/" />
+
 </ruleset>
-

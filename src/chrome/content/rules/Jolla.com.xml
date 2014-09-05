@@ -1,0 +1,31 @@
+<!--
+	CDN buckets:
+
+		- d348wcai7tgtnf.cloudfront.net
+
+
+	Fully covered subdomains:
+
+		- (www.)
+		- account
+		- harbour
+		- join
+
+-->
+<ruleset name="Jolla.com">
+
+	<target host="jolla.com" />
+	<target host="*.jolla.com" />
+
+
+	<!--	Not secured by server:
+					-->
+	<!--securecookie host="^harbour\.jolla\.com$" name="^(AWSELB|connect\.sid)$" /-->
+
+	<securecookie host="^(?:.*\.)?jolla\.com$" name=".+" />
+
+
+	<rule from="^http://((?:account|harbour|join|www)\.)?jolla\.com/"
+		to="https://$1jolla.com/" />
+
+</ruleset>

@@ -1,0 +1,57 @@
+<!--
+	Nonfunctional subdomains:
+
+		- lists			(refused)
+		- mirror-status		(403; md5 signed, expired 2007-04-05)
+
+
+	Fully covered subdomains:
+
+		- (www.)
+		- bugs
+		- git
+		- projects
+		- wiki
+
+
+	Observed cookie domains:
+
+		- ^
+		- bugs *
+		- git ²
+		- www
+
+	* Secured by server
+	² Secured by us <= not secured by server
+
+
+	Mixed content:
+
+		- Images on wiki from $self *
+
+		- Web bugs on wiki from creativecommons.org *
+
+	* Secured by us
+
+-->
+<ruleset name="CentOS.org (partial)">
+
+	<target host="centos.org" />
+	<target host="*.centos.org" />
+
+
+	<!--	Secured by server:
+					-->
+	<!--securecookie host="^bugs.centos.org$" name="PHPSESSID" /-->
+	<!--
+		Not secured by server:
+					-->
+	<!--securecookie host="^git\.centos\.org$" name="^JSESSIONID$" /-->
+
+	<securecookie host="^(?:git\.|www\.)?centos\.org$" name=".+" />
+
+
+	<rule from="^http://((?:bugs|git|projects|wiki|www)\.)?centos\.org/"
+		to="https://$1centos.org/" />
+
+</ruleset>

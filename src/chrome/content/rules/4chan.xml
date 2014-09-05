@@ -1,20 +1,28 @@
-<ruleset name="4chan (partial)">
+<!--
+	Nonfunctional domains:
 
-	<target host="4chan.org"/>
-	<target host="*.4chan.org"/>
-		<!--	Times out.	-->
-		<exclusion pattern="^http://(status|blog)\." />
-	<target host="*.boards.4chan.org"/>
-	<target host="*.thumbs.4chan.org"/>
+		- status.4chan.org	(interrupted - blogger)
 
 
-	<securecookie host="^.*\.4chan\.org$" name=".*"/>
+	Fully covered domains:
 
+		- 4cdn.org
 
-	<!--	Observed domains:
+		- *.4cdn.org:
+
+			- i
+			- s
+			- t
+			- [01].t
+			- www
+
+		- 4chan.org
+
+		- *.4chan.org:
 
 			- boards
 			- content
+			- dis
 			- images
 			- rs
 			- static
@@ -22,9 +30,32 @@
 			- thumbs
 			- \d.thumbs
 			- www
-            - dis
-				-->
-	<rule from="^http://([\w\.]+\.)?4chan\.org/"
-		to="https://$14chan.org/" />
+
+		- (www.)4chan-ads.org
+
+		- (www.)4channel.org
+
+-->
+<ruleset name="4chan (partial)">
+
+	<target host="4cdn.org" />
+	<target host="*.4cdn.org" />
+	<target host="4chan.org" />
+	<target host="*.4chan.org" />
+		<!--
+			Blogger:
+					-->
+		<exclusion pattern="^http://(?:status|blog)\." />
+	<target host="4chan-ads.org" />
+	<target host="*.4chan-ads.org" />
+	<target host="4channel.org" />
+	<target host="*.4channel.org" />
+
+
+	<securecookie host=".*\.4chan(?:-ads|nel)?\.org$" name=".+" />
+
+
+	<rule from="^http://([\w.]+\.)?4c(dn|han|han-ads|hannel)\.org/"
+		to="https://$14c$2.org/" />
 
 </ruleset>

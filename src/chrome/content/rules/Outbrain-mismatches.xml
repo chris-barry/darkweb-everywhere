@@ -1,0 +1,13 @@
+<!--
+	For rules that are on by default, see Outbrain.xml.
+
+-->
+<ruleset name="Outbrain (mismatches)" default_off="mismatched">
+
+	<target host="selfserve.outbrain.com" />
+
+
+	<rule from="^http://selfserve\.outbrain\.com/"
+		to="https://selfserve.outbrain.com/" />
+
+</ruleset>

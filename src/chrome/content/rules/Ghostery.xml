@@ -1,6 +1,25 @@
-<ruleset name="Ghostery">
-  <target host="www.ghostery.com" />
-  <target host="ghostery.com" />
+<!--
+	For other Evidon coverage, see Evidon.xml.
 
-  <rule from="^http://(www\.)?ghostery\.com/" to="https://www.ghostery.com/"/>
+
+	^: dropped
+
+
+	Fully covered subdomains:
+
+		- purplebox
+
+-->
+<ruleset name="Ghostery">
+
+	<target host="ghostery.com" />
+	<target host="*.ghostery.com" />
+
+
+	<rule from="^http://(?:www\.)?ghostery\.com/"
+		to="https://www.ghostery.com/" />
+
+	<rule from="^http://purplebox\.ghostery\.com/"
+		to="https://purplebox.ghostery.com/" />
+
 </ruleset>

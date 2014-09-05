@@ -1,0 +1,48 @@
+<!--
+	CDN buckets:
+
+		- akamai.kaltura.com.edgesuite.net/.../
+
+			- a1870.g.akamai.net/.../
+
+
+	Nonfunctional domains:
+
+		- (www.)kaltura.org
+		- blog.kultura.org
+		- cdn.kultura.org	(Akamai; 503)
+
+
+	Problematic subdomains:
+
+		- cdnapi	(akamai)
+
+
+	Fully covered subdomains:
+
+		- cdnakmi	(-> cdnsecakmi)
+		- cdnapi	(-> cdnapisec)
+		- cdnapisec
+		- cdnsecakmi
+		- www-stats
+
+-->
+<ruleset name="Kaltura (partial)">
+
+	<target host="kaltura.com" />
+	<target host="*.kaltura.com" />
+
+
+	<rule from="^https?://(?:akamai|cdnb?|cdnbakmi)\.kaltura\.com/"
+		to="https://www.kaltura.com/" />
+
+	<rule from="^http://((?:corp|www|www-stats)\.)?kaltura\.com/"
+		to="https://$1kaltura.com/" />
+
+	<rule from="^http://cdn(?:sec)?akmi\.kaltura\.com/"
+		to="https://cdnsecakmi.kaltura.com/" />
+
+	<rule from="^http://cdnapi(?:sec)?\.kaltura\.com/"
+		to="https://cdnapisec.kaltura.com/" />
+
+</ruleset>

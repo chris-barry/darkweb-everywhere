@@ -1,31 +1,93 @@
 <!--
+	Other Zend rulesets:
+
+		- Apigility.org.xml
+
+
+	CDN buckets:
+
+		- shop-zend.pantherssl.com
+		- static-zend.pantherssl.com
+		- static-zend.pantherssl.com
+
+
 	Nonfunctional subdomains:
 
-		- forums	(times out)
+		- blog *
+		- forums	(dropped)
+
+	* Dropped
+
+
+	Problematic subdomains:
+
+		- ^	(works, cert only matches www)
+		- framework ²
+
+	² Works; mismatched, CN: apigility.org
+
+
+	Observed cookie domains:
+
+		- .
+		- forums
+		- .forums
+		- framework *
+		- .framework
+		- shop *
+		- .shop
+
+	* Tracking cookies only
+
+
+	Fully covered subdomains:
+
+		- static	(→ (shop|static)-zend.pantherssl.com)
+
+
+	Fully covered subdomains:
+
+		- (www.)	(^ → www)
+		- pages
+		- shop
+
+
+	These altnames don't exist:
+
+		- www.pages.zend.com
+
+
+	Mixed content:
+
+		- Images, on:
+
+			- pages from $self *
+			- shop from $self *
+			- shop from static *
+
+	* Secured by us
 
 -->
-<ruleset name="Zend (partial)" platform="mixedcontent">
+<ruleset name="Zend (partial)">
 
 	<target host="zend.com" />
 	<target host="*.zend.com" />
-	<!--	* for cross-domain cookie.	-->
-	<target host="*.shop.zend.com" />
+		<!--exclusion pattern="^http://(blog|framework)\.zend\.com/" /-->
 
 
-	<!--	Observed cookies:
+	<securecookie host="^\.zend\.com$" name="^__utm\w$" />
+	<!--
+		Is this safe to secure here?
+						-->
+	<!--securecookie host="^\.zend\.com$" name="^iep$" /-->
+	<securecookie host="^shop\.zend\.com$" name="^(?:\d{8}-SKEY|\d{8}-VID|HumanClickSiteContainerID_\d{8}|lpFPCtest|VIEWED_PRODUCTS)$" />
 
-			- \.
-			- \.shop
-					-->
-	<securecookie host="^.*\.zend\.com$" name=".*" />
 
-
-	<!--	Cert doesn't match !www.	-->
 	<rule from="^http://(?:www\.)?zend\.com/"
 		to="https://www.zend.com/" />
 
-	<rule from="^http://shop\.zend\.com/"
-		to="https://shop.zend.com/" />
+	<rule from="^http://(pages|shop)\.zend\.com/"
+		to="https://$1.zend.com/" />
 
 	<!--	NB: Must catch this before the next rule.	-->
 	<rule from="^http://static\.zend\.com/shop/"

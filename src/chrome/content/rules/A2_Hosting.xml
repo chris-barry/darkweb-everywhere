@@ -1,0 +1,26 @@
+<!--
+	Nonfunctional subdomains:
+
+		- community	(no https)
+
+
+	Mixed content:
+
+		- Image on partners from www *
+
+	* Secured by us
+
+-->
+<ruleset name="A2 Hosting (partial)">
+
+	<target host="a2hosting.com" />
+	<target host="*.a2hosting.com" />
+
+
+	<securecookie host=".+\.a2hosting\.com$" name=".+" />
+
+
+	<rule from="^http://((?:my|partners|www)\.)?a2hosting\.com/"
+		to="https://$1a2hosting.com/" />
+
+</ruleset>

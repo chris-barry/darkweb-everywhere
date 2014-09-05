@@ -1,0 +1,41 @@
+<!--
+	For other New York Times coverage, see NYTimes.xml.
+
+
+	CDN buckets:
+
+		- nytbglobe.112.2o7.net
+		- s3.amazonaws.com/static.rondavu.com/C/Boston_PROD/
+
+
+	Problematic domains:
+
+		- bostonglobe.com	(dropped)
+
+
+	Fully covered domains:
+
+		- (www.)bostonglobe.com	(^ → www)
+
+-->
+<ruleset name="The Boston Globe (partial)" platform="mixedcontent">
+
+	<target host="bostonglobe.com" />
+	<target host="*.bostonglobe.com" />
+		<!--
+			- Doesn't work
+			- epaper CN: www.pressdisplay.com
+							-->
+		<exclusion pattern="http://(epaper|spiderbites)\.bostonglobe\.com/" />
+
+
+	<securecookie host=".*\.bostonglobe\.com$" name=".+" />
+
+
+	<rule from="^http://services\.bostonglobe\.com/"
+		to="https://services.bostonglobe.com/" />
+
+	<rule from="^http://(?:www\.)?bostonglobe\.com/"
+		to="https://www.bostonglobe.com/" />
+
+</ruleset>

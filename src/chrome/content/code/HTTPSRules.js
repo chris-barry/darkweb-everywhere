@@ -30,6 +30,7 @@ function RuleSet(id, name, xmlName, match_rule, default_off, platform) {
   this.name = name;
   this.xmlName = xmlName;
   this.notes = "";
+
   if (match_rule)   this.ruleset_match_c = new RegExp(match_rule);
   else              this.ruleset_match_c = null;
   if (default_off) {
@@ -241,11 +242,9 @@ const RuleWriter = {
     return rv;
   },
 
-  read: function(file, rule_store, ruleset_id) {
+  read: function(file) {
     if (!file.exists())
       return null;
-    if ((rule_store.targets == null) && (rule_store.targets != {}))
-      this.log(WARN, "TARGETS IS NULL");
     var data = "";
     var fstream = CC["@mozilla.org/network/file-input-stream;1"]
         .createInstance(CI.nsIFileInputStream);
@@ -262,6 +261,28 @@ const RuleWriter = {
 
     sstream.close();
     fstream.close();
+    return data;
+  },
+
+  write: function(file, data) {
+    //if (!file.exists())
+    //  return null;
+    this.log(DBUG, "Opening " + file.path + " for writing");
+    var fstream = CC["@mozilla.org/network/file-output-stream;1"]
+        .createInstance(CI.nsIFileOutputStream);
+    fstream.init(file, -1, -1, 0);
+
+    var retval = fstream.write(data, data.length);
+    this.log(DBUG, "Got retval " + retval);
+    fstream.close();
+    return data;
+  },
+
+  rulesetFromFile: function(file, rule_store, ruleset_id) {
+    if ((rule_store.targets == null) && (rule_store.targets != {}))
+      this.log(WARN, "TARGETS IS NULL");
+    var data = this.read(file);
+    if (!data) return null;
     return this.readFromString(data, rule_store, ruleset_id);
   },
 
@@ -442,7 +463,7 @@ const HTTPSRules = {
       try {
         this.log(DBUG,"Loading ruleset file: "+rulefiles[i].path);
         var ruleset_id = "custom_" + i;
-        RuleWriter.read(rulefiles[i], this, ruleset_id);
+        RuleWriter.rulesetFromFile(rulefiles[i], this, ruleset_id);
       } catch(e) {
         this.log(WARN, "Error in ruleset file: " + e);
         if (e.lineNumber)
@@ -458,6 +479,7 @@ const HTTPSRules = {
       this.rulesets[i].clear();
     }
   },
+
 
   rewrittenURI: function(alist, input_uri) {
     // This function oversees the task of working out if a uri should be
@@ -656,7 +678,7 @@ const HTTPSRules = {
     // implementations, etc. 
     var req = Cc["@mozilla.org/xmlextras/xmlhttprequest;1"]
                  .createInstance(Ci.nsIXMLHttpRequest);
-    req.open("GET", "https://eff.org/files/alexa-top-10000-global.txt", false);
+    req.open("GET", "https://www.eff.org/files/alexa-top-10000-global.txt", false);
     req.send();
     var domains = req.response.split("\n");
     var domains_l = domains.length - 1; // The last entry in this thing is bogus

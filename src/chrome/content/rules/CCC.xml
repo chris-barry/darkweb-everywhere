@@ -1,11 +1,38 @@
-<ruleset name="ccc.de (CAcert)" platform="cacert">
-  <target host="*.ccc.de" />
-  <target host="ccc.de" />
+<!--
+	Problematic subdomains:
 
-  <exclusion pattern="^http://dasalte\.ccc\.de/"/><!-- revoked cert -->
-  <exclusion pattern="^http://chaosradio\.ccc\.de/"/><!-- invalid cert -->
-  <exclusion pattern="^http://blog.chaosradio\.ccc\.de/"/><!-- invalid cert -->
-  <exclusion pattern="^http://ds\.ccc\.de/"/><!-- different content -->
-  <rule from="^http://ccc\.de/" to="https://www.ccc.de/"/>
-  <rule from="^http://([^/:@\.]+)\.ccc\.de/" to="https://$1.ccc.de/"/>
+		- ^ ¹
+		- chaosradio ²
+		- blog.chaosradio ²
+		- dasalte ³
+		- ds ⁴
+		- berlin.ftp.media ⁵
+		- static.media ⁵
+
+	¹ Cert only matches www
+	² Works; mismatched, CN: wiki.chaosradio.ccc.de
+	³ Revoked
+	⁴ Different data
+	⁵ Works; mismatched, CN: media.koeln.ccc.de
+
+-->
+<ruleset name="ccc.de (CAcert)" platform="cacert">
+
+	<target host="ccc.de" />
+	<target host="*.ccc.de" />
+		<exclusion pattern="^http://(?:(?:blog\.)?chaosradio|desalte|ds)\.ccc\.de/" />
+
+
+	<securecookie host="^svn\.berlin\.ccc\.de$" name=".+" />
+
+
+	<rule from="^http://ccc\.de/"
+		to="https://www.ccc.de/" />
+
+	<rule from="^http://static\.media\.ccc\.de/"
+		to="https://media.ccc.de/" />
+
+	<rule from="^http://([^/:@\.]+)\.ccc\.de/"
+		to="https://$1.ccc.de/" />
+
 </ruleset>
