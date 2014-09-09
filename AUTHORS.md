@@ -1,4 +1,7 @@
 # Authors
 
 * Chris Barry <chris@barry.im>
-* Colin Mahns <colinrmahns@gmail.com>
+* Colin Mahns <colinmahns@riseup.net>
+
+# Contributors:
+* jutozex
