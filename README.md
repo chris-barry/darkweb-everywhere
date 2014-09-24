@@ -25,6 +25,8 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Installation
 
+These are the old installation instructions! For best use, please use [the extension][5]
+
 ### Unix-like
 
 0. Have Tor Browser Bundle installed.
@@ -96,3 +98,4 @@ I do not vouch for, endorse, or disapprove of any of these sites, I just supply 
 [2]: https://www.youtube.com/watch?v=eAxBuckgPuU#t=17
 [3]: https://github.com/chris-barry/darkweb-everywhere/archive/master.zip
 [4]: https://www.eff.org/https-everywhere/rulesets "HTTPS Everywhere Rulesets"
+[5]: https://github.com/chris-barry/darkweb-everywhere/releases
