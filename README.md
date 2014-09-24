@@ -1,9 +1,9 @@
 # Darkweb Rulesets
 
-Darkweb-Everywhere is a collection of rulesets for [HTTPS Everywhere][0] which will redirect you to the hidden service equivalent.
-For these rulesets to really work, you should be using the [Tor Browser Bundle][1].
+Darkweb-Everywhere is a fork of [HTTPS Everywhere][0] that in addition to the normal HTTPS Everywhere functionality, will redirect you to the hidden service equvalent of a website if present. 
+For this extention to work, you should be using installing it inside the [Tor Browser Bundle][1].
 
-An example of this would be:
+An example of a hidden service redirect would be:
 * <https://duckduckgo.com> will be redirected to <http://3g2upl4pq6kufc4m.onion>.
 * <https://3g2upl4pq6kufc4m.tor2web.org> will be redirected to <http://3g2upl4pq6kufc4m.onion>.
 
@@ -25,32 +25,9 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Installation
 
-These are the old installation instructions! For best use, please use [the extension][5]
-
-### Unix-like
-
-0. Have Tor Browser Bundle installed.
-1. Clone this repo locally using, `git clone https://github.com/chris-barry/darkweb-everywhere.git`.
-2. Run, `bin/install.sh`.
-3. Restart the Tor Browser Bundle if it was already running.
-4. Done.
-
-### Mac OS X
-
-0. Have Tor Browser Bundle installed.
-1. Clone this repo locally using, `git clone https://github.com/chris-barry/darkweb-everywhere.git`.
-2. Run, `bin/mac-install.sh`.
-3. Restart the Tor Browser Bundle if it was already running.
-4. Done.
-
-### Windows
-
-0. Have Tor Browser Bundle installed.
-1. Download the [zip file][3] of this project.
-2. Copy all the `.xml` files from `darkweb-everywhere/rules` to `%PATH_TO_TOR%/tor-browser_en-US/Data/Browser/profile.default/HTTPSEverywhereUserRules/`.
-	* `%PATH_TO_TOR%` is assumed to be the directory where Tor is installed.
-3. Restart the Tor Browser Bundle if it was already running.
-4. Done.
+	1. Start up the Tor Browser Bundle
+	2. Download [the extension][5]
+	3. Drag the downloaded extension into the Tor Browser Bundle's [Addons page][6].
 
 ## Contributing
 
@@ -91,7 +68,21 @@ The reason for this is to actively discourage users from using those rulesets.
 
 ## Disclaimer
 
-I do not vouch for, endorse, or disapprove of any of these sites, I just supply these so everyone has more privacy. 
+The developers do not vouch for, endorse, approve, disapprove, or renounce of any of these sites.
+These are supplied for our users, so that they have more privacy. 
+
+Darkweb-everywhere, the extension, and the developers of darkweb-everywhere are not affiliated with the EFF in any way, shape or form. (Although we love everything they are doing!)
+
+
+## Thank you!
+
+A **BIG** thank you to the EFF and all the many contributors to HTTPS Everywhere
+
+Thanks to [bee][7](!!!) and [fortasse][8] for the original ideas that lead to this extension
+
+Thank you to those who have contributed rules, code, and even suggestions to us. 
+
+And finally, thank you for using this software!
 
 [0]: https://www.eff.org/https-everywhere "HTTPS Everywhere"
 [1]: https://www.torproject.org/projects/torbrowser.html.en "The Tor Browser Bundle"
@@ -99,3 +90,6 @@ I do not vouch for, endorse, or disapprove of any of these sites, I just supply 
 [3]: https://github.com/chris-barry/darkweb-everywhere/archive/master.zip
 [4]: https://www.eff.org/https-everywhere/rulesets "HTTPS Everywhere Rulesets"
 [5]: https://github.com/chris-barry/darkweb-everywhere/releases
+[6]: about:addons
+[7]: https://trac.torproject.org/projects/tor/ticket/1670
+[8]: https://lists.torproject.org/pipermail/tor-talk/2014-February/032220.html
