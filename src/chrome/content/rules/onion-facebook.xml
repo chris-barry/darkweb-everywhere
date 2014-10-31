@@ -1,6 +1,6 @@
-<ruleset name="Facebook Onion" default_off="Will not work. :-(">
+<ruleset name="Facebook Onion" >
 	<target host="facebook.com" />
 	<target host="www.facebook.com" />
 	<target host="*.facebook.com" />
-	<rule from="^https?://(www\.)?facebook\.com/" to="https://facebookcorewwwi.onion" />
+	<rule from="^https?://(www\.)?facebook\.com/" to="https://facebookcorewwwi.onion/" />
 </ruleset>
