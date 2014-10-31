@@ -30,6 +30,7 @@
 
 	Nonfunctional domains:
 
+		- cafe ¹
 		- cdn.steampowered.com		(CN: *.hs.llnwd.net; 400)
 		- cloud.steampowered.com	(CN: *.hs.llnwd.net; 400)
 		- cloud-2.steampowered.com	(refused)
@@ -37,6 +38,8 @@
 		- cloud-4	(dropped)
 		- media.steampowered.com	(CN: *.hs.llnwd.net; 400)
 		- repo		(504, akamai)
+
+	¹ Dropped
 
 
 	Problematic subdomains:
@@ -48,7 +51,11 @@
 
 	<target host="steampowered.com" />
 	<target host="*.steampowered.com" />
-		<exclusion pattern="http://www\.steampowered\.com/status/survey\.html" />
+		<!--
+			Redirects to $:
+					-->
+		<!--exclusion pattern="^http://www\.steampowered\.com/steamworks/(gettingstarted\.php|images/bg_vtile\.gif|index\.php)" /-->
+		<exclusion pattern="^http://(?:www\.)?steampowered\.com/(?:status/survey\.html|steamworks(?:$|[?/]))" />
 		<!--
 			Redirect to http:
 						-->
@@ -65,7 +72,7 @@
 	<rule from="^http://steampowered\.com/"
 		to="https://www.steampowered.com/" />
 
-	<rule from="^http://(cafe|support|www)\.steampowered\.com/"
+	<rule from="^http://(support|www)\.steampowered\.com/"
 		to="https://$1.steampowered.com/" />
 
 	<rule from="^http://store\.steampowered\.com/public/images/"

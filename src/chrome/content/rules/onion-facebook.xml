@@ -1,5 +1,5 @@
 <ruleset name="Facebook Onion">
 	<target host="facebook.com" />
 	<target host="www.facebook.com" />
-	<rule from="^https?://(www\.)?duckduckgo\.com)/" to="https://facebookcorewwwi.onion" />
+	<rule from="^https?://(www\.)?facebook\.com)/" to="https://facebookcorewwwi.onion" />
 </ruleset>

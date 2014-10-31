@@ -4,16 +4,6 @@
 	longer the case, see https://blog.wikimedia.org/2011/10/03/native-https-support-enabled-for-all-wikimedia-foundation-wikis/ ,
 	so this file is a lot simpler these days.
 
-
-	Mixed content:
-
-		- Images, on:
-
-			- stats.wikimedia.org from upload.wikimedia.org *
-			- stats.wikimedia.org from wikimediafoundation.org *
-
-	* Secured by us
-
 -->
 <ruleset name="Wikimedia">
 
@@ -59,11 +49,6 @@
 	<target host="icinga.wmflabs.org" />
 	<target host="ganglia.wmflabs.org" />
 
-	<!--	Not secured by server:
-					-->
-	<!--securecookie host="^\.wiki(books|ipedia)\.org$" name="^GeoIP$" /-->
-
-	<securecookie host="^^\.wik(?:ibooks|idata|inews|ipedia|iquote|isource|iversity|ivoyage|tionary)\.org$" name="^GeoIP$" />
 	<securecookie host="^([^@:/]+\.)?wik(ibooks|idata|inews|ipedia|iquote|isource|iversity|ivoyage|tionary)\.org$" name=".*" />
 	<securecookie host="^(species|commons|meta|incubator|wikitech).wikimedia.org$" name=".*" />
 	<securecookie host="^(?:www\.)?mediawiki\.org$" name=".*" />

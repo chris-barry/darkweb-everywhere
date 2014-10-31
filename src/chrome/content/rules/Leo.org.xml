@@ -1,25 +1,16 @@
 <!--
-	Fully covered domains:
+	Nonfunctional subdomains:
 
-		- leo.org
+		- bar *
 
-		- *.leo.org:
-
-			- (www.)dict
-			- (www.)pda
-			- www
+	* Dropped
 
 -->
 <ruleset name="Leo.org">
+  <target host="leo.org" />
+  <target host="*.leo.org" />
+		<exclusion pattern="http://bar\.leo\.org/" />
 
-	<target host="leo.org" />
-	<target host="*.leo.org" />
-
-
-	<rule from="^http://(?:www\.)?leo\.org/"
-		to="https://www.leo.org/" />
-
-	<rule from="^http://([^/:@]+)\.leo\.org/"
-		to="https://$1.leo.org/" />
-
+  <rule from="^http://(www\.)?leo\.org/" to="https://www.leo.org/" />
+  <rule from="^http://([^/:@]*)\.leo\.org/" to="https://$1.leo.org/"/>
 </ruleset>

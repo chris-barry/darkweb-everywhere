@@ -1,7 +1,26 @@
+<!--
+	Nonfunctional subdomains:
+
+		- en *
+
+	* Shows issues
+
+
+	Problematic subdomains:
+
+		- blog ¹
+		- issues ²
+		- status ³
+
+	¹ Wordpress
+	² Expired 2014-07-22
+	³ Heroku
+
+-->
 <ruleset name="Gitorious">
   <target host="gitorious.org" />
   <target host="*.gitorious.org" />
-	<exclusion pattern="^http://(blog|en|status)\.gitorious\.org/"/>
+	<exclusion pattern="^http://(blog|en|issues|status)\.gitorious\.org/"/>
 
 	<securecookie host=".*\.gitorious\.org$" name=".*"/>
 

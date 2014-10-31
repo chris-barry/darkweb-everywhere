@@ -2,24 +2,10 @@
 	Default off because of infinite loops:
 	https://github.com/EFForg/https-everywhere/issues/493
 
-	Nonfunctional domains:
 
-		- download	(http reply)
+	Nonfunctional:
 
-
-	Problematic subdomains:
-
-		- ^	(cert only matches www)
-
-
-	Mixed content:
-
-		- Ads/web bugs, on www from:
-
-			- ad.doubleclick.net *
-			- cdn.realtidbits.com *
-
-	* Secured by us
+		- download	(ssl_error_rx_record_too_long)
 
 -->
 <ruleset name="Cell (partial)" default_off="all infinite loops">

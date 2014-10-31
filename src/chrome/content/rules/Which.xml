@@ -1,16 +1,39 @@
 <!--
+	Problematic domains:
+
+		- staticwhich.co.uk ²
+
+	² Mixed css from www.staticwhich.co.uk
+
+
 	Partially covered domains:
 
-		- blogs.which.co.uk *
+		- staticwhich.co.uk ¹
 
-	* At least some pages redirect to http
+	¹ Avoiding mixed css from www.staticwhich.co.uk
+
+
+	Mixed content:
+
+		- iframe on staticwhich.co.uk from www.youtube.com *
+
+		- css, on:
+
+			- staticwhich.co.uk from www.staticwhich.co.uk *
+
+		- Images on staticwhich.co.uk from www.staticwhich.co.uk *
+
+	* Secured by us
 
 -->
 <ruleset name="Which? (partial)">
 
 	<target host="which.co.uk" />
 	<target host="*.which.co.uk" />
-		<exclusion pattern="^http://blogs\.which\.co\.uk/+(?!\w+/wp-(?:content|includes)/)" />
+		<!--
+			Avoid false/broken MCB:
+						-->
+		<exclusion pattern="^http://staticwhich\.co\.uk/+(?:$|\?)" />
 	<target host="static.which.net" />
 	<target host="staticwhich.co.uk" />
 	<target host="www.staticwhich.co.uk" />
@@ -22,12 +45,12 @@
 	<rule from="^http://(www\.)?which\.co\.uk/(assets/|favicon\.ico|login/?$|media/|signup/?$)"
 		to="https://$1which.co.uk/$2" />
 
-	<rule from="^http://(blogs|info)\.which\.co\.uk/"
-		to="https://$1.which.co.uk/" />
+	<rule from="^http://info\.which\.co\.uk/"
+		to="https://info.which.co.uk/" />
 
 	<!--	Cert doesn't match.	-->
 	<rule from="^http://static\.which\.net/"
-		to="https://staticwhich.co.uk/" />
+		to="https://www.staticwhich.co.uk/" />
 
 	<rule from="^http://(www\.)?staticwhich\.co\.uk/"
 		to="https://$1staticwhich.co.uk/" />

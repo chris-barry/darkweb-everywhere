@@ -28,6 +28,13 @@
 
 	* Secured by us
 
+
+	Mixed content:
+
+		- Images from $self *
+
+	* Secured by us
+
 -->
 <ruleset name="iNet Interactive (partial)">
 

@@ -1,26 +1,74 @@
 <!--
+	For rules causing false/broken MCB, see UniStra.fr-falsemixed.xml.
+
+
 	Nonfunctional:
 
 		- newlsiit.u-strasbg.fr
 
+
+	Problematic domains:
+
+		- unistra.fr subdomains:
+
+			- ^ ¹
+			- lsiit-cnrs ³
+
+	¹ Cert only matches *.unistra.fr
+	³ Self-signed, CN: newlsiit
+
+
+	Partially covered subdomains:
+
+		- (www.) *	(^ → www)
+
+	* Avoiding mixed css from $self
+
+
+	Fully covered domains:
+
+		- unistra.fr subdomains:
+
+			- lsiit-cnrs		(→ icube)
+
+
+	Mixed content:
+
+		- css, on:
+
+			- www from www *
+
+		- Images, on:
+
+			- www from $self *
+
+	* Secured by us
+
 -->
-<ruleset name="University of Strasbourg (partial)" platform="mixedcontent">
+<ruleset name="University of Strasbourg (partial)">
 
 	<target host="unistra.fr" />
 	<target host="*.unistra.fr" />
+		<!--
+			Avoid false/broken MCB:
+						-->
+		<exclusion pattern="^http://www\.unistra\.fr/+plans(?!/commun/|styles/)" />
 
 
 	<!--	Observed cookies:
 
-			- lsiit-cnrs
-				- PHPSESSID
 			- www
 				- fe_typo_user
 					-->
 	<securecookie host="^www.unistra.fr$" name=".*" />
 
 
-	<rule from="^http://(lsiit-cnrs\.|www\.)?unistra\.fr/"
-		to="https://$1unistra.fr/" />
+	<rule from="^http://(?:www\.)?unistra\.fr/"
+		to="https://www.unistra.fr/" />
+
+	<!--	Redirect keeps path and args:
+						-->
+	<rule from="^http://lsiit-cnrs\.unistra\.fr/+"
+		to="https://icube.unistra.fr/" />
 
 </ruleset>

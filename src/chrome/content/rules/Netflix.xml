@@ -1,19 +1,54 @@
 <!--
 	CDN buckets:
 
-		- netflix.hs.llnwd.net/e1/us/
+		- images.netflix.com.edgesuite.net
 
 			- jsapi
+
+		- netflix.gilroystaging.co.uk
+		- netflix.hs.llnwd.net/e1/us/
+
+
+	Nonfunctional subdomains:
+
+		- blog ¹
+		- developer ²
+		- ir ³
+		- techblog ¹
+		- ukirelandblog ¹
+
+	¹ Blogger
+	² Mashery
+	³ Shareholder
 
 
 	Problematic subdomains:
 
-		- jsapi	(400; mismatched, CN: *.hs.llnwd.net)
+		- jsapi *
+
+	* Works, akamai
 
 
 	Fully covered subdomains:
 
+		- (www.)
+		- account
+		- api-global
+		- contactus
+		- help
+		- image
 		- jsapi		(→ netflix.hs.llnwd.net)
+		- ncds
+		- secure
+		- signup
+		- www[12]
+
+
+	Mixed content:
+
+		- Images on help from secure *
+
+	* Secured by us
 
 -->
 <ruleset name="Netflix (buggy)" default_off="various things break">
@@ -21,33 +56,17 @@
 	<target host="netflix.com" />
 	<target host="*.netflix.com" />
 		<!--
-			blog, techblog, ukirelandblog:
-
-				- Hosted on Blogger
-				- Shows Google 404 page
-
-			developer:
-
-				- Handled in Mashery-clients.xml
-
-			ir:
-
-				- Cert: *.shareholder.com
-				- Throws 403
-
-			jobs:
-
-				- reset
-
-			-->
-		<exclusion pattern="^http://(blog|developer|ir|jobs|techblog|ukirelandblog)\.netflix\.com/" />
+			Redirect to http:
+						-->
+		<!--exclusion pattern="^http://ca\.netflix\.com/($|\?)" /-->
+		<exclusion pattern="^http://(blog|ca|developer|ir|jobs|techblog|ukirelandblog)\.netflix\.com/" />
 
 
 	<securecookie host="^(contactus|signup)\.netflix\.com$" name=".*" />
 
 
 	<rule from="^http://jsapi\.netflix\.com/"
-		to="https://netflix.hs.llnwd.net/e1/" />
+		to="https://a248.e.akamai.net/f/248/8214/10/jsapi.netflix.com/" />
 
 	<rule from="^http://([^/:@\.]+\.)?netflix\.com/"
 		to="https://$1netflix.com/" />

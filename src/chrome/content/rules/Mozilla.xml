@@ -1,7 +1,6 @@
 <!--
 	Other Mozilla rulesets:
 
-		- Allizom.org.xml
 		- BrowserID.xml
 		- Bugzilla.xml
 		- GetPersonas.xml
@@ -68,6 +67,7 @@
 
 		- firefox.com
 		- www.firefox.com		(works; mismatched, CN: static-san.mozilla.org)
+		- labs.mozilla.com *
 		- cdn.mozilla.net		(404; mismatched, CN: gp1.wac.edgecastcdn.net)
 		- download.cdn.mozilla.net	(503, akamai)
 		- getpersonas-cdn.mozilla.net	(mismatched, CN: ssl2.cdngc.net)
@@ -85,6 +85,7 @@
 			- videos		(works; mismatched, CN: static-cdn.addons.mozilla.net)
 
 		- hardhat.mozilla.net ⁵
+        - *.phish-report.mozilla.com (mismatched)
 
 	⁵ Works; mismatched, CN: gp1.wac.edgecastcdn.net
 	* Prompts for LDAP login; mismatched, CN: static-san.mozilla.org
@@ -96,16 +97,10 @@
 		- www.drumbeat.org
 		- (www.)firefox.com		(→ www.mozilla.org)
 		- marketplace.firefox.com
-		- accounts.firefox.com
-		- api.accounts.firefox.com
-		- oauth.accounts.firefox.com
-		- profile.accounts.firefox.com
-		- verifier.accounts.firefox.com
 
 		- mozilla.com subdomains:
 
 			- (www.)
-			- activations
 			- addons
 			- air
 			- basket
@@ -114,32 +109,21 @@
 			- crash-analysis
 			- crash-stats
 			- data
-			- fhr.data
 			- input
+			- labs		(→ mozillalabs.com)
 			- mail
 			- people
 			- mail.corp.phx1
-
-			- services subdomains:
-
-				- ^
-				- account
-				- auth
-				- location
-				- setup
-
-			- snippets
+			- location.services
 			- support
 
 		- mozilla.net subdomains:
 
-			- (www.)		(→ www.mozilla.org)
 			- static-cdn.addons
 			- static-ssl-cdn.addons
 
 			- cdn subdomains:
 
-				- activations
 				- addons
 				- developer
 				- download		(→ ftp.mozilla.org)
@@ -153,12 +137,11 @@
 
 			- getpersonas-cdn	(→ getpersonas.cdn)
 			- videos-cdn
+			- www			(→ www.mozilla.org)
 
 		- mozilla.org subdomains:
 
 			- (www.)
-
-			- activations
 
 			- addons subdomains:
 
@@ -170,15 +153,12 @@
 			- affiliates
 			- affiliates-cdn	(→ affiliates)
 			- air
-			- aus3
-			- aus4
 			- basket
 			- beta		(→ mozilla.org/en-US/firefox/channel/)
 			- blog
 			- boardwiki
 			- bugzilla
 			- bzr
-			- calendar
 			- careers
 			- communitystore
 			- creative
@@ -187,7 +167,6 @@
 			- dnt
 			- donate
 			- download
-			- dragnet
 			- education
 			- etherpad
 			- fb-affiliates
@@ -203,7 +182,6 @@
 			- inform
 			- input
 			- intlstore
-			- intranet
 			- join
                         - keys
                         - keyserver
@@ -212,8 +190,6 @@
 			- ldap
 			- lists
 			- localize
-			- m
-			- svc.m
 			- mail
 			- mana
 			- marketplace
@@ -224,7 +200,6 @@
 			- nightly
 			- outgoing
 			- people	(→ people.mozilla.com)
-			- pfs
 			- quality
 			- reps
 			- securitywiki
@@ -233,7 +208,6 @@
 			- support
 			- talkback-public	(→ crash-stats.mozilla.com)
 			- tbpl
-			- incoming.telemetry
 			- videos	(→ videos-cdn.mozilla.net)
 			- wiki
 
@@ -258,11 +232,6 @@
 		- (www.)webfwd.org
 
 
-	These altnames don't exist:
-
-		- scrypt.accounts.firefox.com
-
-
 	Cookie domains:
 
 		- mail.mozilla.com
@@ -273,14 +242,7 @@
 
 	Mixed content:
 
-		- Images, on:
-
-			- blog.mozilla.org from $self *
-			- www.mozilla.org from www.seamonkey-project.org
-
-		- Ad on activations.cdn.mozilla.net from getpocket.com *
-
-	* Secured by us
+		- Image on www.mozilla.org from www.seamonkey-project.org
 
 -->
 <ruleset name="Mozilla">
@@ -292,7 +254,7 @@
 	<target host="mozilla.com" />
 	<target host="*.mozilla.com" />
 		<exclusion pattern="^http://(?:www\.authstage|fxfeeds|identity|www-trunk\.stage)\.mozilla\.com/" />
-	<target host="mozilla.net" />
+		<exclusion pattern="^http://(?:[\w\.-]+\.)?phish-report\.mozilla\.com/" />
 	<target host="*.mozilla.net" />
 		<exclusion pattern="^http://(?:cdn|hardhat)\.mozilla\.net/" />
 	<target host="mozilla.org" />
@@ -330,15 +292,18 @@
 	<rule from="^https?://(?:www\.)?firefox\.com/"
 		to="https://www.mozilla.org/firefox/" />
 
-	<rule from="^http://(accounts|(?:api|oauth|profile|verifier)\.accounts|marketplace)\.firefox\.com/"
-		to="https://$1.firefox.com/" />
+	<rule from="^http://marketplace\.firefox\.com/"
+		to="https://marketplace.firefox.com/" />
+
+	<rule from="^http://labs\.mozilla\.(?:com|org)/+"
+		to="https://mozillalabs.com/" />
 
 	<rule from="^http://([\w.-]+\.)?mozilla\.com/"
 		to="https://$1mozilla.com/" />
 
 	<!--	Redirects as so over http.
 						-->
-	<rule from="^https?://(?:www\.)?mozilla\.net/"
+	<rule from="^https?://www\.mozilla\.net/"
 		to="https://www.mozilla.org/" />
 
 	<rule from="^https?://download\.cdn\.mozilla\.net/"
@@ -355,9 +320,6 @@
 
 	<rule from="^https?://beta\.mozilla\.org/"
 		to="https://www.mozilla.org/firefox/channel/" />
-
-	<rule from="^http://labs\.mozilla\.org/"
-		to="https://mozillalabs.com/" />
 
 	<rule from="^https?://people\.mozilla\.org/"
 		to="https://people.mozilla.org/" />

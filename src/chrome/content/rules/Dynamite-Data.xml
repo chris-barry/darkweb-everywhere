@@ -1,13 +1,4 @@
-<!--
-	For problematic rules, see Dynamite-Data-mismatches.xml.
-
-
-	Problematic domains:
-
-		- (www.)dynamitedeals.com *
-
-	* Mismatched, CN: *.dynamitedata.com
-
+<!--	See Dynamite-Data-mismatches for problematic rules
 
 
 	Mixed content:
@@ -21,14 +12,12 @@
 -->
 <ruleset name="Dynamite Data (partial)">
 
-	<target host="dynamitedata.com" />
-	<target host="*.dynamitedata.com" />
+	<target host="dynamitedata.com"/>
+	<target host="*.dynamitedata.com"/>
 
+	<securecookie host="^(.*\.)?dynamitedata.com$" name=".*"/>
 
-	<securecookie host="^(?:.*\.)?dynamitedata.com$" name=".+" />
-
-
-	<rule from="^http://((?:detonator|mkt|www)\.)?dynamitedata\.com/"
-		to="https://$1dynamitedata.com/" />
+	<rule from="^http://(detonator\.|www\.)?dynamitedata\.com/"
+		to="https://$1dynamitedata.com/"/>
 
 </ruleset>
