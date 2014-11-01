@@ -138,7 +138,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <https://encyclopediadramatica.es/ED:TOR> ([A](https://archive.today/wWjAe))
 
 * **Facebook**
-	* Documented here: <https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237>
+	* Documented here: <https://www.facebook.com/notes/protect-the-graph/making-connections-to-facebook-more-secure/1526085754298237> ([A](https://archive.today/bVma7))
 
 * **Flibusta**
 	* Documented here: <http://flibusta.net/> ([A](https://archive.today/3DAe5))
