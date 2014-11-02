@@ -1,0 +1,10 @@
+<ruleset name="Passa Palavra Onion" >
+	<target host="passapalavra.info" />
+	<target host="www.passapalavra.info" />
+	<rule from="^https?://(www\.)?passapalavra\.info/" to="http://jrz524vll72f4ljr.onion/" />
+</ruleset>
+<!--
+* **Passa Palavra**
+        * Documented here: <https://twitter.com/passapalavra/status/528698946575925248> ([A](https://archive.today/eiW9z))
+		        * Also linked on main page of site (click the Tor logo)
+				-->

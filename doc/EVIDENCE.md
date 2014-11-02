@@ -154,6 +154,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **GSF System**
 	* Documented here: <http://www.global-settlement.org/access> ([A](https://archive.today/Uz9p7))
 
+* **Gus' Blog**
+	* Documented on main page of site: <http://gus.distopico.net/> ([A](https://archive.today/HSNQV))
+
 * **Hack Canada**
 	* Could not verify the ownership yet, but same content.
 

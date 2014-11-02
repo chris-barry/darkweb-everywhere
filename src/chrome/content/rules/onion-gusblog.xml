@@ -1,0 +1,8 @@
+<ruleset name="Gus' Blog Onion" >
+	<target host="gus.distopico.net" />
+	<rule from="^https?://(www\.)?gus.distopico\.net/" to="http://ufufdbacqmcvsrwp.onion/" />
+</ruleset>
+<!--
+* **Passa Palavra**
+	* Documented on main page of site: <http://gus.distopico.net/> ([A](https://archive.today/HSNQV))
+		-->
