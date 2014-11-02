@@ -1,5 +1,0 @@
-<ruleset name="Freedomofthepressfoundation Onion">
-	<target host="pressfreedomfoundation.org" />
-	<target host="www.pressfreedomfoundation.org" />
-	<rule from="^https?://(www\.)?pressfreedomfoundation\.org/" to="http://freepress3xxs3hk.onion/" />
-</ruleset>

@@ -1,7 +1,0 @@
-<ruleset name="Gliders Wirley Searx Onion">
-	<target host="gliderswirley.org" />
-	<target host="www.gliderswirley.org" />
-	<target host="searx.gliderswirley.org" />
-	<rule from="^https://(www\.)?gliderswirley\.org/" to="http://qfz67iw4xz7qwfab.onion/" />
-	<rule from="^https?://searx\.gliderswirley\.org/" to="http://qfz67iw4xz7qwfab.onion/" />
-</ruleset>

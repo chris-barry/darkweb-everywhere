@@ -1,5 +1,0 @@
-<ruleset name="emvlab Onion">
-	<target host="emvlab.org" />
-	<target host="www.emvlab.org" />
-	<rule from="^https?://(www\.)?emvlab\.org/" to="http://jgx2azthbvyy2hgs.onion/" />
-</ruleset>

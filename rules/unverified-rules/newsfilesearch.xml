@@ -1,5 +1,0 @@
-<ruleset name="NewsFileSearch Onion">
-	<target host="newsfilesearch.com" />
-	<target host="www.newsfilesearch.com" />
-	<rule from="^https?://(www\.)?newsfilesearch\.com/" to="http://wbyi72yt6gitdcqd.onion/" />
-</ruleset>

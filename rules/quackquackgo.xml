@@ -1,5 +1,0 @@
-<ruleset name="QuackQuackGo Searx Onion">
-	<target host="quackquackgo.nl" />
-	<target host="www.quackquackgo.nl" />
-	<rule from="^https?://(www\.)?quackquackgo\.nl/" to="http://qppbs5ezaw2lecuk.onion/" />
-</ruleset>

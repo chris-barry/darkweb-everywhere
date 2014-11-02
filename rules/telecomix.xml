@@ -1,5 +1,0 @@
-<ruleset name="Telecomix Onion">
-	<target host="telecomix.org" />
-	<target host="www.telecomix.org" />
-	<rule from="^https?://(www\.)?telecomix\.org/" to="http://2qkkxuoajqzr35qq.onion/" />
-</ruleset>

@@ -1,5 +1,0 @@
-<ruleset name="The Guardian SecureDrop Onion">
-	<target host="securedrop.theguardian.com" />
-	<rule from="^https?://securedrop\.theguardian\.com/" to="http://33y6fjyhs3phzfjj.onion/" />
-</ruleset>
-

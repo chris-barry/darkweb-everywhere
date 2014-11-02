@@ -1,5 +1,0 @@
-<ruleset name="Yay Ponies Onion">
-	<target host="derpy.fr" />
-	<target host="www.derpy.fr" />
-	<rule from="^https?://(www\.)?derpy\.fr/" to="http://ponieslzi3ivbynd.onion/" />
-</ruleset>

@@ -1,5 +1,0 @@
-<ruleset name="Urbanculture Onion">
-	<target host="urbanculture.in" />
-	<target host="www.urbanculture.in" />
-	<rule from="^https?://(www\.)?urbanculture\.in/" to="http://urbanjjoxz45sz4t.onion/" />
-</ruleset>

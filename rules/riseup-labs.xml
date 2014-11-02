@@ -1,4 +1,0 @@
-<ruleset name="Riseup Labs Onion" default_off="doesn't seem to work the same as the clearnet address (2014-05-02) ">
-	<target host="labs.riseup.net" />
-	<rule from="^https?://labs\.riseup\.net/" to="http://yfm6sdhnfbulplsw.onion/" />
-</ruleset>

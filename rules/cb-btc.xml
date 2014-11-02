@@ -1,5 +1,0 @@
-<ruleset name="CB-BTC Onion">
-	<target host="cb-btc.com" />
-	<target host="www.cb-btc.com" />
-	<rule from="^https?://(www\.)?cb-btc\.com/" to="http://cidr6kt4la4slizf.onion/" />
-</ruleset>

@@ -1,4 +1,0 @@
-<ruleset name="tor2tcp Onion">
-	<target host="poum.niij.org" />
-	<rule from="^https?://poum\.niij\.org/" to="http://u75jkrt3umu2c7pn.onion/" />
-</ruleset>

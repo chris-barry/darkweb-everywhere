@@ -1,5 +1,0 @@
-<ruleset name="Pink Meth Onion">
-	<target host="pinkmeth.com" />
-	<target host="www.pinkmeth.com" />
-	<rule from="^https?://(www\.)?pinkmeth\.com/" to="http://pinkmethuylnenlz.onion/" />
-</ruleset>

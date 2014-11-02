@@ -1,5 +1,0 @@
-<ruleset name="Mailtor Onion">
-	<target host="mailtor.net" />
-	<target host="www.mailtor.net" />
-	<rule from="^https?://(www\.)?mailtor\.net/" to="http://mailtoralnhyol5v.onion/" />
-</ruleset>

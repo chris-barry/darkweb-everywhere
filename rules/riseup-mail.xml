@@ -1,6 +1,0 @@
-<ruleset name="Riseup Mail Onion">
-	<target host="mail.riseup.net" />
-	<target host="fruiteater.riseup.net" />
-	<target host="fulvetta.riseup.net" />
-	<rule from="^https?://(mail|fruiteater|fulvetta)\.riseup\.net/" to="http://zsolxunfmbfuq7wf.onion/" />
-</ruleset>

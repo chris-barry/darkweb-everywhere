@@ -1,5 +1,0 @@
-<ruleset name="Sigterm Onion">
-	<target host="sigterm.no" />
-	<target host="www.sigterm.no" />
-	<rule from="^https?://(www\.)?sigterm\.no/" to="http://sigtermu2osxhujr.onion/" />
-</ruleset>

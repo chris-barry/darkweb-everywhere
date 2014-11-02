@@ -1,5 +1,0 @@
-<ruleset name="rows.io Onion">
-	<target host="rows.io" />
-	<target host="www.rows.io" />
-	<rule from="^https?://(www\.)?rows\.io/" to="http://yz6yiv2hxyagvwy6.onion/" />
-</ruleset>

@@ -1,5 +1,0 @@
-<ruleset name="Ahmia Onion">
-	<target host="ahmia.fi" />
-	<target host="www.ahmia.fi" />
-	<rule from="^https?://(www\.)?ahmia\.fi/" to="http://msydqstlz2kzerdg.onion/" />
-</ruleset>

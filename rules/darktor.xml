@@ -1,5 +1,0 @@
-<ruleset name="Dark Tor Onion">
-	<target host="darktor.com" />
-	<target host="www.darktor.com" />
-	<rule from="^https?://(www\.)?darktor\.com/" to="http://darktorlawxm3pyz.onion/" />
-</ruleset>

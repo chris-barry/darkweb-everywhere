@@ -1,5 +1,0 @@
-<ruleset name="SIGAINT Onion">
-	<target host="sigaint.org" />
-	<target host="www.sigaint.org" />
-	<rule from="^https?://(www\.)?sigaint\.org/" to="http://sigaintevyh2rzvw.onion/" />
-</ruleset>

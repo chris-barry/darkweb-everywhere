@@ -1,5 +1,0 @@
-<ruleset name="WildLeaks Onion">
-	<target host="secure.wildleaks.org" />
-	<rule from="^https?://secure\.wildleaks\.org/" to="http://ppdz5djzpo3w5k2z.onion/" />
-</ruleset>
-

@@ -1,5 +1,0 @@
-<ruleset name="Wow, Much Pool! Onion">
-	<target host="wowmuchpool.com" />
-	<target host="www.wowmuchpool.com" />
-	<rule from="^https?://(www\.)?wowmuchpool\.com/" to="http://qrz7mjoy2lcn6qri.onion/" />
-</ruleset>

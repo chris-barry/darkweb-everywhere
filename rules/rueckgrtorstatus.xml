@@ -1,4 +1,0 @@
-<ruleset name="Rueckgr Tor Status Onion">
-	<target host="torstatus.rueckgr.at" />
-	<rule from="^https?://torstatus\.rueckgr\.at/" to="http://jlve2y45zacpbz6s.onion/" />
-</ruleset>

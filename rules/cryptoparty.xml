@@ -1,7 +1,0 @@
-<ruleset name="CryptoParty Onion">
-	<target host="cryptoparty.is" />
-	<target host="www.cryptoparty.is" />
-	<target host="jabber.cryptoparty.is" />
-	<rule from="^https?://(www\.)?cryptoparty\.is/" to="http://crypty22ijtotell.onion/" />
-	<rule from="^https?://jabber\.cryptoparty\.is/" to="http://cryjabkbdljzohnp.onion/" />
-</ruleset>

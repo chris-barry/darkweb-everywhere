@@ -1,5 +1,0 @@
-<ruleset name="Scan4You Onion">
-	<target host="scan4you.net" />
-	<target host="www.scan4you.net" />
-	<rule from="^https?://(www\.)?scan4you\.net/" to="http://hybedxst6ulae4oh.onion/" />
-</ruleset>

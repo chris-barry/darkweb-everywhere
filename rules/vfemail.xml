@@ -1,5 +1,0 @@
-<ruleset name="VFEmail Onion">
-	<target host="vfemail.net" />
-	<target host="www.vfemail.net" />
-	<rule from="^https?://(www\.)?vfemail\.net/" to="http://344c6kbnjnljjzlz.onion/" />
-</ruleset>

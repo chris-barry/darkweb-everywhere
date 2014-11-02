@@ -1,5 +1,0 @@
-<ruleset name="ef.gy Onion">
-	<target host="ef.gy" />
-	<target host="www.ef.gy" />
-	<rule from="^https?://(www\.)?ef\.gy/" to="http://vturtipc7vmz6xjy.onion/" />
-</ruleset>

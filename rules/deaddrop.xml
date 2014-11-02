@@ -1,5 +1,0 @@
-<ruleset name="Dead Drop Onion">
-	<target host="dead-drop.me" />
-	<target host="www.dead-drop.me" />
-	<rule from="^https?://(www\.)?dead-drop\.me/" to="http://yoewa2oiuuducqb5.onion/" />
-</ruleset>

@@ -1,5 +1,0 @@
-<ruleset name="CoSign Coin Onion">
-	<target host="cosign.co.in" />
-	<target host="www.cosign.co.in" />
-	<rule from="^https?://(www\.)?cosign\.co\.in/" to="http://mpljg4ombwmdkxl6.onion/" />
-</ruleset>

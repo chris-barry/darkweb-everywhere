@@ -1,5 +1,0 @@
-<ruleset name="Cat out of the Bag Onion">
-	<target host="catoutofthebag.info" />
-	<target host="www.catoutofthebag.info" />
-	<rule from="^https?://(www\.)?catoutofthebag\.info/" to="http://vkpriz2cjzymgpsp.onion/" />
-</ruleset>

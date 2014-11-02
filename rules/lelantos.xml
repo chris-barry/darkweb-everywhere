@@ -1,5 +1,0 @@
-<ruleset name="Lelantos Onion">
-	<target host="lelantos.org" />
-	<target host="www.lelantos.org" />
-	<rule from="^https?://(www\.)?lelantos\.org/" to="http://lelantoss7bcnwbv.onion/" />
-</ruleset>

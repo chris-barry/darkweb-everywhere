@@ -1,5 +1,0 @@
-<ruleset name="brmlab Onion">
-	<target host="brmlab.cz" />
-	<target host="www.brmlab.cz" />
-	<rule from="^https?://(www\.)?brmlab\.cz/" to="http://pmwdzvbyvnmwobk5.onion/" />
-</ruleset>

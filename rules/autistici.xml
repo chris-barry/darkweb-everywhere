@@ -1,7 +1,0 @@
-<ruleset name="Autistici/Inventati Onion">
-	<target host="autistici.org" />
-	<target host="www.autistici.org" />
-	<target host="inventati.org" />
-	<target host="www.inventati.org" />
-	<rule from="^https?://(www\.)?(autistici|inventati)\.org/" to="http://wi7qkxyrdpu5cmvr.onion/" />
-</ruleset>

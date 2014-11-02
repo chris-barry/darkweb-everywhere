@@ -1,5 +1,0 @@
-<ruleset name="Hack The Planet Onion">
-	<target host="straylig.ht" />
-	<target host="www.straylig.ht" />
-	<rule from="^https?://(www\.)?straylig\.ht/" to="http://chippyits5cqbd7p.onion/" />
-</ruleset>

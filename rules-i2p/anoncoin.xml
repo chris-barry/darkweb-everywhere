@@ -1,9 +1,0 @@
-<ruleset name="Anoncoin Eepsite">
-	<target host="anoncoin.net" />
-	<target host="www.anoncoin.net" />
-	<target host="forum.anoncoin.net" />
-	<target host="lotto.anoncoin.net" />
-	<rule from="^https?://(www\.)?anoncoin\.net/" to="http://anoncoin.i2p/" />
-	<rule from="^https?://forum\.anoncoin\.net/" to="http://forum.anoncoin.i2p/" />
-	<rule from="^https?://lotto\.anoncoin\.net/" to="http://2bevknmlz7lkma6g6dgt2qh4jpb6p7kj7h6mxogik2lyuuqi7iaq.b32.i2p/" />
-</ruleset>

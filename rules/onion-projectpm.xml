@@ -1,7 +1,0 @@
-<ruleset name="Project PM Onion">
-	<target host="echelon2.org" />
-	<target host="www.echelon2.org" />
-	<target host="wiki.echelon2.org" />
-	<target host="wiki.project-pm.org" />
-	<rule from="^https?://(www\.|wiki\.)?(echelon2|project-pm)\.org/" to="http://projpmcxufvim7be.onion/" />
-</ruleset>

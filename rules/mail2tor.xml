@@ -1,5 +1,0 @@
-<ruleset name="Mail2Tor Onion">
-	<target host="mail2tor.com" />
-	<target host="www.mail2tor.com" />
-	<rule from="^https?://(www\.)?mail2tor\.com/" to="http://mail2tor2zyjdctd.onion/" />
-</ruleset>

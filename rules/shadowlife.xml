@@ -1,5 +1,0 @@
-<ruleset name="Shadow Life Onion">
-	<target host="shadowlife.cc" />
-	<target host="www.shadowlife.cc" />
-	<rule from="^https?://(www\.)?shadowlife\.cc/" to="http://shadow7jnzxjkvpz.onion/" />
-</ruleset>

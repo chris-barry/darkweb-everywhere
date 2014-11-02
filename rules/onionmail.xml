@@ -1,5 +1,0 @@
-<ruleset name="OnionMail Onion">  
-	<target host="onionmail.info" />
-	<target host="www.onionmail.info" />
-	<rule from="^https?://(www\.)?onionmail\.info/" to="http://louhlbgyupgktsw7.onion/" />
-</ruleset>

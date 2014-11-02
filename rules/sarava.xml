@@ -1,5 +1,0 @@
-<ruleset name="Sarava Onion">
-	<target host="sarava.org" />
-	<target host="www.sarava.org" />
-	<rule from="^https?://(www\.)?sarava\.org/" to="http://und2jtx35butozdh.onion/" />
-</ruleset>

@@ -1,5 +1,0 @@
-<ruleset name="Audiobook Vault Onion">
-	<target host="audiobookvault.ws" />
-	<target host="www.audiobookvault.ws" />
-	<rule from="^https?://(www\.)?audiobookvault\.ws/" to="http://xmctuxj7dsymumwf.onion/" />
-</ruleset>

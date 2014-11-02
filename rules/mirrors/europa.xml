@@ -1,9 +1,0 @@
-<ruleset name="Europa Onion">
-	<target host="europa.eu" />
-	<target host="www.europa.eu" />
-	<target host="eur-lex.europa.eu" />
-	<target host="ec.europa.eu" />
-	<rule from="^https?://(www\.)?europa\.eu/" to="http://w32fb6kci5dg35bl.onion/" />
-	<rule from="^https?://eur-lex\.europa\.eu/" to="http://nlaglur4sh3gsr5d.onion/" />
-	<rule from="^https?://ec\.europa\.eu/" to="http://6zwcopdx6y3z5mc5.onion/" />
-</ruleset>

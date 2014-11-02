@@ -1,5 +1,0 @@
-<ruleset name="Bbsey.es Onion" default_off="Cannot load as of 2014-06-13">
-	<target host="bbsey.es" />
-	<target host="www.bbsey.es" />
-	<rule from="^https?://(www\.)?bbsey\.es/" to="http://bbseyes36k6cowi6.onion/" />
-</ruleset>
