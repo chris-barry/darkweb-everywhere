@@ -173,6 +173,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <https://linksunten.indymedia.org/es/system/files/data/2013/06/1814659631.pdf> ([A](https://archive.today/yZdgd))
 	* Also documented here: <https://en.wikipedia.org/wiki/List_of_Tor_hidden_services>
 
+* **Innocense**
+	* Documented here: <http://www.innocence.se/>
+
 * **img.bi**
 	* Documented here: <https://img.bi> ([A](https://archive.today/Bwo1T)) - linked on the main page
 
