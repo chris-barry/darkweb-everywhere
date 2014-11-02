@@ -3,6 +3,6 @@
 	<rule from="^https?://(www\.)?gus.distopico\.net/" to="http://ufufdbacqmcvsrwp.onion/" />
 </ruleset>
 <!--
-* **Passa Palavra**
+* **Gus' Blog**
 	* Documented on main page of site: <http://gus.distopico.net/> ([A](https://archive.today/HSNQV))
 		-->
