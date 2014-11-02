@@ -252,6 +252,10 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Parazite**
 	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - links at bottom of page
 
+* **Passa Palavra**
+	* Documented here: <https://twitter.com/passapalavra/status/528698946575925248> ([A](https://archive.today/eiW9z))
+	* Also linked on main page of site (click the Tor logo)
+
 * **Pink Meth**
 	* Documented here: <http://pinkmeth.com/> ([A](https://archive.today/fFQWC)) - links at bottom of page
 
