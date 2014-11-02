@@ -37,7 +37,7 @@ Before you begin, make sure you check out [HTTPSEverywhere's excellent guide][4]
 1. Find a site with a dual setup.
 2. Find evidence that the hidden service is hosted, or endorsed by the correct people.
 3. Add your evidence to `doc/EVIDENCE.md` or `doc/EVIDENCE-i2p.md`.
-4. Write your ruleset, and place it in `src/chrome/content/rules/` or `src/chrome/content/rules-i2p/`.
+4. Write your ruleset, and place it in `src/chrome/content/rules/`.
 5. Test twice.
 6. Commit and push.
 
