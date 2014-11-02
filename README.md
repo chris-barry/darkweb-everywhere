@@ -25,6 +25,7 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Installation
 
+0. If you haven't already, download the [Tor Browser Bundle][9]
 1. Start up the Tor Browser Bundle
 2. Download [the extension][5]
 3. Drag the downloaded extension into the Tor Browser Bundle's [Addons page][6].
@@ -36,13 +37,14 @@ Before you begin, make sure you check out [HTTPSEverywhere's excellent guide][4]
 1. Find a site with a dual setup.
 2. Find evidence that the hidden service is hosted, or endorsed by the correct people.
 3. Add your evidence to `doc/EVIDENCE.md` or `doc/EVIDENCE-i2p.md`.
-4. Write your ruleset, and place it in `rules/` or `rules-i2p/`.
+4. Write your ruleset, and place it in `src/chrome/content/rules/` or `src/chrome/content/rules-i2p/`.
 5. Test twice.
 6. Commit and push.
 
 ### For Rulesets
 
 Make sure to append the name with "Onion" or "Eepsite", depending on which network the site is hosted on.
+This is so there are no potential conflicts with existing rules.
 
 For example:
 * `<ruleset name="Example Onion"/>`
@@ -77,8 +79,8 @@ Darkweb-everywhere, the extension, and the developers of darkweb-everywhere are 
 ## Thank you!
 
 A **BIG** thank you to the EFF and all the many contributors to HTTPS Everywhere
-
 Another **BIG** thank you to The Tor Project and all the contributors that help with Tor.
+Without either of these two organizations, darkweb-everywhere would not exist.
 
 Thanks to [bee][7](!!!) and [fortasse][8] for the original ideas that lead to this extension
 
@@ -95,3 +97,4 @@ And finally, thank you for using this software!
 [6]: about:addons
 [7]: https://trac.torproject.org/projects/tor/ticket/1670
 [8]: https://lists.torproject.org/pipermail/tor-talk/2014-February/032220.html
+[9]: https://www.torproject.org/download/download-easy.html.en
