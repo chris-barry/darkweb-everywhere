@@ -1,5 +1,0 @@
-<ruleset name="Bitmessage Eepsite">
-	<target host="bitmessage.ch" />
-	<target host="www.bitmessage.ch" />
-	<rule from="^https?://(www\.)?bitmessage\.ch/" to="http://bitmessage.i2p/" />
-</ruleset>

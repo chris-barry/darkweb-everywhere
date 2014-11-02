@@ -1,4 +1,4 @@
-<ruleset name="Hack Canada Onion">
+<ruleset name="Hack Canada Onion" default_off="Unverified">
 	<target host="hackcanada.com" />
 	<target host="www.hackcanada.com" />
 	<rule from="^https?://(www\.)?hackcanada\.com/" to="http://lcvkso2t5t3cmy3x.onion/" />

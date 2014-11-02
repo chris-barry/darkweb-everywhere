@@ -1,4 +1,4 @@
-<ruleset name="Sigterm Eepsite">
+<ruleset name="Sigterm Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="sigterm.no" />
 	<target host="www.sigterm.no" />
 	<rule from="^https?://(www\.)?sigterm\.no/" to="http://sigterm.i2p/" />

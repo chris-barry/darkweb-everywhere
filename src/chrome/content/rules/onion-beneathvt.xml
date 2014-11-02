@@ -1,4 +1,4 @@
-<ruleset name="Beneath VT Onion">
+<ruleset name="Beneath VT Onion" default_off="Unverified">
 	<target host="beneathvt.com" />
 	<target host="www.beneathvt.com" />
 	<rule from="^https?://(www\.)?beneathvt\.com/" to="http://74ypjqjwf6oejmax.onion/" />

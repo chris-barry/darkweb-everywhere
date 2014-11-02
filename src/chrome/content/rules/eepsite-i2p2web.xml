@@ -1,4 +1,4 @@
-<ruleset name="I2p2web Eepsite">
+<ruleset name="I2p2web Eepsite" default_off="i2p rule, might cause conflict">
 	<!-- Some of these hosts have not been up for a while, but I am including them for legacy reasons. -->
 	<target host="*.i2p.to" />
 	<target host="*.i2p.in" />

@@ -1,4 +1,4 @@
-<ruleset name="Parazite Eepsite">
+<ruleset name="Parazite Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="parazite.pp.fi" />
 	<target host="www.parazite.pp.fi" />
 	<target host="parazite.nn.fi" />

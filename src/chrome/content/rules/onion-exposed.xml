@@ -1,4 +1,4 @@
-<ruleset name="Exposed Onion">
+<ruleset name="Exposed Onion" default_off="Mirror">
 	<target host="exposed.su" />
 	<target host="www.exposed.su" />
 	<target host="exposed.re" />

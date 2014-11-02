@@ -1,4 +1,4 @@
-<ruleset name="Europa Onion">
+<ruleset name="Europa Onion" default_off="Mirror">
 	<target host="europa.eu" />
 	<target host="www.europa.eu" />
 	<target host="eur-lex.europa.eu" />

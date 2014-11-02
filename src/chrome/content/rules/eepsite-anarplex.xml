@@ -1,4 +1,4 @@
-<ruleset name="Anarplex Eepsite">
+<ruleset name="Anarplex Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="anarplex.net" />
 	<target host="www.anarplex.net" />
 	<rule from="^https?://(www\.)?anarplex\.net/" to="http://anarplex.i2p/" />

@@ -1,4 +1,4 @@
-<ruleset name="Haste Eepsite">
+<ruleset name="Haste Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="haste.ch" />
 	<target host="www.haste.ch" />
 	<rule from="^https?://(www\.)?haste\.ch/" to="http://lvrsv3e2kdzncgsnqaxengoiyxc3xilxweqr4zvlxcigq6ecgkna.b32.i2p/" />

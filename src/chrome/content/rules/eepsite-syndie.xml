@@ -1,4 +1,4 @@
-<ruleset name="Syndie Eepsite">
+<ruleset name="Syndie Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="syndie.de" />
 	<target host="www.syndie.de" />
 	<target host="syndie.i2p2.de" />

@@ -1,4 +1,4 @@
-<ruleset name="Anoncoin Eepsite">
+<ruleset name="Anoncoin Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="anoncoin.net" />
 	<target host="www.anoncoin.net" />
 	<target host="forum.anoncoin.net" />

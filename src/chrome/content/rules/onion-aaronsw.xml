@@ -1,4 +1,4 @@
-<ruleset name="Aaron Swartz's Blog Onion">
+<ruleset name="Aaron Swartz's Blog Onion" default_off="Unverified">
 	<target host="aaronsw.com" />
 	<target host="www.aaronsw.com" />
 	<rule from="^https?://(www\.)?aaronsw\.com/" to="http://p7qawv4j3musbeyi.onion/" />

@@ -1,4 +1,4 @@
-<ruleset name="WikiLeaks Onion">
+<ruleset name="WikiLeaks Onion" default_off="mirror">
 	<target host="wikileaks.org" />
 	<target host="www.wikileaks.org" />
 	<target host="wikileaks.ch" />

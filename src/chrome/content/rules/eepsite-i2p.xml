@@ -1,4 +1,4 @@
-<ruleset name="i2p Eepsite">
+<ruleset name="i2p Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="i2p2.de" />
 	<target host="www.i2p2.de" />
 	<target host="trac.i2p2.de" />

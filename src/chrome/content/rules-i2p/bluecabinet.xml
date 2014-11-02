@@ -1,5 +1,0 @@
-<ruleset name="Bluecabinet Eepsite">
-	<target host="bluecabinet.info" />
-	<target host="www.bluecabinet.info" />
-	<rule from="^https?://(www\.)?bluecabinet\.info/" to="http://npkn2tsan5be7abni7dex7t65jevtifwj2u37uk3xuhvabb6yzwq.b32.i2p/" />
-</ruleset>

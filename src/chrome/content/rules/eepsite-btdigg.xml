@@ -1,4 +1,4 @@
-<ruleset name="BTDigg Eepsite">
+<ruleset name="BTDigg Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="btdigg.org" />
 	<target host="www.btdigg.org" />
 	<rule from="^https?://(www\.)?btdigg\.org/" to="http://btdigg.i2p/" />

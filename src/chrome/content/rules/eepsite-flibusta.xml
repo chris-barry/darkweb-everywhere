@@ -1,4 +1,4 @@
-<ruleset name="Flibusta Eepsite">
+<ruleset name="Flibusta Eepsite" default_off="i2p rule, might cause conflict">
 	<target host="flibusta.net" />
 	<target host="www.flibusta.net" />
 	<target host="proxy.flibusta.net" />
