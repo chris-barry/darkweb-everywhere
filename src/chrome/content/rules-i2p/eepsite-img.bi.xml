@@ -1,0 +1,5 @@
+<ruleset name="Img.bi Eepsite">
+	<target host="img.bi" />
+	<target host="www.img.bi" />
+	<rule from="^https?://(www\.)?img\.bi/" to="http://imgbi.i2p/" />
+</ruleset>
