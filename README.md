@@ -25,9 +25,9 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Installation
 
-	1. Start up the Tor Browser Bundle
-	2. Download [the extension][5]
-	3. Drag the downloaded extension into the Tor Browser Bundle's [Addons page][6].
+1. Start up the Tor Browser Bundle
+2. Download [the extension][5]
+3. Drag the downloaded extension into the Tor Browser Bundle's [Addons page][6].
 
 ## Contributing
 
@@ -45,8 +45,8 @@ Before you begin, make sure you check out [HTTPSEverywhere's excellent guide][4]
 Make sure to append the name with "Onion" or "Eepsite", depending on which network the site is hosted on.
 
 For example:
-* `<ruleset name="Example Onion/>"`
-* `<ruleset name="Example Eepsite/>"`
+* `<ruleset name="Example Onion"/>`
+* `<ruleset name="Example Eepsite"/>`
 
 ### For Evidence
 
