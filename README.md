@@ -78,6 +78,8 @@ Darkweb-everywhere, the extension, and the developers of darkweb-everywhere are 
 
 A **BIG** thank you to the EFF and all the many contributors to HTTPS Everywhere
 
+Another **BIG** thank you to The Tor Project and all the contributors that help with Tor.
+
 Thanks to [bee][7](!!!) and [fortasse][8] for the original ideas that lead to this extension
 
 Thank you to those who have contributed rules, code, and even suggestions to us. 
