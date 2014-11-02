@@ -1,7 +1,7 @@
 <ruleset name="Innocense Onion" >
 	<target host="innocence.se" />
 	<target host="www.innocence.se" />
-	<rule from="^http?://(www\.)?innocence\.se" to="http://inocncymyac2mufx.onion/" />
+	<rule from="^http?://(www\.)?innocence\.se/" to="http://inocncymyac2mufx.onion/" />
 </ruleset>
 <!--
 * **Innocense**
