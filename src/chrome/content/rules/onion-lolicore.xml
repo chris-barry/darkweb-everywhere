@@ -3,3 +3,7 @@
 	<target host="www.lolicore.ch" />
 	<rule from="^https?://(www\.)?lolicore\.ch/" to="http://lolicore75rq3tm5.onion/" />
 </ruleset>
+<!--
+* **Lolicore**
+	* Documented here: <https://www.lolicore.ch/> ([A](https://archive.today/luStb))
+	-->

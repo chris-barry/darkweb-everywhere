@@ -4,3 +4,7 @@
 	<rule from="^https?://(www\.)?hinezumi\.im/" to="http://47u4h3qi2sdetpgx.onion/" />
 	<rule from="^https?://(www\.)?hinezumi\.im:8443/" to="https://47u4h3qi2sdetpgx.onion:8443/" />
 </ruleset>
+<!--
+* **Hinezumi**
+	* Documented here: <http://hinezumi.im/en/help/access.page> ([A](https://archive.today/B8ode))
+	-->

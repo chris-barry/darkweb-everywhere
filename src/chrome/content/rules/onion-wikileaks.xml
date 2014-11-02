@@ -5,3 +5,7 @@
 	<target host="www.wikileaks.ch" />
 	<rule from="^https?://(www\.)?wikileaks\.(org|ch)/" to="http://jwgkxry7xjeaeg5d.onion/" />
 </ruleset>
+<!--
+* **WikiLeaks**
+	* Most likely an unofficial mirror.
+	-->

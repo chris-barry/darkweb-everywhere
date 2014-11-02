@@ -3,3 +3,7 @@
 	<target host="www.onionindex.com" />
 	<rule from="^https?://(www\.)?onionindex\.com/" to="http://onionindexcg2tsk.onion/" />
 </ruleset>
+<!--
+* **OnionIndex**
+	* Documented here: <http://onionindex.com/> ([A](https://archive.today/pK4mi))
+-->

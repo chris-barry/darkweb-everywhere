@@ -2,3 +2,8 @@
 	<target host="keys.indymedia.org" />
 	<rule from="^https?://keys\.indymedia\.org/" to="http://qtt2yl5jocgrk7nu.onion/" />
 </ruleset>
+<!--
+* **Independent Media Center Keyserver**
+	* Documented here: <https://linksunten.indymedia.org/es/system/files/data/2013/06/1814659631.pdf> ([A](https://archive.today/yZdgd))
+		* Also documented here: <https://en.wikipedia.org/wiki/List_of_Tor_hidden_services>
+-->

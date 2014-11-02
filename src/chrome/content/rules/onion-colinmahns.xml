@@ -1,5 +1,9 @@
-<ruleset name="Colin Mahns Onion">
+<ruleset name="Colin Mahns Onion" default_off="Down as of 2014-09-20">
 	<target host="goatman93.duckdns.org" />
 	<target host="goatman93.no-ip.org" />
 	<rule from="^https?://goatman93\.(duckdns|no-ip)\.org/" to="http://3ok5b6w76gwh4mzq.onion/" />
 </ruleset>
+<!--
+* **Colin Mahns' Personal Site**
+	* Documented here: <https://goatman93.no-ip.org> ([A](https://archive.today/2rV7X))
+	-->

@@ -3,3 +3,7 @@
 	<target host="www.cosign.co.in" />
 	<rule from="^https?://(www\.)?cosign\.co\.in/" to="http://cosigncoin.i2p/" />
 </ruleset>
+<!--
+* **CoSign Coin**
+	* Documented here: <http://cosign.co.in/faq/#I2P> ([A](https://archive.today/gjglk))
+	-->

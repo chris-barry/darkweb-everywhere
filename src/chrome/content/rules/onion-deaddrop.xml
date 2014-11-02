@@ -3,3 +3,7 @@
 	<target host="www.dead-drop.me" />
 	<rule from="^https?://(www\.)?dead-drop\.me/" to="http://yoewa2oiuuducqb5.onion/" />
 </ruleset>
+<!--
+* **One Time Dead Drop**
+	* Documented here: <http://dead-drop.me> ([A](https://archive.today/6gHrR)) - linked on the main page
+	-->

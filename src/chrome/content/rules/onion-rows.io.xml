@@ -3,3 +3,7 @@
 	<target host="www.rows.io" />
 	<rule from="^https?://(www\.)?rows\.io/" to="http://yz6yiv2hxyagvwy6.onion/" />
 </ruleset>
+<!--
+* **rows.io**
+	* Documented here: <https://matt.drollette.com/> ([A](https://archive.today/2jQFQ))
+	-->

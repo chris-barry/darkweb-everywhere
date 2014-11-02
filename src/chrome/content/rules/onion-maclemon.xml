@@ -3,3 +3,7 @@
 	<target host="www.maclemon.at" />
 	<rule from="^https?://(www\.)?maclemon\.at/" to="http://fzybdgczph7xfdnr.onion/" />
 </ruleset>
+<!--
+* **MacLemon**
+	* Documented here: <https://maclemon.at/> ([A](https://archive.today/AT2gK))
+	-->

@@ -3,3 +3,7 @@
 	<target host="www.lelantos.org" />
 	<rule from="^https?://(www\.)?lelantos\.org/" to="http://lelantoss7bcnwbv.onion/" />
 </ruleset>
+<!--
+* **Lelantos**
+	* Documented here: <https://axablends.com/merchants-accepting-bitcoin/email-security/alternatives-to-tormail/> ([A](https://archive.today/NjsVh))
+	-->

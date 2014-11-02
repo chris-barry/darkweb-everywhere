@@ -3,3 +3,7 @@
 	<target host="www.vfemail.net" />
 	<rule from="^https?://(www\.)?vfemail\.net/" to="http://344c6kbnjnljjzlz.onion/" />
 </ruleset>
+<!--
+* **VFEmail**
+	* Documented here: <https://vfemail.net/faq.php> ([A](https://archive.today/1oVzp)) - click on "Can you confirm your TOR address?"
+	-->

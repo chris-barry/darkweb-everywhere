@@ -3,3 +3,10 @@
 	<target host="www.24hoursppc.org" />
 	<rule from="^https?://(www\.)?24hoursppc\.org/" to="http://do7dt6vuskgrz3sa.onion/" />
 </ruleset>
+<!--
+Evidence
+
+* **24hoursppc**
+	* Documented here: <http://24hoursppc.org/> ([A](https://archive.today/DQ4Wo))
+
+	-->

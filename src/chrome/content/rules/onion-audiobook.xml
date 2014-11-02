@@ -3,3 +3,7 @@
 	<target host="www.audiobookvault.ws" />
 	<rule from="^https?://(www\.)?audiobookvault\.ws/" to="http://xmctuxj7dsymumwf.onion/" />
 </ruleset>
+<!--
+* **Audiobook Vault**
+	* Documented here: <http://www.audiobookvault.ws> ([A](https://archive.today/ygkxH))
+	-->

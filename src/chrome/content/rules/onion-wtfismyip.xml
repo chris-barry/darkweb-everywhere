@@ -3,3 +3,7 @@
 	<target host="www.wtfismyip.com" />
 	<rule from="^https?://(www\.)?wtfismyip\.com/" to="http://tmkloc6vhxos3nde.onion/" />
 </ruleset>
+<!--
+* **WTF Is My IP?**
+	* Documented here: <https://www.zerobin.net/?30c3045ba3d19424#8/RkcsUkZrd+ShJCA4injD6LXZEFGT+d8GmkfXT7sDg=> ([A](https://archive.today/q2fYL)) - email from site owner. 
+	-->

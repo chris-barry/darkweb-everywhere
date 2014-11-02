@@ -3,3 +3,7 @@
 	<target host="www.vandersonnerd.blogspot.com" />
 	<rule from="^https?://(www\.)?vandersonnerd\.blogspot\.com/" to="http://kk2l4z3y3ukeryow.onion/" />
 </ruleset>
+<!--
+* **Vanderson o Nerd**
+	* Documented here: <http://vandersonnerd.blogspot.com/> ([A](https://archive.today/qEEAs))
+	-->

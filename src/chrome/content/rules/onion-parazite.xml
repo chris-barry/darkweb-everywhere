@@ -9,3 +9,7 @@
 	<target host="www.parazite.org" />
 	<rule from="^https?://(www\.)?parazite((\.pp|\.nn)?\.fi|\.org)/" to="http://kpynyvym6xqi7wz2.onion/" />
 </ruleset>
+<!--
+* **Parazite**
+	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - links at bottom of page
+	-->

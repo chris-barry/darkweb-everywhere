@@ -3,3 +3,7 @@
 	<target host="www.haste.ch" />
 	<rule from="^https?://(www\.)?haste\.ch/" to="http://lvrsv3e2kdzncgsnqaxengoiyxc3xilxweqr4zvlxcigq6ecgkna.b32.i2p/" />
 </ruleset>
+<!--
+* **Haste**
+	* Documented here: <https://haste.ch> ([A](https://web.archive.org/web/20130627044558/https://haste.ch)) - linked on the main page
+	-->

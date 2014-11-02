@@ -3,3 +3,7 @@
 	<target host="www.ahmia.fi" />
 	<rule from="^https?://(www\.)?ahmia\.fi/" to="http://msydqstlz2kzerdg.onion/" />
 </ruleset>
+<!--
+* **Ahmia**
+	* Documented here: <https://ahmia.fi/search/> ([A](https://archive.today/tvW1E)) - linked on the main page
+	-->

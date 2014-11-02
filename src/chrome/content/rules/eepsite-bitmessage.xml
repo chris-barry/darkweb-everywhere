@@ -3,3 +3,7 @@
 	<target host="www.bitmessage.ch" />
 	<rule from="^https?://(www\.)?bitmessage\.ch/" to="http://bitmessage.i2p/" />
 </ruleset>
+<!--
+* **Bitmessage**
+	* Documented here: <http://bitmessage.ch/faq.html> ([A](https://archive.today/9aSxc)) - link at bottom of page
+	-->

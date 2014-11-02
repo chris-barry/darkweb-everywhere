@@ -3,3 +3,7 @@
 	<target host="www.coinkite.com" />
 	<rule from="^https?://(www\.)?onionindex\.com/" to="http://gcvqzacplu4veul4.onion/" />
 </ruleset>
+<!--
+* **Coinkite**
+	* Documented here: <http://blog.coinkite.com/post/92733188841/coinkite-has-an-onion-for-tor> ([A](https://archive.today/JH7m6))
+	-->

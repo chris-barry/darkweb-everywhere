@@ -4,3 +4,7 @@
 	<rule from="^https?://txtorcon\.readthedocs\.org/en/latest/" to="http://timaq4ygg2iegci7.onion/" />
 	<rule from="^https?://txtorcon\.(readthedocs|rtfd)\.org/" to="http://timaq4ygg2iegci7.onion/" />
 </ruleset>
+<!--
+* **txtorcon**
+	* Documented here: <https://txtorcon.readthedocs.org/en/latest/> ([A](https://archive.today/P0D6S))
+	-->

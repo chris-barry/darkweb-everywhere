@@ -5,3 +5,7 @@
 	<target host="syndie.i2p-projekt.de" />
 	<rule from="^https?://(www\.)?syndie(\.i2p2|\.i2p-projekt)?\.de/" to="http://syndielzlvbxdsah.onion/" />
 </ruleset>
+<!--
+* **Syndie**
+	* Documented here: <https://www.transifex.com/projects/p/I2P/announcements/> ([A](https://archive.today/uMOkB))
+	-->

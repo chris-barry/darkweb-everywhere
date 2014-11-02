@@ -3,3 +3,7 @@
 	<target host="www.bluecabinet.info" />
 	<rule from="^https?://(www\.)?bluecabinet\.info/" to="http://twulujga5k2t3i6c.onion/" />
 </ruleset>
+<!--
+* **Bluecabinet**
+	* Documented here: <https://bluecabinet.info/wiki/Main_Page#Connecting_to_this_wiki> ([A](https://archive.today/JniQ7))
+	-->

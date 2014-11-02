@@ -5,3 +5,7 @@
 	<rule from="^https://(www\.)?gliderswirley\.org/" to="http://qfz67iw4xz7qwfab.onion/" />
 	<rule from="^https?://searx\.gliderswirley\.org/" to="http://qfz67iw4xz7qwfab.onion/" />
 </ruleset>
+<!--
+* **Gliders Wirley Searx**
+	* Documented here: <https://searx.gliderswirley.org> ([A](https://archive.today/hR45r))
+	-->

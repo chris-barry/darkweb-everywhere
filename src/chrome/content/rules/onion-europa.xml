@@ -7,3 +7,7 @@
 	<rule from="^https?://eur-lex\.europa\.eu/" to="http://nlaglur4sh3gsr5d.onion/" />
 	<rule from="^https?://ec\.europa\.eu/" to="http://6zwcopdx6y3z5mc5.onion/" />
 </ruleset>
+<!--
+* **Europa**
+	* Most likely an unofficial mirror.
+	-->

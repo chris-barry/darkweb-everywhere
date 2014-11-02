@@ -3,3 +3,7 @@
 	<target host="www.hackcanada.com" />
 	<rule from="^https?://(www\.)?hackcanada\.com/" to="http://lcvkso2t5t3cmy3x.onion/" />
 </ruleset>
+<!--
+* **Hack Canada**
+	* Could not verify the ownership yet, but same content.
+	-->

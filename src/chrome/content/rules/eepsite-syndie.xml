@@ -5,3 +5,7 @@
 	<target host="syndie.i2p-projekt.de" />
 	<rule from="^https?://(www\.)?syndie(\.i2p2|\.i2p-projekt)?\.de/" to="http://www.syndie.i2p/" />
 </ruleset>
+<!--
+* **Syndie**
+	* Documented here: <http://plugins.i2p.us/plugins/syndie/> ([A](http://web.archive.org/web/20140619065450/http://plugins.i2p.us/plugins/syndie/))
+	-->

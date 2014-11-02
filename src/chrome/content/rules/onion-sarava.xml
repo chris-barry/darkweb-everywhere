@@ -3,3 +3,7 @@
 	<target host="www.sarava.org" />
 	<rule from="^https?://(www\.)?sarava\.org/" to="http://und2jtx35butozdh.onion/" />
 </ruleset>
+<!--
+* **Sarava**
+	* Documented here: <https://www.sarava.org/en> ([A](https://archive.today/ATbp5)) - located on side bar.
+	-->

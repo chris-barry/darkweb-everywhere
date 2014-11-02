@@ -3,3 +3,7 @@
 	<target host="www.aaronsw.com" />
 	<rule from="^https?://(www\.)?aaronsw\.com/" to="http://p7qawv4j3musbeyi.onion/" />
 </ruleset>
+<!--
+* **Aaron Swartz's Blog**
+	* Could not verify the ownership yet, but same content.
+-->

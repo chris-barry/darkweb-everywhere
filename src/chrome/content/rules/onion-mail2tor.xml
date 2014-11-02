@@ -3,3 +3,7 @@
 	<target host="www.mail2tor.com" />
 	<rule from="^https?://(www\.)?mail2tor\.com/" to="http://mail2tor2zyjdctd.onion/" />
 </ruleset>
+<!--
+* **Mail2Tor**
+	* Documented here: <http://mail2tor.com/> ([A](https://archive.today/6m2uI)) - linked on the main page
+	-->

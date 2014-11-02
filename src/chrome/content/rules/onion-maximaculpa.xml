@@ -3,3 +3,7 @@
 	<target host="www.maximaculpa.me" />
 	<rule from="^https?://(www\.)?maximaculpa\.me/" to="http://nsmgu2mglfj7za6s.onion/" />
 </ruleset>
+<!--
+* **Maxima Culpa**
+	* Documented here: <http://maximaculpa.me/sin/365/> ([A](https://archive.today/v0mT4))
+-->

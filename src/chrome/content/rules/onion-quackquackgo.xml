@@ -3,3 +3,7 @@
 	<target host="www.quackquackgo.nl" />
 	<rule from="^https?://(www\.)?quackquackgo\.nl/" to="http://qppbs5ezaw2lecuk.onion/" />
 </ruleset>
+<!--
+* **QuackQuackGo Searx**
+	* Documented here: <https://quackquackgo.nl> ([A](https://archive.today/YBq4M)) - linked on the main page
+	-->

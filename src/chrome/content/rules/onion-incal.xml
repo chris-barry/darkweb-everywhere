@@ -3,3 +3,7 @@
 	<target host="www.incal.net" />
 	<rule from="^https?://(www\.)?incal\.net/" to="http://ykvclvmhmguhesvi.onion/" />
 </ruleset>
+<!--
+* **Incal**
+	* Documented here: <http://www.incal.net/> ([A](https://archive.today/oEWMo))
+	-->

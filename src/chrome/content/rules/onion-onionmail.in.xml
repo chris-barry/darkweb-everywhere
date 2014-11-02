@@ -3,3 +3,8 @@
 	<target host="www.onionmail.in" />
 	<rule from="^https?://(www\.)?onionmail\.in/" to="http://iir4yomndw2dec7x.onion/" />
 </ruleset>
+<!--
+* **OnionMail.in**
+	* Documented here: <http://pastebin.com/AkpRxL3N> ([A](https://archive.today/4xCK2)) - This is a copy of hidden wiki addresses from around the time the service was launched, the same link is still in hidden wikis.
+		* And here: <http://www.wilderssecurity.com/threads/what-are-some-good-anonymous-email-services.347978/> ([A](https://archive.today/VTBA8))
+		-->

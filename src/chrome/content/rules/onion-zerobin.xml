@@ -3,3 +3,7 @@
 	<target host="www.zerobin.net" />
 	<rule from="^https?://(www\.)?zerobin\.net/" to="http://zerobinqmdqd236y.onion/" />
 </ruleset>
+<!--
+* **Zerobin**
+	* Documented here: <https://zerobin.net> ([A](https://archive.today/GYUdw)) - linked on the main page
+-->

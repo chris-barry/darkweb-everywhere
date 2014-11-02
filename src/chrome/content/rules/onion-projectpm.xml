@@ -5,3 +5,7 @@
 	<target host="wiki.project-pm.org" />
 	<rule from="^https?://(www\.|wiki\.)?(echelon2|project-pm)\.org/" to="http://projpmcxufvim7be.onion/" />
 </ruleset>
+<!--
+* **Project PM**
+	* Documented here: <http://echelon2.org/wiki/Main_Page> ([A](https://archive.today/XyL35)) - linked on the main page
+	-->

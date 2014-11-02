@@ -14,3 +14,7 @@
 	<rule from="^https?://(www\.)?(global-settlement\.org|gsfsystem\.ch|gsfsystem\.com|gsfsystem\.co\.uk|gsf\.li)/" to="http://crdp2qimaec2es3x.onion/" />
 	<rule from="^https?://secure\.gsfsystem\.(com|ch)/" to="https://lro7j2ek65qctlel.onion/" />
 </ruleset>
+<!--
+* **GSF System**
+	* Documented here: <http://www.global-settlement.org/access> ([A](https://archive.today/Uz9p7))
+	-->

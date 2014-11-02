@@ -3,3 +3,7 @@
 	<target host="www.moral.nu" />
 	<rule from="^https?://(www\.)?moral\.nu/" to="http://fcnwebggxt2d3h64.onion/" />
 </ruleset>
+<!--
+* **Moral.nu**
+	* Could not verify the ownership yet, but same content.
+	-->

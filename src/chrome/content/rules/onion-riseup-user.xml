@@ -2,3 +2,7 @@
 	<target host="user.riseup.net" />
 	<rule from="^https?://user\.riseup\.net/" to="https://j6uhdvbhz74oefxf.onion/" />
 </ruleset>
+<!--
+* **RiseUp**
+	* Documented here: <https://www.riseup.net/en/tor#riseups-tor-hidden-services> ([A](https://archive.today/rmKwd)) - All hidden services they offer are listed here. For the sake of trying to keep this page as streamlined as possible, we ask you refer here for all of RiseUp's services.
+	-->

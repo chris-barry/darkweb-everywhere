@@ -3,3 +3,7 @@
 	<target host="www.catoutofthebag.info" />
 	<rule from="^https?://(www\.)?catoutofthebag\.info/" to="http://vkpriz2cjzymgpsp.onion/" />
 </ruleset>
+<!--
+* **Cat out of the Bag**
+	* Documented here: <http://www.catoutofthebag.info/> ([A](https://archive.today/J3HRg))
+-->

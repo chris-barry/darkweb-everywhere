@@ -3,3 +3,7 @@
 	<target host="www.darktor.com" />
 	<rule from="^https?://(www\.)?darktor\.com/" to="http://darktorlawxm3pyz.onion/" />
 </ruleset>
+<!--
+* **Darktor**
+	* Documented here: <http://darktor.com/> ([A](https://archive.today/Am1GF)) - At the bottom of the page
+	-->

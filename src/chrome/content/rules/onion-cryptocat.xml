@@ -3,3 +3,9 @@
 	<target host="www.crypto.cat" />
 	<rule from="^https?://(www\.)?crypto\.cat/" to="http://catmeow2zuqpkpyw.onion/" />
 </ruleset>
+<!--
+* **Cryptocat**
+	* Documented here: <https://twitter.com/cryptocatapp/status/402885544247840769> ([A](https://archive.today/SLfXm))
+			* Mentioned again here: <https://twitter.com/cryptocatapp/status/455761778161770496> ([A](https://archive.today/J7eNs))
+				* Mentioned inside the cryptocat app. Click on Custom Server -> Cryptocat (Tor Hidden Service)
+				-->

@@ -3,3 +3,7 @@
 	<target host="www.brmlab.cz" />
 	<rule from="^https?://(www\.)?brmlab\.cz/" to="http://pmwdzvbyvnmwobk5.onion/" />
 </ruleset>
+<!--
+* **brmlab**
+	* Documented here: <https://www.brmlab.cz/project/tor> ([A](https://archive.today/VMWKf))
+	-->

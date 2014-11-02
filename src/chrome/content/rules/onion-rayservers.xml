@@ -4,3 +4,7 @@
 	<target host="altmail.rayservers.com" />
 	<rule from="^https?://(mail|roundcube|altmail)\.rayservers\.com/" to="https://nmf6cg7tiyqlhsg3.onion/" />
 </ruleset>
+<!--
+* **Rayservers**
+	* Documented here: <http://www.rayservers.com/e-mail> ([A](https://archive.today/M4rd3))
+	-->

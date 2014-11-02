@@ -3,3 +3,7 @@
 	<target host="www.mediacru.sh" />
 	<rule from="^https?://(www\.)?mediacru\.sh/" to="http://mediacrs5ujufxog.onion/" />
 </ruleset>
+<!--
+* **MediaCrush**
+	* Documented here: <https://mediacru.sh> ([A](https://archive.today/lg1IM)) - linked on the main page
+	-->

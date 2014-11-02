@@ -3,3 +3,7 @@
 	<target host="www.onionmail.info" />
 	<rule from="^https?://(www\.)?onionmail\.info/" to="http://louhlbgyupgktsw7.onion/" />
 </ruleset>
+<!--
+* **OnionMail**
+	* Documented here: <https://github.com/onionmail/onionmail> ([A](https://archive.today/yCUmh))
+	-->

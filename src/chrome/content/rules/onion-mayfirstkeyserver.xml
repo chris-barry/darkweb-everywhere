@@ -4,3 +4,7 @@
 	<target host="zimmermann.mayfirst.org" />
 	<rule from="^https?://(keys|zimmerma(n|nn))\.mayfirst\.org/" to="http://qdigse2yzvuglcix.onion/" />
 </ruleset>
+<!--
+* **Mayfirst Keyserver**
+	* Documented here: <https://support.mayfirst.org/ticket/5671> ([A](https://archive.today/PXj6c))
+	-->

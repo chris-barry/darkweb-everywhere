@@ -3,3 +3,7 @@
 	<target host="www.sigaint.org" />
 	<rule from="^https?://(www\.)?sigaint\.org/" to="http://sigaintevyh2rzvw.onion/" />
 </ruleset>
+<!--
+* **SIGAINT**
+	* Documented here: <http://sigaint.org> ([A](https://archive.today/70rSq))
+	-->

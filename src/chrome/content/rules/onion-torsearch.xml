@@ -3,3 +3,7 @@
 	<target host="www.torsearch.es" />
 	<rule from="^https?://(www\.)?torsearch\.es/" to="http://kbhpodhnfxl3clb4.onion/" />
 </ruleset>
+<!--
+* **Torsearch**
+	* Documented here: <https://torsearch.es> ([A](https://archive.today/80hIC)) - linked on the main page
+-->

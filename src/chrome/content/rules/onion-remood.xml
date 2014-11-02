@@ -3,3 +3,7 @@
 	<target host="www.remood.org" />
 	<rule from="^https?://(www\.)?remood\.org/" to="http://mqdveflunplrw4pc.onion/" />
 </ruleset>
+<!--
+* **Remood**
+	* Documented here: <http://remood.org> ([A](https://archive.today/KI4dQ)) - link at bottom of page
+	-->

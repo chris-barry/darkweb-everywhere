@@ -3,3 +3,7 @@
 	<target host="www.scan4you.net" />
 	<rule from="^https?://(www\.)?scan4you\.net/" to="http://hybedxst6ulae4oh.onion/" />
 </ruleset>
+<!--
+* **Scan4You**
+	* Documented here: <http://scan4you.net/> ([A](https://archive.today/QUdrH))
+	-->

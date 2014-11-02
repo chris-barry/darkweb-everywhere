@@ -2,3 +2,7 @@
 	<target host="poum.niij.org" />
 	<rule from="^https?://poum\.niij\.org/" to="http://u75jkrt3umu2c7pn.onion/" />
 </ruleset>
+<!--
+* **tor2tcp**
+	* Documented here: <https://poum.niij.org> ([A](https://archive.today/bSJ8w))
+	-->

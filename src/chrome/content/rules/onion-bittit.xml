@@ -3,3 +3,7 @@
 	<target host="www.bittit.info" />
 	<rule from="^https?://(www\.)?bittit\.info/" to="http://ejz7kqoryhqwosbk.onion/" />
 </ruleset>
+<!--
+* **Bittit**
+	* Documented here: <https://bittit.info/docs.php?doc=help> ([A](https://archive.today/LCR9e))
+	-->

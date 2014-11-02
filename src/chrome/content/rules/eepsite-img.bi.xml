@@ -3,3 +3,7 @@
 	<target host="www.img.bi" />
 	<rule from="^https?://(www\.)?img\.bi/" to="http://imgbi.i2p/" />
 </ruleset>
+<!--
+* **img.bi**
+	* Documented here: <https://img.bi> ([A](https://archive.today/Bwo1T)) - linked on the main page
+	-->

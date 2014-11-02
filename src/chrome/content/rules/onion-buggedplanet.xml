@@ -3,3 +3,7 @@
 	<target host="www.buggedplanet.info" />
 	<rule from="^https?://(www\.)?buggedplanet\.info/" to="http://6sgjmi53igmg7fm7.onion/" />
 </ruleset>
+<!--
+* **Bugged Planet**
+	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About> ([A](https://archive.today/0mB6z))
+	-->

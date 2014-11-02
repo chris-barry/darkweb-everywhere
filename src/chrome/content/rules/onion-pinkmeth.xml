@@ -3,3 +3,7 @@
 	<target host="www.pinkmeth.com" />
 	<rule from="^https?://(www\.)?pinkmeth\.com/" to="http://pinkmethuylnenlz.onion/" />
 </ruleset>
+<!--
+* **Pink Meth**
+	* Documented here: <http://pinkmeth.com/> ([A](https://archive.today/fFQWC)) - links at bottom of page
+	-->

@@ -3,3 +3,7 @@
 	<target host="www.mailtor.net" />
 	<rule from="^https?://(www\.)?mailtor\.net/" to="http://mailtoralnhyol5v.onion/" />
 </ruleset>
+<!--
+* **Mailtor**
+	* Documented here: <https://en.wikipedia.org/wiki/Mailtor> ([A](https://archive.today/HBape))
+	-->

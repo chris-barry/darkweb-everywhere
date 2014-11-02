@@ -3,3 +3,7 @@
 	<target host="www.samwhited.com" />
 	<rule from="^https?://(www\.)?samwhited\.com/" to="http://mpf3i4k43xc2usxj.onion" />
 </ruleset>
+<!--
+* **Sam Whited**
+	* Could not verify the ownership yet, but same content.
+	-->

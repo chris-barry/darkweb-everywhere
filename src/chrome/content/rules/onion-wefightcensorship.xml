@@ -3,3 +3,7 @@
 	<target host="www.wefightcensorship.org" />
 	<rule from="^https?://(www\.)?wefightcensorship\.org/" to="http://3kyl4i7bfdgwelmf.onion/" />
 </ruleset>
+<!--
+* **We Fight Censorship**
+	* Documented here: <https://twitter.com/FightCensors_en/status/291150938838798336> ([A](https://archive.today/GhgMU))
+-->

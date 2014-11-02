@@ -3,3 +3,7 @@
 	<target host="www.urbanculture.in" />
 	<rule from="^https?://(www\.)?urbanculture\.in/" to="http://urbanjjoxz45sz4t.onion/" />
 </ruleset>
+<!--
+* **Urbanculture**
+	* Documented here: <http://urbanculture.in/Обсуждение:Tor> ([A](https://archive.today/mKWo7))
+	-->

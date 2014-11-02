@@ -2,4 +2,8 @@
 	<target host="secure.wildleaks.org" />
 	<rule from="^https?://secure\.wildleaks\.org/" to="http://ppdz5djzpo3w5k2z.onion/" />
 </ruleset>
-
+<!--
+* **WildLeaks**
+	* If you load <https://secure.wildleaks.org> in the tor browser bundle, you will be automatically redirected.
+		  Even without darkweb-everywhere.
+		  -->

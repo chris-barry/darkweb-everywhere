@@ -3,3 +3,7 @@
 	<target host="www.newsblur.com" />
 	<rule from="^https?://(www\.)?newsblur\.com/" to="http://vysoofjtouvo2bl3.onion/" />
 </ruleset>
+<!--
+* **NewsBlur**
+	* Documented here: <https://twitter.com/NewsBlur/status/387376786247393280> ([A](https://archive.today/6xky6))
+	-->

@@ -3,3 +3,7 @@
 	<target host="www.cosign.co.in" />
 	<rule from="^https?://(www\.)?cosign\.co\.in/" to="http://mpljg4ombwmdkxl6.onion/" />
 </ruleset>
+<!--
+* **CoSign Coin**
+	* Documented here: <http://cosign.co.in/faq/#TOR> ([A](https://archive.today/gjglk))
+	-->

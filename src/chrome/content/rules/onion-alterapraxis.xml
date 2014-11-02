@@ -3,3 +3,7 @@
 	<target host="www.alterapraxis.com" />
 	<rule from="^https?://(www\.)?alterapraxis\.com/" to="http://ncivdawfxihoh7sj.onion/" />
 </ruleset>
+<!--
+* **Altera Praxis**
+	* Could not verify the ownership yet, but same content.
+-->

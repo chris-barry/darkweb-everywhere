@@ -2,3 +2,7 @@
 	<target host="torstatus.rueckgr.at" />
 	<rule from="^https?://torstatus\.rueckgr\.at/" to="http://jlve2y45zacpbz6s.onion/" />
 </ruleset>
+<!--
+* **Rueckgr Tor Status**
+	* Documented here: <https://torstatus.rueckgr.at/> ([A](https://archive.today/KrnM3)) - link on main page
+	-->

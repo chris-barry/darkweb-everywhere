@@ -3,3 +3,7 @@
 	<target host="www.thundersplace.org" />
 	<rule from="^https?://(www\.)?thundersplace\.org/" to="http://djmrwe2r45qf5bjj.onion/" />
 </ruleset>
+<!--
+* **Thunder's Place**
+	* Could not verify the ownership yet, but same content.
+	-->

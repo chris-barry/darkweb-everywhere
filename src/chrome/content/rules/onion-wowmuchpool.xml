@@ -3,3 +3,7 @@
 	<target host="www.wowmuchpool.com" />
 	<rule from="^https?://(www\.)?wowmuchpool\.com/" to="http://qrz7mjoy2lcn6qri.onion/" />
 </ruleset>
+<!--
+* **Wow, Much Pool!**
+	* Documented here: <http://www.wowmuchpool.com/static/gettingstarted.html> ([A](https://archive.today/kabtQ))
+-->

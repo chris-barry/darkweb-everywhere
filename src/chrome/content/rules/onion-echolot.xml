@@ -3,3 +3,7 @@
 	<target host="echolot.anon-proxy.de" />
 	<rule from="^https?://echolot\.(theremailer\.net|anon-proxy\.de)/" to="http://zvrqjaxpgxglgjrz.onion/" />
 </ruleset>
+<!--
+* **Echolot**
+	* Documented here: <http://echolot.theremailer.net> ([A](https://archive.today/Rct0U))
+	-->

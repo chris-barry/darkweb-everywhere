@@ -13,3 +13,7 @@
 	<target host="www.kavkazcenter.info" />
 	<rule from="^https?://(www\.)?kavkaz(\.tv|\.org\.uk|news\.com|center\.com|center\.net|center\.info)/" to="http://2r2tz6wzqh7gaji7.onion/" />
 </ruleset>
+<!--
+* **Kavkaz Center**
+	* Documented here: <http://www.kavkazcenter.com/eng/content/2012/06/20/16355.shtml> ([A](https://archive.today/3etBo))
+	-->

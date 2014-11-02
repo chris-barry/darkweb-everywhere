@@ -3,3 +3,7 @@
 	<target host="www.shadowlife.cc" />
 	<rule from="^https?://(www\.)?shadowlife\.cc/" to="http://shadow7jnzxjkvpz.onion/" />
 </ruleset>
+<!--
+* **Shadow Life**
+	* Documented here: <http://shadowlife.cc/> ([A](https://archive.today/6BHh7))
+	-->

@@ -4,3 +4,7 @@
 	<target host="irc.anonet2.biz" />
 	<rule from="^https?://(www\.|irc\.)?anonet2\.biz/" to="http://xz2rtmpjjwvdw44p.onion/" />
 </ruleset>
+<!--
+* **Anonet**
+	* Documented here: <http://anonet2.biz> ([A](https://archive.today/lkW0u))
+	-->

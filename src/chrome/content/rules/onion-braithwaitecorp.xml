@@ -3,3 +3,7 @@
 	<target host="www.braithwaitecorp.com" />
 	<rule from="^https?://(www\.)?braithwaitecorp\.com/" to="http://k5ju4uizh5v326jr.onion/" />
 </ruleset>
+<!--
+* **Braithwaite Corp**
+	* Documented here: <https://braithwaitecorp.com> The site owner has uploaded a tag in the head element on his site. It should look like this: `<link rel="x-tor-hidden-service" href="k5ju4uizh5v326jr.onion">`.
+	-->

@@ -2,3 +2,7 @@
 	<target host="mike.tig.as" />
 	<rule from="^https?://mike\.tig\.as/" to="http://tigas3l7uusztiqu.onion/" />
 </ruleset>
+<!--
+* **Mike Tigas**
+	* Documented here: <https://mike.tig.as> ([A](https://archive.today/n8Li9))
+	-->

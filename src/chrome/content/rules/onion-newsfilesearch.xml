@@ -3,3 +3,7 @@
 	<target host="www.newsfilesearch.com" />
 	<rule from="^https?://(www\.)?newsfilesearch\.com/" to="http://wbyi72yt6gitdcqd.onion/" />
 </ruleset>
+<!--
+* **NewsFileSearch**
+	* Could not verify, but same content, same donation addresses, same ads.
+	-->

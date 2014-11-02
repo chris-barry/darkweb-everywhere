@@ -3,3 +3,7 @@
 	<target host="www.ef.gy" />
 	<rule from="^https?://(www\.)?ef\.gy/" to="http://vturtipc7vmz6xjy.onion/" />
 </ruleset>
+<!--
+* **ef.gy**
+	* Documented here: <https://ef.gy/about> ([A](https://archive.today/4eekN)) - Archive page doesnt load, but you can view the source.
+	-->

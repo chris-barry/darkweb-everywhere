@@ -3,3 +3,7 @@
 	<target host="www.derpy.fr" />
 	<rule from="^https?://(www\.)?derpy\.fr/" to="http://ponieslzi3ivbynd.onion/" />
 </ruleset>
+<!--
+* **Yay Ponies**
+	* Documented here: <http://derpy.fr/yp.html> ([A](https://archive.today/RIfoO))
+	-->

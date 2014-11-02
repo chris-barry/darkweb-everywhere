@@ -3,3 +3,7 @@
 	<target host="www.shadowlife.cc" />
 	<rule from="^https?://(www\.)?shadowlife\.cc/" to="http://shadowlife.i2p/" />
 </ruleset>
+<!--
+* **Shadow Life**
+	* Documented here: <http://shadowlife.cc/2013/02/reaching-us-247/> ([A](https://archive.today/6wqCE))
+	-->

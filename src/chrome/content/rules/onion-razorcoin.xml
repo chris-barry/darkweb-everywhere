@@ -3,4 +3,7 @@
 	<target host="www.razorco.in" />
 	<rule from="^https?://(www\.)?razorco\.in/" to="http://mp75zslar3v24ikq.onion/" />
 </ruleset>
-
+<!--
+* **RazorCoin**
+	* Documented here: <https://twitter.com/TheRazorCoin/status/481558030891233282> ([A](https://archive.today/UCgwN))
+	-->

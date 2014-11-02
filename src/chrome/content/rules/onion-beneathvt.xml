@@ -3,3 +3,7 @@
 	<target host="www.beneathvt.com" />
 	<rule from="^https?://(www\.)?beneathvt\.com/" to="http://74ypjqjwf6oejmax.onion/" />
 </ruleset>
+<!--
+* **Beneath VT**
+	* Could not verify the ownership yet, but same content.
+	-->

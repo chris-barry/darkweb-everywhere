@@ -3,3 +3,7 @@
 	<target host="www.straylig.ht" />
 	<rule from="^https?://(www\.)?straylig\.ht/" to="http://chippyits5cqbd7p.onion/" />
 </ruleset>
+<!--
+* **Hack The Planet**
+	* Documented here: <http://straylig.ht/> ([A](https://web.archive.org/web/20130806135320/http://straylig.ht/) - The clearnet website is offline but the archive link shows the evidence.
+-->

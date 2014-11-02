@@ -3,3 +3,7 @@
 	<target host="www.cb-btc.com" />
 	<rule from="^https?://(www\.)?cb-btc\.com/" to="http://cidr6kt4la4slizf.onion/" />
 </ruleset>
+<!--
+* **CB-BTC**
+	* Documented here: <http://www.newsfilesearch.com/> ([A](https://archive.today/BpJu1))
+-->

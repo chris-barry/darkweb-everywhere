@@ -3,3 +3,7 @@
 	<target host="www.cryptdesign.com" />
 	<rule from="^https?://(www\.)?cryptdesign\.com/" to="http://v6mc3fd2lg5dv6uz.onion/" />
 </ruleset>
+<!--
+* **Crypt Design**
+	* Documented here: <http://cryptdesign.com/> ([A](https://archive.today/HKEqC))
+	-->

@@ -5,3 +5,7 @@
 	<target host="www.whonix.org.nyud.net" />
 	<rule from="^https?://(www\.)?whonix\.org(\.nyud\.net)?/" to="http://xxxxxxxxxxh5kyrx.onion/" />
 </ruleset>
+<!--
+* **Whonix**
+	* Documented here: <https://www.whonix.org/> ([A](https://archive.today/fgfMM)) - also linked to at the footer on every page
+	-->

@@ -227,3 +227,8 @@
 	<exclusion pattern="^https?://(www\.)?thepiratebay\.(ai|mk)/" />
 	<rule from="^https?://(www\.)?thepiratebay\.[^./]+/" to="http://uj3wazyk5u4hnvtk.onion/" />
 </ruleset>
+<!--
+* **The Pirate Bay**
+	* Documented here: <http://proxybay.info/alternate-methods.html#TOR> ([A](https://archive.today/3MYE9))
+		* Also on Twitter: <https://twitter.com/tpbdotorg/status/203221129513545729> ([A](https://archive.today/Fcjgu))
+		-->

@@ -5,3 +5,7 @@
 	<target host="www.exposed.re" />
 	<rule from="^https?://(www\.)?exposed\.(su|re)/" to="http://exposed36mq3ns23.onion/" />
 </ruleset>
+<!--
+* **Exposed**
+	* The clearnet addresses are dead. Only the hidden service is alive.
+	-->

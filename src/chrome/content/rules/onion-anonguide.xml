@@ -3,3 +3,7 @@
 	<target host="www.anonguide.cyberguerrilla.org" />
 	<rule from="^https?://(www\.)?anonguide\.cyberguerrilla\.org/" to="http://yuxv6qujajqvmypv.onion/" />
 </ruleset>
+<!--
+* **Anonguide**
+	* Documented here: <https://anonguide.cyberguerrilla.org/index.php?title=Main_Page> ([A](https://archive.today/ZyhWF)) - linked on the main page
+	-->

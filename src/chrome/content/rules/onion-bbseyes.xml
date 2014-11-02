@@ -3,3 +3,7 @@
 	<target host="www.bbsey.es" />
 	<rule from="^https?://(www\.)?bbsey\.es/" to="http://bbseyes36k6cowi6.onion/" />
 </ruleset>
+<!--
+* **Behind Bloodshot Eyes**
+	* Documented here: <https://twitter.com/bbseyes/status/422416817659707392> ([A](https://archive.today/uDyTM))
+	-->

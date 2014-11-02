@@ -3,3 +3,7 @@
 	<target host="www.thunked.org" />
 	<rule from="^https?://(www\.)thunked\.org/" to="http://yrmpp4yogfoe5mj3.onion/" />
 </ruleset>
+<!--
+* **Thunked**
+	* Documented here: <https://thunked.org/general/thunked-has-a-new-host-ipv6-and-tor-access-t153.html> ([A](https://archive.today/QQd0m))
+	-->

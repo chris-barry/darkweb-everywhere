@@ -3,3 +3,8 @@
 	<target host="www.bitpad.co.nz" />
 	<rule from="^https?://(www\.)?bitpad\.co\.nz/" to="https://bitpadovlvshmpvk.onion/" />
 </ruleset>
+<!--
+* **Bitpad**
+	* Documented here: <https://bitpad.co.nz/> ([A](https://archive.today/o7wLX)) - link at bottom of page
+		* Also here: <https://twitter.com/BitPadNZ/status/474454339117805569> ([A](https://archive.today/rcQNl))
+		-->

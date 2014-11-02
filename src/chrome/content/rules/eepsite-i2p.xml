@@ -13,3 +13,8 @@
 	<rule from="^https?://(www\.)?(i2p2\.de|geti2p\.net|geti2p\.com|i2pproject\.net|i2p-projekt\.de)/" to="http://i2p-projekt.i2p/" />
 	<rule from="^https?://trac\.i2p2\.de/" to="http://trac.i2p2.i2p/" />
 </ruleset>
+<!--
+* **i2p**
+	* Documented here: <https://geti2p.net/> ([A](https://archive.today/u82Bk))
+		* Also documented on the i2p router console.
+		-->

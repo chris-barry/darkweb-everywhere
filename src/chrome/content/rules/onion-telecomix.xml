@@ -3,3 +3,7 @@
 	<target host="www.telecomix.org" />
 	<rule from="^https?://(www\.)?telecomix\.org/" to="http://2qkkxuoajqzr35qq.onion/" />
 </ruleset>
+<!--
+* **Telecomix**
+	* Documented here: <http://telecomix.org> ([A](https://archive.today/qA26M)) - linked on the main page
+	-->

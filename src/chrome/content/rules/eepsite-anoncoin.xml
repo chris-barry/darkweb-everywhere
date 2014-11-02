@@ -7,3 +7,8 @@
 	<rule from="^https?://forum\.anoncoin\.net/" to="http://forum.anoncoin.i2p/" />
 	<rule from="^https?://lotto\.anoncoin\.net/" to="http://2bevknmlz7lkma6g6dgt2qh4jpb6p7kj7h6mxogik2lyuuqi7iaq.b32.i2p/" />
 </ruleset>
+<!--
+* **Anoncoin**
+	* Documented here: <https://anoncoin.net/index.php/get-in-touch> ([A](https://archive.today/HjKiP))
+		* AnonLuck documented here: <http://lotto.anoncoin.net/> ([A](https://archive.today/6VsZ2))
+		-->

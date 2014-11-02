@@ -3,3 +3,7 @@
 	<target host="www.bitmessage.ch" />
 	<rule from="^https?://(www\.)?bitmessage\.ch/" to="http://bitmailendavkbec.onion/" />
 </ruleset>
+<!--
+* **Bitmessage**
+	* Documented here: <https://bitmessage.ch/faq.html> ([A](https://archive.today/9aSxc))
+	-->

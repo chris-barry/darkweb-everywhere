@@ -3,3 +3,8 @@
 	<target host="www.bluecabinet.info" />
 	<rule from="^https?://(www\.)?bluecabinet\.info/" to="http://npkn2tsan5be7abni7dex7t65jevtifwj2u37uk3xuhvabb6yzwq.b32.i2p/" />
 </ruleset>
+<!--
+* **Bluecabinet**
+	* Documented here: <https://twitter.com/TelecomixBSRE/status/404341879627468801> ([A](https://archive.today/XNYcf))
+		* Again here: <https://twitter.com/TelecomixBSRE/status/409540600174624769> ([A](https://archive.today/YQDcW))
+		-->

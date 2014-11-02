@@ -3,3 +3,7 @@
 	<target host="www.anarplex.net" />
 	<rule from="^https?://(www\.)?anarplex\.net/" to="http://anarplex.i2p/" />
 </ruleset>
+<!--
+* **Anarplex**
+	* Documented here: <http://anarplex.net/> ([A](https://archive.today/8isNe)) - linked on the main page
+	-->

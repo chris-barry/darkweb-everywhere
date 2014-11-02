@@ -3,3 +3,7 @@
 	<target host="www.torservers.net" />
 	<rule from="^https?://(www\.)?torservers\.net/" to="http://hbpvnydyyjbmhx6b.onion/" />
 </ruleset>
+<!--
+* **Torservers.net**
+	* Documented here: <https://www.torservers.net/wiki/> ([A](https://archive.today/daVLo))
+	-->

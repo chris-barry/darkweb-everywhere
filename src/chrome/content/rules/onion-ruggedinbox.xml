@@ -3,4 +3,7 @@
 	<target host="www.ruggedinbox.com" />
 	<rule from="^https?://(www\.)?ruggedinbox\.com/" to="http://s4bysmmsnraf7eut.onion/" />
 </ruleset>
-
+<!--
+* **RuggedInboc**
+	* Documented here: <https://www.ruggedinbox.com/> ([A](https://archive.today/66Pkb)) - Link main page.
+	-->

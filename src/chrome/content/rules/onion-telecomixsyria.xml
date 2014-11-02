@@ -3,3 +3,7 @@
 	<target host="www.syria.telecomix.org" />
 	<rule from="^https?://(www\.)?syria\.telecomix\.org/" to="http://utbj7hsnkei5oc5o.onion/" />
 </ruleset>
+<!--
+* **Telecomix Syria**
+	* Documented here: <http://syria.telecomix.org> ([A](https://archive.today/rDH7t)) - linked on the main page
+	-->
