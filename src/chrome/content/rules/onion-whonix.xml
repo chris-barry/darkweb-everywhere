@@ -1,4 +1,4 @@
-<ruleset name="Whonix Onion">
+<ruleset name="Whonix Onion" default_off="Taken offline 2014-11-09 https://www.whonix.org/blog/hidden-service-taken-offline">
 	<target host="whonix.org" />
 	<target host="www.whonix.org" />
 	<target host="whonix.org.nyud.net" />

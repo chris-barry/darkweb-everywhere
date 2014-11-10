@@ -361,6 +361,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Whonix**
 	* Documented here: <https://www.whonix.org/> ([A](https://archive.today/fgfMM)) - also linked to at the footer on every page
+		* Taken offline on 2014-11-09 <https://www.whonix.org/blog/hidden-service-taken-offline> ([A](https://archive.today/n9uIX))
 
 * **WikiLeaks**
 	* Most likely an unofficial mirror.
