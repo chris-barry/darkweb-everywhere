@@ -1,5 +1,5 @@
 <ruleset name="PoFree Onion">  
 	<target host="pofree.ru" />
 	<target host="www.pofree.ru" />
-	<rule from="^https?://(www\.)?pofree\.ru/" to="http://ilcbx6qpxupxtamk.onion" />
+	<rule from="^https?://(www\.)?pofree\.ru/" to="http://ilcbx6qpxupxtamk.onion/" />
 </ruleset>
