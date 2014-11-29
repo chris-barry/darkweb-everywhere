@@ -1,0 +1,9 @@
+<ruleset name="Blockchain.info Onion">
+	<target host="blockchain.info" />
+	<target host="www.blockchain.info" />
+	<rule from="^https?://(www\.)?blockchain\.info/" to="http://blockchatvqztbll.onion/" />
+</ruleset>
+<!--
+* **Blockchain.info**
+	* Documented here: <https://blockchain.info/wallet/anonymity> ([A](https://archive.today/uML6g))
+-->
