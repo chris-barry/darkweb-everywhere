@@ -48,6 +48,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Beneath VT**
 	* Could not verify the ownership yet, but same content.
 
+* **Blockchain.info**
+    * Documented here: <https://blockchain.info/wallet/anonymity> ([A](https://archive.today/uML6g))
+
 * **BitcoinCigs**
 	* Documented here: <https://bitcointalk.org/index.php?topic=193243.0> ([A](https://archive.today/UgTi8))
 
