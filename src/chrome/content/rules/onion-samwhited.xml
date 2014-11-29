@@ -5,5 +5,5 @@
 </ruleset>
 <!--
 * **Sam Whited**
-	* Could not verify the ownership yet, but same content.
+	* Hidden service can be found by doing `dig +short tor.samwhited.com cname`
 	-->

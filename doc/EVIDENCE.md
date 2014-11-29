@@ -290,8 +290,8 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <https://torstatus.rueckgr.at/> ([A](https://archive.today/KrnM3)) - link on main page
 
 * **Sam Whited**
-	* Could not verify the ownership yet, but same content.
-
+	* Hidden Service can be found by doing `dig +short tor.samwhited.com cname`
+	
 * **Sarava**
 	* Documented here: <https://www.sarava.org/en> ([A](https://archive.today/ATbp5)) -- located on side bar.
 
