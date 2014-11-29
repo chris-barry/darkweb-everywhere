@@ -1,4 +1,4 @@
-<ruleset name="Sam Whited Onion" default_off="Unverified">
+<ruleset name="Sam Whited Onion" >
 	<target host="samwhited.com" />
 	<target host="www.samwhited.com" />
 	<rule from="^https?://(www\.)?samwhited\.com/" to="http://mpf3i4k43xc2usxj.onion/" />
