@@ -1,4 +1,4 @@
-<ruleset name="Library Freedom Project Onion" default_off="Down as of 2014-09-20">
+<ruleset name="Library Freedom Project Onion">
 	<target host="libraryfreedomproject.org" />
 	<rule from="^https?://libraryfreedomproject\.org/" to="http://q6rzvutddm62bqkj.onion/" />
 </ruleset>
