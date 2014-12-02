@@ -201,6 +201,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Lelantos**
 	* Documented here: <https://axablends.com/merchants-accepting-bitcoin/email-security/alternatives-to-tormail/> ([A](https://archive.today/NjsVh))
 
+* **Library Freedom Project Site**
+    * Documented here: <https://libraryfreedomproject.org> ([A](https://archive.today/S5Him))
+
 * **Lolicore**
 	* Documented here: <https://www.lolicore.ch/> ([A](https://archive.today/luStb))
 

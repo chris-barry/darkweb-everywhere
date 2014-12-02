@@ -1,0 +1,8 @@
+<ruleset name="Library Freedom Project Onion" default_off="Down as of 2014-09-20">
+	<target host="libraryfreedomproject.org" />
+	<rule from="^https?://libraryfreedomproject\.org/" to="http://q6rzvutddm62bqkj.onion/" />
+</ruleset>
+<!--
+* **Library Freedom Project Site**
+	* Documented here: <https://libraryfreedomproject.org> ([A](https://archive.today/S5Him))
+	-->
