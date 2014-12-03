@@ -50,7 +50,6 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Blockchain.info**
     * Documented here: <https://blockchain.info/wallet/anonymity> ([A](https://archive.today/uML6g))
-	* Also here: <https://twitter.com/blockchain/status/538719868292706304> ([A](https://archive.today/lmJIT))
 
 * **BitcoinCigs**
 	* Documented here: <https://bitcointalk.org/index.php?topic=193243.0> ([A](https://archive.today/UgTi8))
