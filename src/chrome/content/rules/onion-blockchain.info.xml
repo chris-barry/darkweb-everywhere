@@ -1,7 +1,7 @@
 <ruleset name="Blockchain.info Onion">
 	<target host="blockchain.info" />
 	<target host="www.blockchain.info" />
-	<rule from="^https?://(www\.)?blockchain\.info/" to="http://blockchatvqztbll.onion/" />
+	<rule from="^https?://(www\.)?blockchain\.info/" to="https://blockchainbdgpzk.onion/" />
 </ruleset>
 <!--
 * **Blockchain.info**
