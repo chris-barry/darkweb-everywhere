@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Darkweb Everywhere : HTTPS Everywhere rulesets for hidden services and eepsites.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Darkweb Everywhere</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/chris-barry/darkweb-everywhere">View on GitHub</a>
+
+          <h1 id="project_title">Darkweb Everywhere</h1>
+          <h2 id="project_tagline">HTTPS Everywhere rulesets for hidden services and eepsites.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/chris-barry/darkweb-everywhere/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/chris-barry/darkweb-everywhere/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="darkweb-rulesets" class="anchor" href="#darkweb-rulesets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Darkweb Rulesets</h1>
+
+<p>Darkweb-Everywhere is a fork of <a href="https://www.eff.org/https-everywhere" title="HTTPS Everywhere">HTTPS Everywhere</a> that in addition to the normal HTTPS Everywhere functionality, will redirect you to the hidden service equvalent of a website if present. 
+For this extention to work, you should be using installing it inside the <a href="https://www.torproject.org/projects/torbrowser.html.en" title="The Tor Browser Bundle">Tor Browser Bundle</a>.</p>
+
+<p>An example of a hidden service redirect would be:</p>
+
+<pre><code>&lt;https://duckduckgo.com&gt; will be redirected to &lt;http://3g2upl4pq6kufc4m.onion&gt;
+</code></pre>
+
+<h2>
+<a id="sites-included" class="anchor" href="#sites-included" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sites Included</h2>
+
+<ul>
+<li><a href="https://facebook.com">Facebook</a></li>
+<li><a href="https://duckduckgo.com">Duckduckgo</a></li>
+<li><a href="https://blockchain.info">Blockchain.info</a></li>
+<li><a href="https://crypto.cat">Cryptocat</a></li>
+<li><a href="https://freedom.press">Freedom of the Press Foundation</a></li>
+<li><a href="https://freedom.press/securedrop/directory">Lots of SecureDrop instances</a></li>
+<li>And many more</li>
+</ul>
+
+<h2>
+<a id="why-is-this-needed" class="anchor" href="#why-is-this-needed" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why is this needed?</h2>
+
+<p>Due to the way Tor works, when you connect to sites which are not hidden services you must connect through an exit node.
+This exit node is able to see which sites are being connected to.
+By having the hidden service loaded instead of the clearnet URL, you make your entire connection without leaving the Tor network.</p>
+
+<p>A good explanation of what Tor hidden services are and how they work can be found <a href="https://www.youtube.com/watch?v=eAxBuckgPuU#t=17">here</a>.</p>
+
+<h2>
+<a id="how-can-i-trust-you" class="anchor" href="#how-can-i-trust-you" aria-hidden="true"><span class="octicon octicon-link"></span></a>How can I trust you?</h2>
+
+<p>In the files <a href="doc/EVIDENCE.md">doc/EVIDENCE.md</a> and <a href="doc/EVIDENCE-i2p.md">doc/EVIDENCE-i2p.md</a> you can find the source where each address is documented.
+If there is no proof for the address, the rule will stay under unverified-rules folder until proper documentation is found.
+The code and commit history are also freely available for anyone to audit.</p>
+
+<p>If you see any discrepancies please make it known by filing an issue.</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<ol>
+<li>If you haven't already, download the <a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser Bundle</a>
+</li>
+<li>Start up the Tor Browser Bundle</li>
+<li>Download <a href="https://github.com/chris-barry/darkweb-everywhere/releases">the extension</a>
+</li>
+<li>Drag the downloaded extension into the Tor Browser Bundle's Addons page.</li>
+</ol>
+
+<h2>
+<a id="disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h2>
+
+<p>The developers do not vouch for, endorse, approve, disapprove, or renounce of any of these sites.
+These are supplied for our users, so that they have more privacy. </p>
+
+<p>Darkweb-everywhere, the extension, and the developers of darkweb-everywhere are not affiliated with the EFF in any way, shape or form.</p>
+
+<h2>
+<a id="thank-you" class="anchor" href="#thank-you" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thank you!</h2>
+
+<p>A <strong>BIG</strong> thank you to the EFF and all the many contributors to HTTPS Everywhere
+Another <strong>BIG</strong> thank you to The Tor Project and all the contributors that help with Tor.
+Without either of these two organizations, darkweb-everywhere would not exist.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Darkweb Everywhere maintained by <a href="https://github.com/chris-barry">chris-barry</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
