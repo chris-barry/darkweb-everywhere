@@ -37,13 +37,10 @@
 <p>Darkweb-Everywhere is a fork of <a href="https://www.eff.org/https-everywhere" title="HTTPS Everywhere">HTTPS Everywhere</a> that in addition to the normal HTTPS Everywhere functionality, will redirect you to the hidden service equvalent of a website if present. 
 For this extention to work, you should be using installing it inside the <a href="https://www.torproject.org/projects/torbrowser.html.en" title="The Tor Browser Bundle">Tor Browser Bundle</a>.</p>
 
-<p>An example of a hidden service redirect would be:</p>
-
-<pre><code>&lt;https://duckduckgo.com&gt; will be redirected to &lt;http://3g2upl4pq6kufc4m.onion&gt;
-</code></pre>
+<p>For example if we tried connecting to <code>https://duckduckgo.com</code>, your browser would redirect you to <code>http://3g2upl4pq6kufc4m.onion</code>. All without you having to remember that Duckduckgo also runs a hidden service.</p>
 
 <h2>
-<a id="sites-included" class="anchor" href="#sites-included" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sites Included</h2>
+<a id="sites-included" class="anchor" href="#sites-included" aria-hidden="true"><span class="octicon octicon-link"></span></a>Some Included Sites</h2>
 
 <ul>
 <li><a href="https://facebook.com">Facebook</a></li>
@@ -67,7 +64,7 @@ By having the hidden service loaded instead of the clearnet URL, you make your e
 <h2>
 <a id="how-can-i-trust-you" class="anchor" href="#how-can-i-trust-you" aria-hidden="true"><span class="octicon octicon-link"></span></a>How can I trust you?</h2>
 
-<p>In the files <a href="doc/EVIDENCE.md">doc/EVIDENCE.md</a> and <a href="doc/EVIDENCE-i2p.md">doc/EVIDENCE-i2p.md</a> you can find the source where each address is documented.
+<p>In the files <a href="https://github.com/chris-barry/darkweb-everywhere/blob/master/doc/EVIDENCE.md">evidence file</a> you can find the source where each address is documented.
 If there is no proof for the address, the rule will stay under unverified-rules folder until proper documentation is found.
 The code and commit history are also freely available for anyone to audit.</p>
 
