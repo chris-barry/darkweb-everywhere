@@ -33,6 +33,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Anonguide**
 	* Documented here: <https://anonguide.cyberguerrilla.org/index.php?title=Main_Page> ([A](https://archive.today/ZyhWF)) - linked on the main page
 
+* **Anoninsiders**
+	* Documented here: <https://anoninsiders.net/about-us/> ([A](https://archive.today/3CQkM)) 
+
 * **Anonet**
 	* Documented here: <http://anonet2.biz> ([A](https://archive.today/lkW0u))
 

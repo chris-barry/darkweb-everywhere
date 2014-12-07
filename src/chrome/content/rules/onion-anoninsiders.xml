@@ -1,9 +1,9 @@
-<ruleset name="Anoninsiders Onion" default_off="no proof; content same">
+<ruleset name="Anoninsiders Onion" >
 	<target host="anoninsiders.net" />
 	<target host="www.anoninsiders.net" />
 	<rule from="^https?://(www\.)?anoninsiders\.net/" to="http://imtrjn3qe2tzh5ae.onion/" />
 </ruleset>
 <!--
 * **Anoninsiders**
-	* Documented here:
+    * Documented here: <https://anoninsiders.net/about-us/> ([A](https://archive.today/3CQkM))
 	-->
