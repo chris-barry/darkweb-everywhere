@@ -1,0 +1,9 @@
+<ruleset name="Toremail Onion">
+	<target host="toremail.net" />
+	<target host="www.toremail.net" />
+	<rule from="^https?://(www\.)?toremail\.net/" to="http://jmcz7xp2kszu6vba.onion/" />
+</ruleset>
+<!--
+* **Toremail**
+	* Documented here: <https://toremail.net/#faq> ([A](https://archive.today/HqfRp))
+	-->
