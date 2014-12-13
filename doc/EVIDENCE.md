@@ -348,6 +348,10 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **tor2web**
 	* Documented: <https://tor2web.org>
 
+* **Toremail**
+    * Documented here: <https://toremail.net/#faq> ([A](https://archive.today/HqfRp))
+
+
 * **Torsearch**
 	* Documented here: <https://torsearch.es> ([A](https://archive.today/80hIC)) - linked on the main page
 
