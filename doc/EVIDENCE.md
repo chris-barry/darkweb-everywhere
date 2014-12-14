@@ -164,6 +164,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Gus' Blog**
 	* Documented on main page of site: <http://gus.distopico.net/> ([A](https://archive.today/HSNQV))
 
+* **Gurochan**
+    * Documented here: <https://gurochan.ch> ([A](https://archive.today/ZExZq))
+
 * **Hack Canada**
 	* Could not verify the ownership yet, but same content.
 

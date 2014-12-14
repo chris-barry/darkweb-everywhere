@@ -1,0 +1,9 @@
+<ruleset name="Gurochan Onion">
+	<target host="gurochan.ch" />
+	<target host="www.gurochan.ch" />
+	<rule from="^https?://(www\.)gurochan\.ch/" to="http://gurochanocizhuhg.onion/" />
+</ruleset>
+<!--
+* **Gurochan**
+	* Documented here: <https://gurochan.ch> ([A](https://archive.today/ZExZq))
+	-->
