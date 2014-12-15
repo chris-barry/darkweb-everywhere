@@ -339,6 +339,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **TheChess**
 	* Documented here: <http://thechess.ru/forum/post/6726> ([A](https://archive.today/LhJjJ))
 
+* **TheCthulu's Globe and Atlas Mirrors**
+    * Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/035982.html> ([A](https://archive.today/YKJ32))
+
 * **Thunder's Place**
 	* Could not verify the ownership yet, but same content.
 

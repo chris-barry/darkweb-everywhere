@@ -1,0 +1,8 @@
+<ruleset name="TheCthulhu's Globe Mirror Onion">
+	<target host="globe.thecthulhu.com" />
+	<rule from="^https?://globe\.thecthulhu.com/" to="http://globe223ezvh6bps.onion/" />
+</ruleset>
+<!--
+* **TheCthulu's Globe and Atlas Mirrors**
+	* Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/035982.html> ([A](https://archive.today/YKJ32))
+	-->
