@@ -53,8 +53,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Blockchain.info**
     * Documented here: <https://blockchain.info/wallet/anonymity> ([A](https://archive.today/uML6g))
-	* Also documented here: <https://blog.blockchain.com/tag/digicert/> ([A](https://archive.today/CEP5E))
-    * Also documented in the [TLS cert for the .onion](https://img.bi/#/wSIgsdt!1fYxb0vD1l5R9qWrk57RindV783AZqOfzrapb5iV).
+		* Also documented here: <https://blog.blockchain.com/tag/digicert/> ([A](https://archive.today/CEP5E))
+		* And here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/035841.html> ([A](https://archive.today/nRzb7))
+	* Also documented in the [TLS cert for the .onion](https://img.bi/#/wSIgsdt!1fYxb0vD1l5R9qWrk57RindV783AZqOfzrapb5iV).
 
 * **BitcoinCigs**
 	* Documented here: <https://bitcointalk.org/index.php?topic=193243.0> ([A](https://archive.today/UgTi8))
