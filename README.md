@@ -25,6 +25,8 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Installation
 
+*Disclaimer*: Before proceeding, be sure you understand the [issues][https://github.com/chris-barry/darkweb-everywhere/issues/32]  associated with darkweb-everywhere and you are willing to take the risk.
+
 0. If you haven't already, download the [Tor Browser Bundle][9]
 1. Start up the Tor Browser Bundle
 2. Download [the extension][5]
@@ -70,10 +72,14 @@ The reason for this is to actively discourage users from using those rulesets.
 
 ## Disclaimer
 
+This extension should be considered experimental, and should not be used if security and anonymity are your primary concerns. 
+Modifying the Tor Browser is not encouraged by The Tor Project and should be done only by users who know what they are doing.
+
 The developers do not vouch for, endorse, approve, disapprove, or renounce of any of these sites.
 These are supplied for our users, so that they have more privacy. 
 
-Darkweb-everywhere, the extension, and the developers of darkweb-everywhere are not affiliated with the EFF in any way, shape or form. (Although we love everything they are doing!)
+Darkweb-everywhere, the extension, and the developers of darkweb-everywhere are not affiliated with the EFF in any way, shape or form. 
+(Although we love everything they are doing!)
 
 
 ## Thank you!
@@ -98,3 +104,4 @@ And finally, thank you for using this software!
 [7]: https://trac.torproject.org/projects/tor/ticket/1670
 [8]: https://lists.torproject.org/pipermail/tor-talk/2014-February/032220.html
 [9]: https://www.torproject.org/download/download-easy.html.en
+[10]: https://github.com/chris-barry/darkweb-everywhere/issues/32
