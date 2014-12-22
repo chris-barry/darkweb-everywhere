@@ -1,0 +1,8 @@
+<ruleset name="TheCthulhu's Compass Mirror Onion" default_off="Down as of 2014-12-21">
+	<target host="compass.thecthulhu.com" />
+	<rule from="^https?://compass\.thecthulhu.com/" to="http://compass6vpxj32p3.onion/" />
+</ruleset>
+<!--
+* **TheCthulu's Compass Mirrors**
+	* Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/036067.html> ([A](https://archive.today/YKJ32))
+	-->

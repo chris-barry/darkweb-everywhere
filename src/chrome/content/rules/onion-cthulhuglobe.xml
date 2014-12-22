@@ -1,4 +1,4 @@
-<ruleset name="TheCthulhu's Globe Mirror Onion">
+<ruleset name="TheCthulhu's Globe Mirror Onion" default_off="Down as of 2014-12-21">
 	<target host="globe.thecthulhu.com" />
 	<rule from="^https?://globe\.thecthulhu.com/" to="http://globe223ezvh6bps.onion/" />
 </ruleset>
