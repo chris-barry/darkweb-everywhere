@@ -1,4 +1,4 @@
-<ruleset name="TheCthulhu's Compass Mirror Onion" default_off="Down as of 2014-12-21">
+<ruleset name="TheCthulhu's Compass Mirror Onion" >
 	<target host="compass.thecthulhu.com" />
 	<rule from="^https?://compass\.thecthulhu.com/" to="http://compass6vpxj32p3.onion/" />
 </ruleset>
