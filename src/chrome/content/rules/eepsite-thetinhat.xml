@@ -1,0 +1,9 @@
+<ruleset name="TheTinHat Eepsite" default_off="Unconfirmed">
+	<target host="thetinhat.com" />
+	<target host="www.thetinhat.com" />
+	<rule from="^https?://(www\.)?thetinhat\.com/" to="http://thetinhat.i2p/" />
+</ruleset>
+<!--
+* **Thetinhat Eepsite**
+	* Documented here: 
+	-->
