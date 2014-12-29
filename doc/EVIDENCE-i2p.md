@@ -58,3 +58,6 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Syndie**
 	* Documented here: <http://plugins.i2p.us/plugins/syndie/> ([A](http://web.archive.org/web/20140619065450/http://plugins.i2p.us/plugins/syndie/))
+
+* **TheTinHat** 
+	* Documented here: <https://twitter.com/The_Tin_Hat/status/500378358191235072> ([A](https://archive.today/986Vu))
