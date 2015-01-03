@@ -25,7 +25,7 @@ If you see any discrepancies please make it known by filing an issue.
 
 ## Installation
 
-*Disclaimer*: Before proceeding, be sure you understand the [issues][https://github.com/chris-barry/darkweb-everywhere/issues/32]  associated with darkweb-everywhere and you are willing to take the risk.
+*Disclaimer*: Before proceeding, be sure you understand the [issues](https://github.com/chris-barry/darkweb-everywhere/issues/32)  associated with darkweb-everywhere and you are willing to take the risk.
 
 0. If you haven't already, download the [Tor Browser Bundle][9]
 1. Start up the Tor Browser Bundle
