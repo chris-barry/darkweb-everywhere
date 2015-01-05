@@ -212,6 +212,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Library Freedom Project Site**
     * Documented here: <https://libraryfreedomproject.org> ([A](https://archive.today/S5Him))
 
+* **Lobsters**
+    * Documented here: <https://lobste.rs/s/cmfrvm/lobsters_hidden_service> ([A](https://archive.today/kYAMt))
+
 * **Lolicore**
 	* Documented here: <https://www.lolicore.ch/> ([A](https://archive.today/luStb))
 
