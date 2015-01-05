@@ -214,6 +214,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Lobsters**
     * Documented here: <https://lobste.rs/s/cmfrvm/lobsters_hidden_service> ([A](https://archive.today/kYAMt))
+	* Also here: <https://lobste.rs/about> ([A](https://archive.today/DAfIe))
 
 * **Lolicore**
 	* Documented here: <https://www.lolicore.ch/> ([A](https://archive.today/luStb))
