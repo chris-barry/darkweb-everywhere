@@ -1,7 +1,7 @@
 <ruleset name="Riseup Main Page / Help Onion">
 	<target host="riseup.net" />
-	<target host="www.riseup.net" />
-	<rule from="^https?://(www\.).riseup\.net/" to="http://nzh3fv6jc6jskki3.onion/" />
+	<target host="help.riseup.net" />
+	<rule from="^https?://(help\.)?riseup\.net/" to="http://nzh3fv6jc6jskki3.onion/" />
 </ruleset>
 <!--
 * **RiseUp**
