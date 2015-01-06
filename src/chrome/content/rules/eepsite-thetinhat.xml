@@ -1,4 +1,4 @@
-<ruleset name="TheTinHat Eepsite" >
+<ruleset name="TheTinHat Eepsite" default_off="eepsite">
 	<target host="thetinhat.com" />
 	<target host="www.thetinhat.com" />
 	<rule from="^https?://(www\.)?thetinhat\.com/" to="http://thetinhat.i2p/" />
