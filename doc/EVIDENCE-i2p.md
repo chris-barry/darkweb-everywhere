@@ -28,6 +28,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **BTDigg**
 	* Documented here: <http://btdigg.org> ([A](https://archive.today/yaDMT)) - linked on the main page
 
+* **Chris Barry's Personal Site**
+	* Documented here: <https://barry.im> ([A](https://archive.today/WinpQ))
+
 * **CoSign Coin**
 	* Documented here: <http://cosign.co.in/faq/#I2P> ([A](https://archive.today/gjglk))
 

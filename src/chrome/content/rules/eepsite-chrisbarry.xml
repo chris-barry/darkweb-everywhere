@@ -1,8 +1,8 @@
-<ruleset name="Chris Barry's Personal Eepsite" default_off="Chris hasn't confirmed this damn thing yet...">
+<ruleset name="Chris Barry's Personal Eepsite" >
 	<target host="barry.im" />
 	<rule from="^https?://(www\.)?barry\.im/" to="http://barry.i2p/" />
 </ruleset>
 <!--
-* **Chris Barry's Personal Eepsite**
-	* Documented here: 
+* **Chris Barry's Personal Site**
+    * Documented here: <https://barry.im> ([A](https://archive.today/WinpQ))
 	-->
