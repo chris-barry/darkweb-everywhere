@@ -212,6 +212,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Library Freedom Project Site**
     * Documented here: <https://libraryfreedomproject.org> ([A](https://archive.today/S5Him))
 
+* **Litevault Onion**
+    * Documented here: <https://www.litevault.net/about/hidden-service> ([A](https://archive.today/W0upr))
+
 * **Lobsters**
     * Documented here: <https://lobste.rs/s/cmfrvm/lobsters_hidden_service> ([A](https://archive.today/kYAMt))
     * Also here: <https://lobste.rs/about> ([A](https://archive.today/DAfIe))
@@ -289,6 +292,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **QuackQuackGo Searx**
 	* Documented here: <https://quackquackgo.nl> ([A](https://archive.today/YBq4M)) - linked on the main page
 
+* **Raegdan's Fukken Saved Onion**
+    * Documented here: <https://fsaved.raegdan.org/> ([A](https://archive.today/L0bCT))
+
 * **Rayservers**
 	* Documented here: <http://www.rayservers.com/e-mail> ([A](https://archive.today/M4rd3))
 
@@ -364,7 +370,6 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Toremail**
     * Documented here: <https://toremail.net/#faq> ([A](https://archive.today/HqfRp))
-
 
 * **Torsearch**
 	* Documented here: <https://torsearch.es> ([A](https://archive.today/80hIC)) - linked on the main page

@@ -1,0 +1,9 @@
+<ruleset name="Raegdan's Fukken Saved Eepsite">
+	<target host="fsaved.raegdan.org" />
+	<target host="www.fsaved.raegdan.org" />
+	<rule from="^https?://(www\.)?fsaved.raegdan\.org/" to="http://fsaved.raegdan.i2p/" />
+</ruleset>
+<!--
+* **Raegdan's Fukken Saved Eepsite**
+	* Documented here: <https://fsaved.raegdan.org/> ([A](https://archive.today/L0bCT))
+	-->
