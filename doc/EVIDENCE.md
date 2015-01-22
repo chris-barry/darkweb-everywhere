@@ -337,6 +337,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Sigterm**
 	* Documented here: <https://sigterm.no> ([A](https://archive.today/N83uK))
 
+* **Surveillance Law**
+	* Documented here: <https://surveillancelaw.org> ([A](https://archive.today/PH1WY))
+
 * **Syndie**
 	* Documented here: <https://www.transifex.com/projects/p/I2P/announcements/> ([A](https://archive.today/uMOkB))
 
