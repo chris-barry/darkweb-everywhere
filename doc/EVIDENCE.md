@@ -384,6 +384,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **txtorcon**
 	* Documented here: <https://txtorcon.readthedocs.org/en/latest/> ([A](https://archive.today/P0D6S))
 
+* **UploadMe**
+    * Owner (me) verified.
+
 * **Urbanculture**
 	* Documented here: <http://urbanculture.in/Обсуждение:Tor> ([A](https://archive.today/mKWo7))
 
