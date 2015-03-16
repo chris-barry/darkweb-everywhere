@@ -384,6 +384,10 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **txtorcon**
 	* Documented here: <https://txtorcon.readthedocs.org/en/latest/> ([A](https://archive.today/P0D6S))
 
+* **UploadMe**
+    * Owner verified.
+    * Documented here: <https://uploadme.se/> (popup says "UploadMe is also available at ufcefwubqauib6of.onion")
+
 * **Urbanculture**
 	* Documented here: <http://urbanculture.in/Обсуждение:Tor> ([A](https://archive.today/mKWo7))
 

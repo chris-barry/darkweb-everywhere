@@ -1,0 +1,5 @@
+<ruleset name="UploadMe">
+  <target host="uploadme.se" />
+
+  <rule from="^http://uploadme.se/" to="http://ufcefwubqauib6of.onion/"/>
+</ruleset>
