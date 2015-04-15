@@ -68,3 +68,6 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **TheTinHat** 
 	* Documented here: <https://twitter.com/The_Tin_Hat/status/500378358191235072> ([A](https://archive.today/986Vu))
 	* Also here: <https://thetinhat.com/tutorials/darknets/i2p.html> ([A](https://archive.today/WUok0))
+
+* **Vuze Wiki**
+	* Documented here: <http://wiki.vuze.com/w/I2P> ([A](https://archive.today/dHU5g))

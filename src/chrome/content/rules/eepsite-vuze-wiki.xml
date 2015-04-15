@@ -1,0 +1,9 @@
+<ruleset name="i2p Eepsite" default_off="i2p rule, might cause conflict">
+	<target host="wiki.vuze.com" />
+	<rule from="^https?://wiki\.vuze\.com/" to="http://que23xpe7o3lzq6auv6stb4bha7ddavrlgqdv2cuhgd36fgfmp6q.b32.i2p/" />
+</ruleset>
+<!--
+* **Vuze Wiki**
+	* Documented here: <http://wiki.vuze.com/w/I2P> ([A](https://archive.today/dHU5g))
+-->
+
