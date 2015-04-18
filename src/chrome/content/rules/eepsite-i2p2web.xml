@@ -3,5 +3,7 @@
 	<target host="*.i2p.to" />
 	<target host="*.i2p.in" />
 	<target host="*.i2p.us" />
-	<rule from="^https?://((\w+\.)+)i2p\.(to|in|us)/" to="http://$1i2p/" />
+	<target host="*.i2p.rocks" />
+	<target host="*.i2p.xyz" />
+	<rule from="^https?://((\w+\.)+)i2p\.(to|in|us|rocks|xyz)/" to="http://$1.i2p/" />
 </ruleset>
