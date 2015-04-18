@@ -85,6 +85,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **btcmix**
 	* Documented here: <http://btcmix.me/> ([A](https://archive.today/UGpfv))
 
+* **BTDigg**
+	* Documented here: <https://btdigg.org/> ([A](https://archive.today/Y6QOb))
+
 * **Bugged Planet**
 	* Documented here: <http://buggedplanet.info/index.php?title=Buggedplanet.info:About> ([A](https://archive.today/0mB6z))
 

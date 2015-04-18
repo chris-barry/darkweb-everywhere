@@ -1,0 +1,10 @@
+<ruleset name="BTDigg">
+	<target host="btdigg.org" />
+	<target host="www.btdigg.org" />
+	<rule from="^https?://(www\.)?btdigg\.org/" to="http://btdigg63cdjmmmqj.onion/" />
+</ruleset>
+<!--
+* **BTDigg**
+	* Documented here: <https://btdigg.org/> ([A](https://archive.today/Y6QOb))
+-->
+
