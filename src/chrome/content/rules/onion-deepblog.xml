@@ -1,4 +1,4 @@
-<ruleset name="DeepBlog Surface Onion">
+<ruleset name="DeepBlog Surface Onion" default_off="2015-04-18 down">
 	<target host="deepblogsurface.wordpress.com" />
 	<target host="www.deepblogsurface.wordpress.com" />
 	<rule from="^https?://(www\.)?deepblogsurface\.wordpress\.com/" to="http://xzzpowtjlobho6kd.onion/" />

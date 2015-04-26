@@ -1,7 +1,7 @@
 <ruleset name="Crypt Design Onion">
 	<target host="cryptdesign.com" />
 	<target host="www.cryptdesign.com" />
-	<rule from="^https?://(www\.)?cryptdesign\.com/" to="http://v6mc3fd2lg5dv6uz.onion/" />
+	<rule from="^https?://(www\.)?cryptdesign\.com/" to="http://cryptdsnti5lzfwl.onion/" />
 </ruleset>
 <!--
 * **Crypt Design**

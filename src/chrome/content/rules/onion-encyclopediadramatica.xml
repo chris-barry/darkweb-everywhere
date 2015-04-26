@@ -1,9 +1,9 @@
-<ruleset name="Encyclopedia Dramatica Onion" >
-	<target host="encyclopediadramatica.es" />
-	<target host="www.encyclopediadramatica.es" />
+<ruleset name="Encyclopedia Dramatica Onion" default_off="no longer online">
+	<target host="encyclopediadramatica.se" />
+	<target host="www.encyclopediadramatica.se" />
 	<rule from="^https?://(www\.)?encyclopediadramatica\.es/" to="http://edramalpl7oq5npk.onion/" />
 </ruleset>
 <!--
 * **Encyclopedia Dramatica**
-	* Documented here: <https://encyclopediadramatica.es/ED:TOR> ([A](https://archive.today/wWjAe))
+	* Documented here: <https://encyclopediadramatica.se/ED:TOR> ([A](https://archive.today/wWjAe))
 	-->

@@ -1,4 +1,4 @@
-<ruleset name="Audiobook Vault Onion">
+<ruleset name="Audiobook Vault Onion" default_off="No longer online 2015-04-18">
 	<target host="audiobookvault.ws" />
 	<target host="www.audiobookvault.ws" />
 	<rule from="^https?://(www\.)?audiobookvault\.ws/" to="http://xmctuxj7dsymumwf.onion/" />

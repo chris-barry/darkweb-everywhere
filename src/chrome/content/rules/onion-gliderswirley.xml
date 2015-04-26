@@ -1,4 +1,4 @@
-<ruleset name="Gliders Wirley Searx Onion">
+<ruleset name="Gliders Wirley Searx Onion" default_off="nope">
 	<target host="gliderswirley.org" />
 	<target host="www.gliderswirley.org" />
 	<target host="searx.gliderswirley.org" />
