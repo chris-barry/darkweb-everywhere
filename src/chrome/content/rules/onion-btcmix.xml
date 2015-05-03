@@ -1,4 +1,4 @@
-<ruleset name="btcmix Onion" default_off="down as of 2015-04-16">
+<ruleset name="btcmix Onion" >
 	<target host="btcmix.me" />
 	<target host="www.btcmix.me" />
 	<rule from="^https?://(www\.)?btcmix\.me/" to="http://m2cylfgiecnncc6f.onion/" />
