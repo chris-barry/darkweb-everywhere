@@ -1,4 +1,4 @@
-<ruleset name="RuggedInbox Onion">
+<ruleset name="RuggedInbox Onion" default_off="2015-05-02 down">
 	<target host="ruggedinbox.com" />
 	<target host="www.ruggedinbox.com" />
 	<rule from="^https?://(www\.)?ruggedinbox\.com/" to="http://s4bysmmsnraf7eut.onion/" />

@@ -1,4 +1,4 @@
-<ruleset name="OnionMail.in Onion">  
+<ruleset name="OnionMail.in Onion" default_off="down as of 2015-05-02">  
 	<target host="onionmail.in" />
 	<target host="www.onionmail.in" />
 	<rule from="^https?://(www\.)?onionmail\.in/" to="http://iir4yomndw2dec7x.onion/" />

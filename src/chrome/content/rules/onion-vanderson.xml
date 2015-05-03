@@ -1,4 +1,4 @@
-<ruleset name="Vanderson o Nerd Onion">
+<ruleset name="Vanderson o Nerd Onion" default_off="not working 2015-05-02">
 	<target host="vandersonnerd.blogspot.com" />
 	<target host="www.vandersonnerd.blogspot.com" />
 	<rule from="^https?://(www\.)?vandersonnerd\.blogspot\.com/" to="http://kk2l4z3y3ukeryow.onion/" />

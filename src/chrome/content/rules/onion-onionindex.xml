@@ -1,4 +1,4 @@
-<ruleset name="OnionIndex Onion">
+<ruleset name="OnionIndex Onion" default_off="Unable to connect as of 2015-05-02">
 	<target host="onionindex.com" />
 	<target host="www.onionindex.com" />
 	<rule from="^https?://(www\.)?onionindex\.com/" to="http://onionindexcg2tsk.onion/" />

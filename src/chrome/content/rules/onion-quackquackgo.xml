@@ -1,4 +1,4 @@
-<ruleset name="QuackQuackGo Searx Onion">
+<ruleset name="QuackQuackGo Searx Onion" default_off="QuackQuackGo is QuackQuackDead as of 2015-05-02">
 	<target host="quackquackgo.nl" />
 	<target host="www.quackquackgo.nl" />
 	<rule from="^https?://(www\.)?quackquackgo\.nl/" to="http://qppbs5ezaw2lecuk.onion/" />

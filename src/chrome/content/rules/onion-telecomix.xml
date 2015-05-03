@@ -1,4 +1,4 @@
-<ruleset name="Telecomix Onion">
+<ruleset name="Telecomix Onion" default_off="seems to be down 2015-05-02">
 	<target host="telecomix.org" />
 	<target host="www.telecomix.org" />
 	<rule from="^https?://(www\.)?telecomix\.org/" to="http://2qkkxuoajqzr35qq.onion/" />

@@ -1,4 +1,4 @@
-<ruleset name="Thunked Onion">
+<ruleset name="Thunked Onion" default_off="off 2015-05-02">
 	<target host="thunked.org" />
 	<target host="www.thunked.org" />
 	<rule from="^https?://(www\.)thunked\.org/" to="http://yrmpp4yogfoe5mj3.onion/" />

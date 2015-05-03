@@ -1,4 +1,4 @@
-<ruleset name="Razorcoin Onion">
+<ruleset name="Razorcoin Onion" default_off="dead 2015-05-02">
 	<target host="razorco.in" />
 	<target host="www.razorco.in" />
 	<rule from="^https?://(www\.)?razorco\.in/" to="http://mp75zslar3v24ikq.onion/" />

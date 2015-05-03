@@ -1,4 +1,4 @@
-<ruleset name="Kavkaz Center Onion">
+<ruleset name="Kavkaz Center Onion" default_off="down as of 2015-05-03">
 	<target host="kavkaz.tv" />
 	<target host="www.kavkaz.tv" />
 	<target host="kavkaznews.com" />

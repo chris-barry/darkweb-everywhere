@@ -1,6 +1,6 @@
 <ruleset name="Library Freedom Project Onion">
 	<target host="libraryfreedomproject.org" />
-	<rule from="^https?://libraryfreedomproject\.org/" to="http://q6rzvutddm62bqkj.onion/" />
+	<rule from="^https?://libraryfreedomproject\.org/" to="https://q6rzvutddm62bqkj.onion/" />
 </ruleset>
 <!--
 * **Library Freedom Project Site**

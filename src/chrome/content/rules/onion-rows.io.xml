@@ -1,4 +1,4 @@
-<ruleset name="rows.io Onion">
+<ruleset name="rows.io Onion" default_off="doesn't seem to be working, and it's behind Clownflare">
 	<target host="rows.io" />
 	<target host="www.rows.io" />
 	<rule from="^https?://(www\.)?rows\.io/" to="http://yz6yiv2hxyagvwy6.onion/" />

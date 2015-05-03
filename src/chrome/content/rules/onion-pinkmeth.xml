@@ -1,4 +1,4 @@
-<ruleset name="Pink Meth Onion">
+<ruleset name="Pink Meth Onion" default_off="finally dead">
 	<target host="pinkmeth.com" />
 	<target host="www.pinkmeth.com" />
 	<rule from="^https?://(www\.)?pinkmeth\.com/" to="http://pinkmethuylnenlz.onion/" />
