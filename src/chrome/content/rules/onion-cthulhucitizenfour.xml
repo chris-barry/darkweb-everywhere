@@ -1,0 +1,8 @@
+<ruleset name="TheCthulhu's Citizenfour Mirror Onion" >
+	<target host="citizenfour.thecthulhu.com" />
+	<rule from="^https?://citizenfour\.thecthulhu.com/" to="http://citizen47m7jfpad.onion/" />
+</ruleset>
+<!--
+* **TheCthulu's Globe and Atlas Mirrors**
+	* Documented here: <https://twitter.com/CthulhuSec/status/570759066039005184> ([A](https://archive.today/YKJ32))
+	-->

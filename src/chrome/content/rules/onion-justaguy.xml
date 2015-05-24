@@ -1,0 +1,9 @@
+<ruleset name="Justaguy Onion">
+	<target host="justaguy.pw" />
+	<target host="www.justaguy.pw" />
+	<rule from="^https?://(www\.)?justaguy\.pw/" to="http://justa5httkwx6tl6.onion/" />
+</ruleset>
+<!--
+* **Justaguy**
+	* Documented here: <https://justaguy.pw/AutoOnionAndItsFlaws.html> ([A](https://archive.is/g4MA1))
+				-->
