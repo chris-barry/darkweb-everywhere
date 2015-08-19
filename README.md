@@ -1,5 +1,18 @@
 # Darkweb Rulesets
 
+----- BEGIN NOTE -----
+
+This is not up to date.
+Also with the coming mandatory extension signing in Firefox 42, this plugin can be consider finished. :(
+
+If you still want the rules, they can be found by running this command:
+
+	ls src/chrome/content/rules/{onion,eepsite}-*
+
+Maybe one day these rules can be shipped with the tor browser bundle *wink* *wink*.
+
+----- END NOTE -----
+
 Darkweb-Everywhere is a fork of [HTTPS Everywhere][0] that in addition to the normal HTTPS Everywhere functionality, will redirect you to the hidden service equvalent of a website if present. 
 For this extention to work, you should be using installing it inside the [Tor Browser Bundle][1].
 
