@@ -2,7 +2,7 @@
 
 ----- BEGIN NOTE -----
 
-This is not up to date.
+This plugin is not up to date.
 Also with the coming mandatory extension signing in Firefox 42, this plugin can be consider finished. :(
 
 If you still want the rules, they can be found by running this command:
@@ -10,6 +10,10 @@ If you still want the rules, they can be found by running this command:
 	ls src/chrome/content/rules/{onion,eepsite}-*
 
 Maybe one day these rules can be shipped with the tor browser bundle *wink* *wink*.
+
+
+**The good news** is that verifying services is still going!
+The [tor verification file](doc/EVIDENCE.md) and [i2p verification file](doc/EVIDENCE-i2p.md) should be vaild for the forseeable future.
 
 ----- END NOTE -----
 
