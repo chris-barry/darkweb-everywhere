@@ -34,7 +34,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <https://anonguide.cyberguerrilla.org/index.php?title=Main_Page> ([A](https://archive.today/ZyhWF)) - linked on the main page
 
 * **Anoninsiders**
-	* Documented here: <https://anoninsiders.net/about-us/> ([A](https://archive.today/3CQkM)) 
+	* Documented here: <https://anoninsiders.net/about-us/> ([A](https://archive.today/3CQkM))
 
 * **Anonet**
 	* Documented here: <http://anonet2.biz> ([A](https://archive.today/lkW0u))
@@ -62,6 +62,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Bitmessage**
 	* Documented here: <https://bitmessage.ch/faq.html> ([A](https://archive.today/9aSxc))
+
+* **BitMEX**
+  * Documented here: <https://www.bitmex.com/static/md/tor> ([A](https://archive.is/dHZ3u))
 
 * **Bittit**
 	* Documented here: <https://bittit.info/docs.php?doc=help> ([A](https://archive.today/LCR9e))
@@ -321,7 +324,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Sam Whited**
 	* Hidden Service can be found by doing `dig +short tor.samwhited.com cname`
-	
+
 * **Sarava**
 	* Documented here: <https://www.sarava.org/en> ([A](https://archive.today/ATbp5)) -- located on side bar.
 
@@ -361,7 +364,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **TheCthulu's Tor Project Mirrors**
     * Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/035982.html> ([A](https://archive.today/YKJ32))
-    * Also here: <http://bbbbbb6qtmqg65g6.onion/contact.txt> 
+    * Also here: <http://bbbbbb6qtmqg65g6.onion/contact.txt>
 
 * **Thunder's Place**
 	* Could not verify the ownership yet, but same content.
@@ -418,7 +421,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <http://www.wowmuchpool.com/static/gettingstarted.html> ([A](https://archive.today/kabtQ))
 
 * **WTF Is My IP?**
-	* Documented here: <https://www.zerobin.net/?30c3045ba3d19424#8/RkcsUkZrd+ShJCA4injD6LXZEFGT+d8GmkfXT7sDg=> ([A](https://archive.today/q2fYL)) - email from site owner. 
+	* Documented here: <https://www.zerobin.net/?30c3045ba3d19424#8/RkcsUkZrd+ShJCA4injD6LXZEFGT+d8GmkfXT7sDg=> ([A](https://archive.today/q2fYL)) - email from site owner.
 
 * **Yay Ponies**
 	* Documented here: <http://derpy.fr/yp.html> ([A](https://archive.today/RIfoO))
