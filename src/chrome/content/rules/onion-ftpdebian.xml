@@ -1,0 +1,8 @@
+<ruleset name="Colin Mahns Onion" default_off="Unclear Ownership">
+	<target host="ftp.debian.org" />
+	<rule from="^https?://ftp\.debian\.org/" to="http://vwakviie2ienjx6t.onion/" />
+</ruleset>
+<!--
+* **ftp.debian.org**
+	* Documented here: <http://richardhartmann.de/blog/posts/2015/08/24-Tor-enabled_Debian_mirror/> ([A](https://archive.is/KuwB6))
+	-->

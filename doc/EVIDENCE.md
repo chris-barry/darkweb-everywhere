@@ -163,6 +163,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* ~~First mentioned: <https://twitter.com/runasand/status/444944448343265280> ([A](https://archive.today/JsfIy))~~
 	* Update as of 2014-04-08: <https://twitter.com/ageis/status/453558785551110144> ([A](https://archive.today/5l8W7))
 
+* **ftp.debian.org**
+    * Documented here: <http://richardhartmann.de/blog/posts/2015/08/24-Tor-enabled_Debian_mirror/> ([A](https://archive.is/KuwB6))
+
 * **Gliders Wirley Searx**
 	* Documented here: <https://searx.gliderswirley.org> ([A](https://archive.today/hR45r))
 
