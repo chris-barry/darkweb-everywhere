@@ -5,9 +5,8 @@
 This plugin is not up to date.
 Also with the coming mandatory extension signing in Firefox 42, this plugin can be consider finished. :(
 
-If you still want the rules, they can be found by running this command:
-
-	ls src/chrome/content/rules/{onion,eepsite}-*
+If you still want the rules, they can be found in the `rules/` directory.
+This is also where we will be adding any new HTTPS-Everywhere rulesets.
 
 Maybe one day these rules can be shipped with the tor browser bundle *wink* *wink*.
 
