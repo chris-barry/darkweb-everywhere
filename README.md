@@ -16,7 +16,7 @@ The [tor verification file](doc/EVIDENCE.md) and [i2p verification file](doc/EVI
 
 ----- END NOTE -----
 
-Darkweb-Everywhere is a fork of [HTTPS Everywhere][0] that in addition to the normal HTTPS Everywhere functionality, will redirect you to the hidden service equvalent of a website if present. 
+Darkweb-Everywhere is a fork of [HTTPS Everywhere][0] that in addition to the normal HTTPS Everywhere functionality, will redirect you to the hidden service equvalent of a website if present.
 For this extention to work, you should be using installing it inside the [Tor Browser Bundle][1].
 
 An example of a hidden service redirect would be:
@@ -55,18 +55,20 @@ Before you begin, make sure you check out [HTTPSEverywhere's excellent guide][4]
 1. Find a site with a dual setup.
 2. Find evidence that the hidden service is hosted, or endorsed by the correct people.
 3. Add your evidence to `doc/EVIDENCE.md` or `doc/EVIDENCE-i2p.md`.
-4. Write your ruleset, and place it in `src/chrome/content/rules/`.
+4. Write your ruleset, and place it in `rules/`. Prefix the name of the file with `onion-` or `eepsite-`.
 5. Test twice.
 6. Commit and push.
 
 ### For Rulesets
 
-Make sure to append the name with "Onion" or "Eepsite", depending on which network the site is hosted on.
+Make sure to append "Onion" or "Eepsite" to the name in the ruleset, depending on which network the site is hosted on.
 This is so there are no potential conflicts with existing rules.
 
 For example:
 * `<ruleset name="Example Onion"/>`
 * `<ruleset name="Example Eepsite"/>`
+
+Be sure to save the file with an `onion-` or `eepsite-` prefix.
 
 ### For Evidence
 
@@ -88,13 +90,13 @@ The reason for this is to actively discourage users from using those rulesets.
 
 ## Disclaimer
 
-This extension should be considered experimental, and should not be used if security and anonymity are your primary concerns. 
+This extension should be considered experimental, and should not be used if security and anonymity are your primary concerns.
 Modifying the Tor Browser is not encouraged by The Tor Project and should be done only by users who know what they are doing.
 
 The developers do not vouch for, endorse, approve, disapprove, or renounce of any of these sites.
-These are supplied for our users, so that they have more privacy. 
+These are supplied for our users, so that they have more privacy.
 
-Darkweb-everywhere, the extension, and the developers of darkweb-everywhere are not affiliated with the EFF in any way, shape or form. 
+Darkweb-everywhere, the extension, and the developers of darkweb-everywhere are not affiliated with the EFF in any way, shape or form.
 (Although we love everything they are doing!)
 
 
@@ -106,7 +108,7 @@ Without either of these two organizations, darkweb-everywhere would not exist.
 
 Thanks to [bee][7](!!!) and [fortasse][8] for the original ideas that lead to this extension
 
-Thank you to those who have contributed rules, code, and even suggestions to us. 
+Thank you to those who have contributed rules, code, and even suggestions to us.
 
 And finally, thank you for using this software!
 
