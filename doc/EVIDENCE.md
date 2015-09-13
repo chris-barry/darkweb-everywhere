@@ -127,6 +127,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Darktor**
 	* Documented here: <http://darktor.com/> ([A](https://archive.today/Am1GF)) - At the bottom of the page
 
+**DeepDotWeb**
+      * Documented here: <https://deepdotweb.com> ([A](https://archive.is/Gq122)) -- on front page
+
 * **DeepBlog Surface**
 	* Documented here: <https://deepblogsurface.wordpress.com/2013/06/06/primeiro-post/> ([A](https://archive.today/OelT2))
 
