@@ -1,0 +1,8 @@
+<ruleset name="DeepDotWeb Onion">
+	<target host="www.deepdotweb.com" />
+	<rule from="^https?://(www\.)?deepdotweb\.com/" to="http://deepdot35wvmeyd5.onion/" />
+</ruleset>
+<!--
+* **DeepDotWeb**
+	* Documented here: <https://deepdotweb.com> ([A](https://archive.is/Gq122)) -- on front page
+	-->
