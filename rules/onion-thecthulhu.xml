@@ -1,0 +1,31 @@
+<ruleset name="TheCthulhu's Mirrors Onion" >
+        <target host="atlas.thecthulhu.com" />
+		<target host="citizenfour.thecthulhu.com" />
+		<target host="compass.thecthulhu.com" />
+		<target host="globe.thecthulhu.com" />
+		<target host="am.thecthulhu.com" />
+		<target host="hacked.thecthulhu.com" />
+		<rule from="^https?://atlas\.thecthulhu.com/" to="http://atlas777hhh7mcs7.onion/" />
+        <rule from="^https?://citizenfour\.thecthulhu.com/" to="http://citizen47m7jfpad.onion/" />
+        <rule from="^https?://compass\.thecthulhu.com/" to="http://compass6vpxj32p3.onion/" />
+        <rule from="^https?://globe\.thecthulhu.com/" to="http://globe223ezvh6bps.onion/" />
+		<rule from="^https://am\.thecthulhu.com/" to="http://ashleymwbwtbwxee.onion/" />
+		<rule from="^https://hacked\.thecthulhu.com/" to="http://hacked4pe7dih4ds.onion/" />
+</ruleset>
+				
+<!--
+* **TheCthulhu's Ashley Madison Mirror**
+	* Documented here: <https://twitter.com/CthulhuSec/status/633828098136535040> ([A](https://archive.is/sQnKz))
+
+* **TheCthulhu's Citizenfour Mirror**
+	* Documented here: <https://twitter.com/CthulhuSec/status/570759066039005184> ([A](https://archive.is/CYgM9))
+
+* **TheCthulhu's Compass Mirror**
+    * Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/036067.html> ([A](https://archive.today/YKJ32))
+
+* **TheCthulhu's Globe and Atlas Mirrors**
+    * Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/035982.html> ([A](https://archive.today/YKJ32))
+
+* **The Cthulhu's Hacking Team Mirror**
+	* Documented here: <https://twitter.com/CthulhuSec/status/618205012062244864> ([A](https://archive.is/1RFga))
+-->

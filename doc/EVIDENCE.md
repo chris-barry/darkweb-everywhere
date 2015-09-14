@@ -368,6 +368,21 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **TheChess**
 	* Documented here: <http://thechess.ru/forum/post/6726> ([A](https://archive.today/LhJjJ))
 
+* **TheCthulhu's Ashley Madison Mirror**
+    * Documented here: <https://twitter.com/CthulhuSec/status/633828098136535040> ([A](https://archive.is/sQnKz))
+
+* **TheCthulhu's Citizenfour Mirror**
+    * Documented here: <https://twitter.com/CthulhuSec/status/570759066039005184> ([A](https://archive.is/CYgM9))
+
+* **TheCthulhu's Compass Mirror**
+    * Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/036067.html> ([A](https://archive.today/YKJ32))
+
+* **TheCthulhu's Globe and Atlas Mirrors**
+    * Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/035982.html> ([A](https://archive.today/YKJ32))
+
+* **The Cthulhu's Hacking Team Mirror**
+    * Documented here: <https://twitter.com/CthulhuSec/status/618205012062244864> ([A](https://archive.is/1RFga))
+
 * **TheCthulu's Tor Project Mirrors**
     * Documented here: <https://lists.torproject.org/pipermail/tor-talk/2014-December/035982.html> ([A](https://archive.today/YKJ32))
     * Also here: <http://bbbbbb6qtmqg65g6.onion/contact.txt>
