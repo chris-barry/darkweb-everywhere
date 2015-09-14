@@ -1,5 +1,11 @@
 <ruleset name="TorProject Onion" default_off="See https://trac.torproject.org/projects/tor/ticket/11567">
 	<target host="torproject.org" />
 	<target host="www.torproject.org" />
+	<target host="archive.torproject.org" />
+	<target host="media.torproject.org" />
+	<target host="trac.torproject.org" />
+	<rule from="^https?://trac\.torproject\.org/" to="http://vwp5zrdfwmw4avcq.onion/" />
+	<rule from="^https?://media\.torproject\.org/" to="http://p3igkncehackjtib.onion/" />
+	<rule from="^https?://archive\.torproject\.org/" to="http://j6im4v42ur6dpic3.onion/" />
 	<rule from="^https?://(www\.)?torproject\.org/" to="http://idnxcnkne4qt76tg.onion/" />
 </ruleset>
