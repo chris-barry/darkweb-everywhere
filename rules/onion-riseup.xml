@@ -1,7 +1,24 @@
 <ruleset name="Riseup Main Page / Help Onion">
 	<target host="riseup.net" />
 	<target host="help.riseup.net" />
+	<target host="black.riseup.net" />
+	<target host="labs.riseup.net" />
+	<target host="lists.riseup.net" />
+	<target host="mail.riseup.net" />
+	<target host="fruiteater.riseup.net" />
+	<target host="fulvetta.riseup.net" />
+	<target host="pad.riseup.net" />
+	<target host="user.riseup.net" />
+	<target host="we.riseup.net" />
+	
 	<rule from="^https?://(help\.)?riseup\.net/" to="http://nzh3fv6jc6jskki3.onion/" />
+	<rule from="^https?://black\.riseup\.net/" to="http://cwoiopiifrlzcuos.onion/" />
+	<rule from="^https?://lists\.riseup\.net/" to="http://xpgylzydxykgdqyg.onion/" />
+	<rule from="^https?://(mail|fruiteater|fulvetta)\.riseup\.net/" to="http://zsolxunfmbfuq7wf.onion/" />
+	<rule from="^https?://pad\.riseup\.net/" to="https://5jp7xtmox6jyoqd5.onion/" />
+	<rule from="^https?://user\.riseup\.net/" to="https://j6uhdvbhz74oefxf.onion/" />
+	<rule from="^https?://we\.riseup\.net/" to="http://7lvd7fa5yfbdqaii.onion/" />
+	<!--<rule from="^https?://labs\.riseup\.net/" to="http://yfm6sdhnfbulplsw.onion/" /> doesn't seem to work the same as the clearnet address (2014-05-02)-->
 </ruleset>
 <!--
 * **RiseUp**

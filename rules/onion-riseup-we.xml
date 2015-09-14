@@ -1,8 +1,0 @@
-<ruleset name="Riseup We Onion">
-	<target host="we.riseup.net" />
-	<rule from="^https?://we\.riseup\.net/" to="http://7lvd7fa5yfbdqaii.onion/" />
-</ruleset>
-<!--
-* **RiseUp**
-	* Documented here: <https://www.riseup.net/en/tor#riseups-tor-hidden-services> ([A](https://archive.today/rmKwd)) - All hidden services they offer are listed here. For the sake of trying to keep this page as streamlined as possible, we ask you refer here for all of RiseUp's services.
-	-->
