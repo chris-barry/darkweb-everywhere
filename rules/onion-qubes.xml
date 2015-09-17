@@ -1,0 +1,9 @@
+<ruleset name="Qubes Onion" >
+	<target host="qubes-os.org" />
+	<target host="www.qubes-os.org" />
+	<rule from="^https?://(www\.)?qubes-os\.org/" to="http://qubesosmamapaxpa.onion/" />
+</ruleset>
+<!--
+* **Qubes**
+	* Documented here: <https://qubes-os.org> ([A](https://archive.is/ermVf)) - linked at the bottom of the page
+	-->

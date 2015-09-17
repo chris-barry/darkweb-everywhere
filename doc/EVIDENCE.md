@@ -304,6 +304,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **QuackQuackGo Searx**
 	* Documented here: <https://quackquackgo.nl> ([A](https://archive.today/YBq4M)) - linked on the main page
 
+* **Qubes**
+    * Documented here: <https://qubes-os.org> ([A](https://archive.is/ermVf)) - linked at the bottom of the page
+
 * **Raegdan's Fukken Saved Onion**
     * Documented here: <https://fsaved.raegdan.org/> ([A](https://archive.today/L0bCT))
 
