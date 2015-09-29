@@ -1,0 +1,8 @@
+<ruleset name="Chris Barry's Personal Eepsite" default_off="couldn't load as of 2015-09-29">
+	<target host="irongeek.com" />
+	<rule from="^https?://(www\.)?irongeek\.com/" to="http://irongeeks.i2p/" />
+</ruleset>
+<!--
+* **Irongeek's Site**
+    * Documented here: <http://www.irongeek.com/i.php?page=security/i2p-tor-workshop-notes> ([A](https://archive.is/dL9Jm))
+	-->

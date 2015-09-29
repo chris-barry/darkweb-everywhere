@@ -50,6 +50,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **img.bi**
 	* Documented here: <https://img.bi> ([A](https://archive.today/Bwo1T)) - linked on the main page
 
+* **Irongeek's Site**
+    * Documented here: <http://www.irongeek.com/i.php?page=security/i2p-tor-workshop-notes> ([A](https://archive.is/dL9Jm))
+
 * **Parazite**
 	* Documented here: <https://parazite.pp.fi> ([A](https://archive.today/7fseG)) - link at bottom of page
 
