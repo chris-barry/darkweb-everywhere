@@ -1,4 +1,4 @@
-<ruleset name="Chris Barry's Personal Eepsite" default_off="couldn't load as of 2015-09-29">
+<ruleset name="IronGeeks" default_off="couldn't load as of 2015-09-29">
 	<target host="irongeek.com" />
 	<rule from="^https?://(www\.)?irongeek\.com/" to="http://irongeeks.i2p/" />
 </ruleset>
