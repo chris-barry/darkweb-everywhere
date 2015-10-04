@@ -14,6 +14,8 @@ Maybe one day these rules can be shipped with the tor browser bundle *wink* *win
 **The good news** is that verifying services is still going!
 The [tor verification file](doc/EVIDENCE.md) and [i2p verification file](doc/EVIDENCE-i2p.md) should be vaild for the forseeable future.
 
+You can still manually use these rules by placing the rules in `rules/` into `Browser/TorBrowser/Data/Browser/profile.default/HTTPSEverywhereUserRules`.
+
 ----- END NOTE -----
 
 Darkweb-Everywhere is a fork of [HTTPS Everywhere][0] that in addition to the normal HTTPS Everywhere functionality, will redirect you to the hidden service equvalent of a website if present.
