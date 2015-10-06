@@ -1,16 +1,21 @@
 <ruleset name="Tor2web Onion">
 	<target host="*.tor2web.org" />
+	<target host="*.tor2web.com" />
 	<target host="*.tor2web.fi" />
 	<target host="*.tor2web.blutmagie.de" />
 	<target host="*.onion.to" />
 	<target host="*.onion.lu" />
+	<target host="*.onion.nu" />
+	<target host="*.onion.direct" />
 	<target host="*.onion.sh" />
 	<target host="*.onion.is" />
 	<target host="*.onion.lt" />
 	<target host="*.onion.cab" />
+	<target host="*.onion.link" />	
 	<target host="*.onion.city" />
 	<target host="*.t2w.pw" />
 	<target host="*.darktor.com" />
+	
 
 	<target host="*.onion.direct" />
 	<target host="*.torstorm.org" />
