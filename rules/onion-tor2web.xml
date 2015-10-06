@@ -12,8 +12,7 @@
 	<target host="*.onion.cab" />
 	<target host="*.onion.city" />
 	<target host="*.onion.link" />
-        <target host="*.onion.nu" />
-
+	<target host="*.onion.nu" />
 	<target host="*.t2w.pw" />
 	<target host="*.darktor.com" />
 
