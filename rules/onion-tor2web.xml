@@ -1,5 +1,7 @@
 <ruleset name="Tor2web Onion">
 	<target host="*.tor2web.org" />
+	<target host="*.tor2web.com" />
+
 	<target host="*.tor2web.fi" />
 	<target host="*.tor2web.blutmagie.de" />
 	<target host="*.onion.to" />
@@ -19,7 +21,7 @@
 	<target host="*.toradvisor.org" />
 
 
-	<rule from="^https?://((\w+\.)*[a-z2-7]{16})\.(tor2web\.org|tor2web\.fi|tor2web\.blutmagie\.de|onion\.to|onion\.lu|onion\.sh|onion\.is|onion\.lt|onion\.cab|onion\.city|t2w\.pw|darktor\.com|onion\.direct|torstorm\.org|connect2tor\.org|door2tor\.org|toradvisor\.org)/" to="http://$1.onion/" />
+	<rule from="^https?://((\w+\.)*[a-z2-7]{16})\.(tor2web\.org|tor2web\.com|tor2web\.fi|tor2web\.blutmagie\.de|onion\.to|onion\.lu|onion\.sh|onion\.is|onion\.lt|onion\.cab|onion\.city|t2w\.pw|darktor\.com|onion\.direct|torstorm\.org|connect2tor\.org|door2tor\.org|toradvisor\.org|onion\.direct|onion\.nu|onion\.link)/" to="http://$1.onion/" />
 </ruleset>
 <!--
 * **tor2web**
