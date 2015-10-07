@@ -1,6 +1,7 @@
 # Darkweb Rulesets
 
------ BEGIN NOTE -----
+**Begin note:**
+____
 
 This plugin is not up to date.
 Also with the coming mandatory extension signing in Firefox 42, this plugin can be consider finished. :(
@@ -16,7 +17,9 @@ The [tor verification file](doc/EVIDENCE.md) and [i2p verification file](doc/EVI
 
 You can still manually use these rules by placing the rules in `rules/` into `Browser/TorBrowser/Data/Browser/profile.default/HTTPSEverywhereUserRules`.
 
------ END NOTE -----
+____
+**End note**
+____
 
 Darkweb-Everywhere is a fork of [HTTPS Everywhere][0] that in addition to the normal HTTPS Everywhere functionality, will redirect you to the hidden service equvalent of a website if present.
 For this extention to work, you should be using installing it inside the [Tor Browser Bundle][1].
