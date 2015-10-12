@@ -223,6 +223,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Library Freedom Project Site**
     * Documented here: <https://libraryfreedomproject.org> ([A](https://archive.today/S5Him))
+    * And here: <https://twitter.com/flexlibris/status/653351072069754880> ([A](https://archive.is/ZrzX8))
 
 * **Litevault Onion**
     * Documented here: <https://www.litevault.net/about/hidden-service> ([A](https://archive.today/W0upr))

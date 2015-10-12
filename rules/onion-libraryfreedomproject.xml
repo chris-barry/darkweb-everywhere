@@ -1,8 +1,9 @@
 <ruleset name="Library Freedom Project Onion">
 	<target host="libraryfreedomproject.org" />
-	<rule from="^https?://libraryfreedomproject\.org/" to="https://q6rzvutddm62bqkj.onion/" />
+	<rule from="^https?://libraryfreedomproject\.org/" to="http://libraryxobbrbj33.onion" />
 </ruleset>
 <!--
 * **Library Freedom Project Site**
 	* Documented here: <https://libraryfreedomproject.org> ([A](https://archive.today/S5Him))
+    * And here: <https://twitter.com/flexlibris/status/653351072069754880> ([A](https://archive.is/ZrzX8))
 	-->
