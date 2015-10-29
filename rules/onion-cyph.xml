@@ -1,0 +1,9 @@
+<ruleset name="Cyph Onion">
+	<target host="cyph.com" />
+	<target host="www.cyph.com" />
+	<rule from="^https?://(www\.)?cyph\.com/" to="https://cyphdbyhiddenbhs.onion/" />
+</ruleset>
+<!--
+* **Cyph**
+	* Documented in the EV cert on the .onion
+-->

@@ -124,6 +124,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <https://cryptoparty.is/> ([A](https://archive.today/W0E4F))
 	* Jabber documented here: <http://jabber.cryptoparty.is/> ([A](https://archive.today/90DVs))
 
+* **Cyph**
+    * Documented in the EV cert on the .onion
+
 * **Darktor**
 	* Documented here: <http://darktor.com/> ([A](https://archive.today/Am1GF)) - At the bottom of the page
 
