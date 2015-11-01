@@ -1,9 +1,9 @@
 <ruleset name="TheTinHat Eepsite" default_off="eepsite">
 	<target host="thetinhat.com" />
 	<target host="www.thetinhat.com" />
-	<rule from="^https?://(www\.)?thetinhat\.com/" to="http://thetinhat.i2p/" />
+	<rule from="^https?://(www\.)?thetinhat\.com/" to="http://secure.thetinhat.i2p/" />
 </ruleset>
 <!--
 * **TheTinHat Eepsite**
-	* Documented here: https://twitter.com/The_Tin_Hat/status/500378358191235072
+	* Documented here: https://twitter.com/The_Tin_Hat/status/660940103238459392
 	-->

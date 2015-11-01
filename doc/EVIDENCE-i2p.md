@@ -69,7 +69,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 	* Documented here: <http://plugins.i2p.us/plugins/syndie/> ([A](http://web.archive.org/web/20140619065450/http://plugins.i2p.us/plugins/syndie/))
 
 * **TheTinHat** 
-	* Documented here: <https://twitter.com/The_Tin_Hat/status/500378358191235072> ([A](https://archive.today/986Vu))
+	* Documented here: <https://twitter.com/The_Tin_Hat/status/660940103238459392> ([A](https://archive.is/JVxSG))
 	* Also here: <https://thetinhat.com/tutorials/darknets/i2p.html> ([A](https://archive.today/WUok0))
 
 * **Vuze Wiki**

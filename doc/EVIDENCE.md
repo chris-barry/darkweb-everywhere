@@ -130,7 +130,7 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Darktor**
 	* Documented here: <http://darktor.com/> ([A](https://archive.today/Am1GF)) - At the bottom of the page
 
-**DeepDotWeb**
+* **DeepDotWeb**
       * Documented here: <https://deepdotweb.com> ([A](https://archive.is/Gq122)) -- on front page
 
 * **DeepBlog Surface**
@@ -377,6 +377,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **TheCthulhu's Mirrors**
     * Documented here: <https://www.thecthulhu.com/services/> ([A](https://archive.is/Wt6VY))
+
+* **TheTinHat**
+	* Documented here: <https://thetinhat.com/blog/2015/02/26/thetinhat-hidden-service.html> ([A](https://archive.is/TyG65))
 
 * **Thunder's Place**
 	* Could not verify the ownership yet, but same content.

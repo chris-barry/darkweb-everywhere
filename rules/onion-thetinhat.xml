@@ -1,0 +1,10 @@
+<ruleset name="The Tin Hat Onion">
+	<target host="thetinhat.com" />
+	<target host="www.thetinhat.com" />
+	<rule from="^https?://(www\.)?thetinhat\.com/" to="http://qza32xuddl3guikc.onion" />
+</ruleset>
+<!--
+* **TheTinHat**
+	* Documented here: <https://thetinhat.com/blog/2015/02/26/thetinhat-hidden-service.html> ([A](https://archive.is/TyG65))
+-->
+
