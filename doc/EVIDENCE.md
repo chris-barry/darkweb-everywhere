@@ -206,6 +206,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Innocense**
 	* Documented here: <http://www.innocence.se/>
 
+* **Intelexit**
+	* Documented here: <https://www.intelexit.org/> ([A](https://archive.is/GRMyt)) - linked on the main page
+
 * **img.bi**
 	* Documented here: <https://img.bi> ([A](https://archive.today/Bwo1T)) - linked on the main page
 
