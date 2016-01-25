@@ -249,6 +249,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Mail2Tor**
 	* Documented here: <http://mail2tor.com/> ([A](https://archive.today/6m2uI)) - linked on the main page
 
+* **Mailpile**
+	* Documented here: <https://www.mailpile.is/> ([A](https://archive.is/JHC2t)) - linked on the main page
+
 * **Mailtor**
 	* Documented here: <https://en.wikipedia.org/wiki/Mailtor> ([A](https://archive.today/HBape))
 

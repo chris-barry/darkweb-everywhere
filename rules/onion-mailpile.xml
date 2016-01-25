@@ -1,0 +1,9 @@
+<ruleset name="Mailpile">
+	<target host="mailpile.is" />
+	<target host="www.mailpile.is" />
+    <rule from="^https?://(www\.)?mailpile\.is/" to="http://clgs64523yi2bkhz.onion/" />
+</ruleset>
+<!--
+* **Mailpile**
+	* Documented here: <https://www.mailpile.is/> ([A](https://archive.is/JHC2t)) - linked on the main page
+-->
