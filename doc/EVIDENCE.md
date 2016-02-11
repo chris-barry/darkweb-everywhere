@@ -206,6 +206,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Innocense**
 	* Documented here: <http://www.innocence.se/>
 
+* **Intelexit**
+	* Documented here: <https://www.intelexit.org/> ([A](https://archive.is/GRMyt)) - linked on the main page
+
 * **img.bi**
 	* Documented here: <https://img.bi> ([A](https://archive.today/Bwo1T)) - linked on the main page
 
@@ -245,6 +248,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Mail2Tor**
 	* Documented here: <http://mail2tor.com/> ([A](https://archive.today/6m2uI)) - linked on the main page
+
+* **Mailpile**
+	* Documented here: <https://www.mailpile.is/> ([A](https://archive.is/JHC2t)) - linked on the main page
 
 * **Mailtor**
 	* Documented here: <https://en.wikipedia.org/wiki/Mailtor> ([A](https://archive.today/HBape))

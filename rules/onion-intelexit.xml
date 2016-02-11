@@ -1,0 +1,9 @@
+<ruleset name="Intelexit">
+	<target host="intelexit.org" />
+	<target host="www.intelexit.org" />
+    <rule from="^https?://(www\.)?intelexit\.org/" to="http://intelexi7yo7mj7j.onion/" />
+</ruleset>
+<!--
+* **Intelexit**
+    * Documented here: <https://www.intelexit.org/> ([A](https://archive.is/GRMyt)) - linked on the main page
+-->
