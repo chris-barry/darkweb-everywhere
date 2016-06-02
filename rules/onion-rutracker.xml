@@ -1,0 +1,6 @@
+<ruleset name="Rutracker Onion" platform="mixedcontent">
+	<target host="rutracker.org" />
+	<target host="rutracker.net" />
+	<target host="rutracker.cr" />
+	<rule from="^https?://(?:www\.)?rutracker\.(?:org|net|cr)/" to="http://rutrackerripnext.onion/" />
+</ruleset>

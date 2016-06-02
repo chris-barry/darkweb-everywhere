@@ -1,0 +1,6 @@
+<ruleset name="Rutracker Eepsite" default_off="i2p rule, might cause conflicts">
+	<target host="rutracker.org" />
+	<target host="rutracker.net" />
+	<target host="rutracker.cr" />
+	<rule from="^https?://(?:www\.)?rutracker\.(?:org|net|cr)/" to="http://rutracker.i2p/" />
+</ruleset>

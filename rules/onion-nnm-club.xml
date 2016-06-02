@@ -1,0 +1,12 @@
+<ruleset name="NNM-Club Onion" platform="mixedcontent">
+	<target host="nnm-club.me" />
+	<target host="nnm-club.to" />
+	<target host="nnmclub.to" />
+	<target host="www.nnm-club.me" />
+	<target host="www.nnm-club.to" />
+	<target host="www.nnmclub.to" />
+	<target host="ipv6.nnm-club.me" />
+	<target host="ipv6.nnm-club.to" />
+	<target host="ipv6.nnmclub.to" />
+	<rule from="^https?://(?:www\.|ipv6\.)?(?:nnm-club\.me|nnm-club\.to|nnmclub\.to)/" to="http://nnmclub5toro7u65.onion/" />
+</ruleset>

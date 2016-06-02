@@ -136,6 +136,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **DeepBlog Surface**
 	* Documented here: <https://deepblogsurface.wordpress.com/2013/06/06/primeiro-post/> ([A](https://archive.today/OelT2))
 
+* **Demonoid**
+	* Documented here: <https://www.demonoid.pw/> ([A](https://archive.fo/zYXXO))
+
 * **DuckDuckGo**
 	* Documented here: <http://www.gabrielweinberg.com/blog/2010/08/duckduckgo-now-operates-a-tor-exit-enclave.html> ([A](https://archive.today/RmkV7))
 	* Mentioned again here: <https://duck.co/forum/thread/1762/is-the-duckduckgo-hidden-service-legitimate> ([A](https://archive.today/UujYc))
@@ -221,6 +224,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Kavkaz Center**
 	* Documented here: <http://www.kavkazcenter.com/eng/content/2012/06/20/16355.shtml> ([A](https://archive.today/3etBo))
 
+* **KickassTorrents**
+	* Documented here: <https://kastatus.com/> ([A](https://archive.fo/39ahQ))
+
 * **Kognitionskyrkan**
 	* Documented here: <http://kognitionskyrkan.nu/1.0/> ([A](https://archive.today/GJH5m))
 
@@ -282,6 +288,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **NewsFileSearch**
 	* Could not verify, but same content, same donation addresses, same ads.
 
+* **NNM-Club**
+	* https://nnm-club.me/forum/viewtopic.php?p=8137744#8137744 ([A](https://archive.is/k7bXd#8137744))
+
 * **One Time Dead Drop**
 	* Documented here: <http://dead-drop.me> ([A](https://archive.today/6gHrR)) - linked on the main page
 
@@ -310,6 +319,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Project PM**
 	* Documented here: <http://echelon2.org/wiki/Main_Page> ([A](https://archive.today/XyL35)) - linked on the main page
+
+* **ProtonMail**
+	* Documented here: <https://protonmail.com/tor> ([A](https://archive.fo/HHl2e))
 
 * **QuackQuackGo Searx**
 	* Documented here: <https://quackquackgo.nl> ([A](https://archive.today/YBq4M)) - linked on the main page
@@ -340,6 +352,12 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Rueckgr Tor Status**
 	* Documented here: <https://torstatus.rueckgr.at/> ([A](https://archive.today/KrnM3)) - link on main page
+
+* **Rutor**
+	* http://rutor.info/torrent/472 ([A](https://archive.is/8mB2s))
+
+* **Rutracker**
+	* http://rutracker.wiki/%D0%A7%D1%82%D0%BE_%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C,_%D0%B5%D1%81%D0%BB%D0%B8_%D0%B2%D0%B0%D0%BC_%D0%B7%D0%B0%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD_%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF_%D0%BD%D0%B0_rutracker.org#.D0.97.D0.B5.D1.80.D0.BA.D0.B0.D0.BB.D0.B0_rutracker.org ([A](https://archive.fo/17lvI))
 
 * **Sam Whited**
 	* Hidden Service can be found by doing `dig +short tor.samwhited.com cname`
@@ -401,6 +419,12 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Toremail**
     * Documented here: <https://toremail.net/#faq> ([A](https://archive.today/HqfRp))
+
+* **TorrentProject**
+    * Documented here: <https://torrentproject.se> ([A](https://archive.fo/KCZX6))
+
+* **Torrentz2**
+    * Documented here: <https://torrentz2.eu> ([A](https://archive.fo/BZnla))
 
 * **Torsearch**
 	* Documented here: <https://torsearch.es> ([A](https://archive.today/80hIC)) - linked on the main page
