@@ -2,7 +2,7 @@
 	<target host="riseup.net" />
 	<target host="help.riseup.net" />
 	<target host="black.riseup.net" />
-	<target host="labs.riseup.net" />
+	<target host="0xacab.org" />
 	<target host="lists.riseup.net" />
 	<target host="mail.riseup.net" />
 	<target host="fruiteater.riseup.net" />
@@ -18,7 +18,7 @@
 	<rule from="^https?://pad\.riseup\.net/" to="https://5jp7xtmox6jyoqd5.onion/" />
 	<rule from="^https?://user\.riseup\.net/" to="https://j6uhdvbhz74oefxf.onion/" />
 	<rule from="^https?://we\.riseup\.net/" to="http://7lvd7fa5yfbdqaii.onion/" />
-	<!--<rule from="^https?://labs\.riseup\.net/" to="http://yfm6sdhnfbulplsw.onion/" /> doesn't seem to work the same as the clearnet address (2014-05-02)-->
+	<rule from="^https?://0xacab\.org/" to="http://vivmyccb3jdb7yij.onion/" />
 </ruleset>
 <!--
 * **RiseUp**
