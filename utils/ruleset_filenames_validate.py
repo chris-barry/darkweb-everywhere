@@ -12,7 +12,7 @@ import collections
 
 def validate_filenames():
     # Sort filenames so output is deterministic.
-    filenames = sorted(glob.glob('src/chrome/content/rules/*'))
+    filenames = sorted(glob.glob('rules/*'))
 
     counted_lowercase_names = collections.Counter([name.lower() for name in filenames])
     most_common_entry = counted_lowercase_names.most_common(1)[0]

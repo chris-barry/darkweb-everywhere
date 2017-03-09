@@ -21,6 +21,29 @@
 	<target host="*.connect2tor.org" />
 	<target host="*.door2tor.org" />
 	<target host="*.toradvisor.org" />
+	
+	<test url="http://duskgytldkxiuqc6.tor2web.org/" />
+	<test url="http://duskgytldkxiuqc6.tor2web.com/" />
+	<test url="http://duskgytldkxiuqc6.tor2web.fi/" />
+	<test url="http://duskgytldkxiuqc6.tor2web.blutmagie.de/" />
+	<test url="http://duskgytldkxiuqc6.onion.to/" />
+	<test url="http://duskgytldkxiuqc6.onion.lu/" />
+	<test url="http://duskgytldkxiuqc6.onion.sh/" />
+	<test url="http://duskgytldkxiuqc6.onion.is/" />
+	<test url="http://duskgytldkxiuqc6.onion.lt/" />
+	<test url="http://duskgytldkxiuqc6.onion.cab/" />
+	<test url="http://duskgytldkxiuqc6.onion.city/" />
+	<test url="http://duskgytldkxiuqc6.onion.link/" />
+	<test url="http://duskgytldkxiuqc6.onion.nu/" />
+	<test url="http://duskgytldkxiuqc6.t2w.pw/" />
+	<test url="http://duskgytldkxiuqc6.darktor.com/" />
+	<test url="http://duskgytldkxiuqc6.onion.direct/" />
+	<test url="http://duskgytldkxiuqc6.torstorm.org/" />
+	<test url="http://duskgytldkxiuqc6.connect2tor.org/" />
+	<test url="http://duskgytldkxiuqc6.door2tor.org/" />
+	<test url="http://duskgytldkxiuqc6.toradvisor.org/" />
+	<test url="http://facebookcorewwwi.tor2web.org/" />
+	<test url="http://facebookcorewwwi.tor2web.com/" />
 
 
 	<rule from="^https?://((\w+\.)*[a-z2-7]{16})\.(tor2web\.org|tor2web\.com|tor2web\.fi|tor2web\.blutmagie\.de|onion\.to|onion\.lu|onion\.sh|onion\.is|onion\.lt|onion\.cab|onion\.city|t2w\.pw|darktor\.com|onion\.direct|torstorm\.org|connect2tor\.org|door2tor\.org|toradvisor\.org|onion\.nu|onion\.link)/" to="http://$1.onion/" />

@@ -1,7 +1,7 @@
 <ruleset name="Anoncoin Onion">
 	<target host="anoncoin.net" />
 	<target host="www.anoncoin.net" />
-	<target host="lotto.anoncoin.net" />
+	<!--<target host="lotto.anoncoin.net" />-->
 	<rule from="^https?://(www\.)?anoncoin\.net/" to="http://futz4b7tmqzoxnc6.onion/" />
 <!-- site no longer up as of 2015-04-18	<rule from="^https?://lotto\.anoncoin\.net/" to="http://dwnatg4ijethv7zj.onion/" />-->
 </ruleset>

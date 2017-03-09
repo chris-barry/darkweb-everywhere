@@ -17,9 +17,13 @@ done
 
 if [ "$TO_BE_TESTED" ]; then
   # Do the actual test, using https-everywhere-checker.
+  service tor start
+  sleep 10
+  echo nameserver 127.0.0.1 > /etc/resolv.conf
+  iptables -t nat -A OUTPUT -m owner --uid-owner $(sudo -u test id -u) -p tcp --syn -j REDIRECT --to-ports 9040
   OUTPUT_FILE=`mktemp`
   trap 'rm "$OUTPUT_FILE"' EXIT
-  python $RULETESTFOLDER/src/https_everywhere_checker/check_rules.py $RULETESTFOLDER/http.checker.config $TO_BE_TESTED 2>&1 | tee $OUTPUT_FILE
+  sudo -u test python $RULETESTFOLDER/src/https_everywhere_checker/check_rules.py $RULETESTFOLDER/http.checker.config $TO_BE_TESTED 2>&1 | tee $OUTPUT_FILE
   # Unfortunately, no specific exit codes are available for connection
   # failures, so we catch those with grep.
   if [[ `cat $OUTPUT_FILE | grep ERROR | wc -l` -ge 1 ]]; then

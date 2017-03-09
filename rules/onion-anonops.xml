@@ -1,7 +1,7 @@
 <ruleset name="Anonops Onion">
 	<target host="anonops.com" />
 	<target host="www.anonops.com" />
-	<rule from="^https?://www\.?anonops\.com/" to="https://anonopsmazrmrvws.onion/" />
+	<rule from="^https?://(www\.)?anonops\.com/" to="https://anonopsmazrmrvws.onion/" />
 </ruleset>
 <!--
 * **Anonet**

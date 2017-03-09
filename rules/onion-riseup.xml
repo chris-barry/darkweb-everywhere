@@ -2,7 +2,7 @@
 	<target host="riseup.net" />
 	<target host="help.riseup.net" />
 	<target host="black.riseup.net" />
-	<target host="labs.riseup.net" />
+	<!--<target host="labs.riseup.net" />-->
 	<target host="lists.riseup.net" />
 	<target host="mail.riseup.net" />
 	<target host="fruiteater.riseup.net" />

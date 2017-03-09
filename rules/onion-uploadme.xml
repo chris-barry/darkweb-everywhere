@@ -2,5 +2,5 @@
   <target host="uploadme.se" />
   <target host="www.uploadme.se" />
 
-  <rule from="^https?://(www\.)uploadme\.se/" to="http://ufcefwubqauib6of.onion/"/>
+  <rule from="^https?://(www\.)?uploadme\.se/" to="http://ufcefwubqauib6of.onion/"/>
 </ruleset>

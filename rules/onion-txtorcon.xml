@@ -1,6 +1,7 @@
 <ruleset name="txtorcon Onion">
 	<target host="txtorcon.readthedocs.org" />
 	<target host="txtorcon.rtfd.org" />
+	<test url="http://txtorcon.readthedocs.org/en/latest/" />
 	<rule from="^https?://txtorcon\.readthedocs\.org/en/latest/" to="http://timaq4ygg2iegci7.onion/" />
 	<rule from="^https?://txtorcon\.(readthedocs|rtfd)\.org/" to="http://timaq4ygg2iegci7.onion/" />
 </ruleset>

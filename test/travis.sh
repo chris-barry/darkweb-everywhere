@@ -6,7 +6,7 @@ function docker_build {
 }
 
 # Folder paths, relative to parent
-RULESETFOLDER="src/chrome/content/rules"
+RULESETFOLDER="rules"
 
 # Go to git repo root; taken from ../test.sh. Note that
 # $GIT_DIR is .git in this case.
@@ -21,7 +21,7 @@ else
 fi
 
 # Fetch the current GitHub version of HTTPS-E to compare to its master
-git remote add upstream-for-travis https://github.com/EFForg/https-everywhere.git
+git remote add upstream-for-travis https://github.com/chris-barry/darkweb-everywhere.git
 trap 'git remote remove upstream-for-travis' EXIT
 
 # Only do a shallow fetch if we're in Travis.  No need otherwise.

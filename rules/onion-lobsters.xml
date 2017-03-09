@@ -1,7 +1,7 @@
 <ruleset name="Lobsters Onion">
 	<target host="lobste.rs" />
 	<target host="www.lobste.rs" />
-	<rule from="^https?://(www\.)lobste\.rs/" to="http://lobsters3ik6yqwj.onion/" />
+	<rule from="^https?://(www\.)?lobste\.rs/" to="http://lobsters3ik6yqwj.onion/" />
 </ruleset>
 <!--
 * **Lobsters**

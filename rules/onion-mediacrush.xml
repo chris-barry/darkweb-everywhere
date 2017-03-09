@@ -1,4 +1,4 @@
-<ruleset name="MediaCrush Onion" default_off"Mediacrush is dead">
+<ruleset name="MediaCrush Onion" default_off="Mediacrush is dead">
 	<target host="mediacru.sh" />
 	<target host="www.mediacru.sh" />
 	<rule from="^https?://(www\.)?mediacru\.sh/" to="http://mediacrs5ujufxog.onion/" />
