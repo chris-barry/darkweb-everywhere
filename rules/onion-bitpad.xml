@@ -1,4 +1,4 @@
-<ruleset name="Bitpad Onion" default_off"no longer online">
+<ruleset name="Bitpad Onion" default_off="no longer online">
 	<target host="bitpad.co.nz" />
 	<target host="www.bitpad.co.nz" />
 	<rule from="^https?://(www\.)?bitpad\.co\.nz/" to="https://bitpadovlvshmpvk.onion/" />

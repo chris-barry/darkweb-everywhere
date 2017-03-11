@@ -3,7 +3,7 @@
 	<target host="www.flibusta.net" />
 	<target host="proxy.flibusta.net" />
 	<target host="www.proxy.flibusta.net" />
-	<rule from="^https?://(www\.|proxy\.)?flibusta\.net/" to="http://flibustahezeous3.onion/" />
+	<rule from="^https?://(www\.)?(proxy\.)?flibusta\.net/" to="http://flibustahezeous3.onion/" />
 </ruleset>
 <!--
 * **Flibusta**
