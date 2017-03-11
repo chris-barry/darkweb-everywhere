@@ -1,4 +1,4 @@
-<ruleset name="Anonops Onion">
+<ruleset name="Anonops Onion" default_off="self-signed">
 	<target host="anonops.com" />
 	<target host="www.anonops.com" />
 	<rule from="^https?://(www\.)?anonops\.com/" to="https://anonopsmazrmrvws.onion/" />

@@ -3,7 +3,7 @@
 		<target host="citizenfour.thecthulhu.com" />
 		<target host="compass.thecthulhu.com" />
 		<target host="globe.thecthulhu.com" />
-		<!--<target host="am.thecthulhu.com" />-->
+		<target host="am.thecthulhu.com" />
 		<!--<target host="hacked.thecthulhu.com" />-->
 		<target host="tor.thecthulhu.com" />
                 <target host="onionoo.thecthulhu.com" />
@@ -15,7 +15,7 @@
                 <rule from="^https?://compass\.thecthulhu\.com/" to="http://compass6vpxj32p3.onion/" />
                 <rule from="^https?://globe\.thecthulhu\.com/" to="http://globe223ezvh6bps.onion/" />
 		<rule from="^https?://am\.thecthulhu\.com/" to="http://ashleymwbwtbwxee.onion/" />
-		<rule from="^https?://hacked\.thecthulhu\.com/" to="http://hacked4pe7dih4ds.onion/" />
+		<!--<rule from="^https?://hacked\.thecthulhu\.com/" to="http://hacked4pe7dih4ds.onion/" />-->
 		<rule from="^https?://tor\.thecthulhu\.com/" to="http://torsiteyqk5ajx5o.onion/" />
 		<rule from="^https?://onionoo\.thecthulhu\.com/" to="http://onionoorcazzotwa.onion/" />
 		<rule from="^https?://whonix\.thecthulhu\.com/" to="http://whonix4iscgg7zzk.onion/" />

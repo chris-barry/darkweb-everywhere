@@ -1,4 +1,4 @@
-<ruleset name="Coinkite Onion">
+<ruleset name="Coinkite Onion" default_off="check fail">
 	<target host="coinkite.com" />
 	<target host="www.coinkite.com" />
 	<rule from="^https?://(www\.)?coinkite\.com/" to="http://gcvqzacplu4veul4.onion/" />

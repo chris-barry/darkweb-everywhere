@@ -1,4 +1,4 @@
-<ruleset name="Hinezumi Onion">
+<ruleset name="Hinezumi Onion" default_off="check fail">
 	<target host="hinezumi.im" />
 	<target host="www.hinezumi.im" />
 	<test url="https://hinezumi.im:8443/" />
