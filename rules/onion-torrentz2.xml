@@ -1,0 +1,7 @@
+<ruleset name="Torrentz2 Onion" platform="mixedcontent">
+	<target host="torrentz2.eu" />
+	<target host="www.torrentz2.eu" />
+	<target host="torrentz2.me" />
+	<target host="www.torrentz2.me" />
+	<rule from="^https?://(?:www\.)?torrentz2\.(?:eu|me)/" to="http://torrentzwealmisr.onion/" />
+</ruleset>
