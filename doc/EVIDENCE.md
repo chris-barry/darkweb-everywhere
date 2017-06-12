@@ -401,6 +401,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Toremail**
     * Documented here: <https://toremail.net/#faq> ([A](https://archive.today/HqfRp))
+    
+* **TorProject**
+    * Documented here: <https://onion.torproject.org/>  ([A](https://archive.is/VLcxv))
 
 * **Torsearch**
 	* Documented here: <https://torsearch.es> ([A](https://archive.today/80hIC)) - linked on the main page
