@@ -1,0 +1,10 @@
+<ruleset name="Bitfinex Onion" default_off="Self-signed HTTPS cert">
+  <target host="bitfinex.com" />
+  <target host="www.bitfinex.com" />
+  <rule from="^https?://(www\.)?bitfinex\.com/" to="https://bitfinex4ietak3t.onion/" />
+</ruleset>
+
+<!--
+* **Bitfinex**
+	* Documented here: <https://support.bitfinex.com/hc/en-us/articles/115000332385-Tor-Usage-Setup-Guide> ([A](https://archive.fo/StYJD))
+	-->
