@@ -60,6 +60,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **BitcoinCigs**
 	* Documented here: <https://bitcointalk.org/index.php?topic=193243.0> ([A](https://archive.today/UgTi8))
 
+* **Bitfinex**
+	* Documented here: <https://support.bitfinex.com/hc/en-us/articles/115000332385-Tor-Usage-Setup-Guide> ([A](https://archive.fo/StYJD))
+
 * **Bitmessage**
 	* Documented here: <https://bitmessage.ch/faq.html> ([A](https://archive.today/9aSxc))
 
