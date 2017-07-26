@@ -1,0 +1,7 @@
+<ruleset name="Protonmail Onion">
+  <target host="mail.protonmail.com" />
+  <target host="mail.protonmail.ch" />
+  <rule from="^https://mail.protonmail.(com|ch)/" to="https://protonirockerxow.onion/"/>
+</ruleset>
+
+<!-- Documented here: <https://protonmail.com/blog/tor-encrypted-email/> ([A](https://archive.is/kjNzk)) -->

@@ -60,6 +60,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **BitcoinCigs**
 	* Documented here: <https://bitcointalk.org/index.php?topic=193243.0> ([A](https://archive.today/UgTi8))
 
+* **Bitfinex**
+	* Documented here: <https://support.bitfinex.com/hc/en-us/articles/115000332385-Tor-Usage-Setup-Guide> ([A](https://archive.fo/StYJD))
+
 * **Bitmessage**
 	* Documented here: <https://bitmessage.ch/faq.html> ([A](https://archive.today/9aSxc))
 
@@ -311,6 +314,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 * **Project PM**
 	* Documented here: <http://echelon2.org/wiki/Main_Page> ([A](https://archive.today/XyL35)) - linked on the main page
 
+* **Protonmail**
+	* Documented here: <https://protonmail.com/blog/tor-encrypted-email/> ([A](https://archive.is/kjNzk))
+
 * **QuackQuackGo Searx**
 	* Documented here: <https://quackquackgo.nl> ([A](https://archive.today/YBq4M)) - linked on the main page
 
@@ -401,6 +407,9 @@ The rules of addresses which the ownership is not verified yet, should be put un
 
 * **Toremail**
     * Documented here: <https://toremail.net/#faq> ([A](https://archive.today/HqfRp))
+    
+* **TorProject**
+    * Documented here: <https://onion.torproject.org/>  ([A](https://archive.is/VLcxv))
 
 * **Torsearch**
 	* Documented here: <https://torsearch.es> ([A](https://archive.today/80hIC)) - linked on the main page
